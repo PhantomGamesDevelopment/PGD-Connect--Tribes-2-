@@ -1,0 +1,173 @@
+//Ranks & Settings File For GUID 2466121 / Name: Skibot
+//Created On 2010-11-10, Total Warfare Mod 2 3.4
+//--- OBJECT WRITE BEGIN ---
+new SimSet(Container_2466121) {
+
+	new ScriptObject(TWM2Client_2466121) {
+
+		HeliCalls = "120";
+		challengeCompleteGoldStar = "1";
+		challengeCompleteNapalmHarrier1 = "1";
+		challengeCompleteVard1 = "1";
+		xpGainc7412b8fcc6af13f36096bacea1e97d0ab47c3d1 = "123810";
+		challengeCompleteDownBoy = "1";
+		xpGainb4b3b9bbb32de394f880cda62002aeb900c8e5f4 = "1.39924e+06";
+		rankNumber = "61";
+		noMoreEXPb4b3b9bbb32de394f880cda62002aeb900c8e5f4 = "0";
+		challengeCompleteSBomber1 = "1";
+		challengeComplete15For15 = "1";
+		xpGaind9bb23d3e03df1cafd103245ce13b400611f264b = "239770";
+		gameTime = "19755";
+		noMoreEXP9e25c0a6842af40c72fc0df99a6ffd1aedef2e53 = "0";
+		noMoreEXP1b9d1907e1c1dde0530bba84209054450a51bf02 = "0";
+		xpGaind2e03ad93dbfdff7915115d89b9b64321dd7ee06 = "210044";
+		hasMedalSkyFront = "1";
+		challengeCompleteAcceptance = "1";
+		noMoreEXP38011fa98e61dfc9ae9ce561e74da77ffe244d9d = "0";
+		hasMedalHarbiend = "1";
+		ArtyCalls = "84";
+		bossDefeatCountVardison3 = "1";
+		hasMedalLordraniussFall = "1";
+		GunHeliCalls = "114";
+		xpGain38011fa98e61dfc9ae9ce561e74da77ffe244d9d = "89284";
+		challengeCompleteGroupBuster = "1";
+		challengeCompleteEpicFailure = "1";
+		hasMedalMySky = "1";
+		hasMedalAboutDamnTime = "1";
+		challengeCompleteSimonSays = "1";
+		noMoreEXP103e66039034f730769ef68347814cb14b19b24b = "0";
+		bossDefeatCountTrebor = "1";
+		bossDefeatCountYvex = "3";
+		name = "Skibot";
+		challengeCompleteFromTheTop = "1";
+		noMoreEXP232efdff56b108c368cbe587f5fd4eac010b95f4 = "0";
+		xpGain232efdff56b108c368cbe587f5fd4eac010b95f4 = "223486";
+		noMoreEXP9d579eb661a60278785d0185f9e7ebcab8a5b1b3 = "0";
+		noMoreEXPfa7b60f70e0bdb4f70083644e52bb33ce78820eb = "0";
+		noMoreEXP9aec871ce088bfcdc72be549167a11e8fcda9666 = "0";
+		hasMedalTheNewGeneral = "1";
+		AirstrikeCalls = "141";
+		hasMedalGamerExcuisite = "1";
+		challengeCompleteHarrier1 = "1";
+		challengeCompleteLifeGiver = "1";
+		phrase = "i work alone..";
+		bossDefeatCountLordRog = "3";
+		challengeCompleteCentaur1 = "1";
+		xpGain9aec871ce088bfcdc72be549167a11e8fcda9666 = "21390";
+		CGCalls = "0";
+		noMoreEXPbf60b256ceb4bb9b3edef378f8535e18bd397194 = "0";
+		hasMedalExpertSurvivor = "1";
+		challengeCompleteAirstrike3 = "1";
+		hasMedalSrysly = "1";
+		hasMedalInsigniaDefeated = "1";
+		bossDefeatCountGhostOfLightning = "1";
+		xpGain1b9d1907e1c1dde0530bba84209054450a51bf02 = "122580";
+		officer = "9";
+		SatNukeCalls = "110";
+		bossDefeatCountShadeLord = "3";
+		xpGain7b9b342e269d42c32cc36aa922ffa635971f26c6 = "76704";
+		HarrierCalls = "101";
+		xpGainbf60b256ceb4bb9b3edef378f8535e18bd397194 = "15376";
+		bossDefeatCountCnlWindshear = "2";
+		noMoreEXP884fc4ccb714255ef923d93eb07b6a056caf9b1a = "0";
+		challengeCompleteLRog1 = "1";
+		challengeCompleteGunHeli1 = "1";
+		xpGaina7f20487bdfe41fb720b741a3304cc0934243bcc = "280888";
+		challengeCompleteAirstrike1 = "1";
+		hasMedalHonorsA = "1";
+		hasMedalHonorsC = "1";
+		rank = "Master Commander";
+		challengeCompleteGunHeli2 = "1";
+		challengeCompleteCentaur3 = "1";
+		xpGainb152d8fcea07451cc8f352e98290236d7ad3e0a3 = "1302";
+		noMoreEXP1dd81af86eb4506277bfc40fead45d34d14971c0 = "0";
+		bossDefeatCountVengenor = "1";
+		challengeCompleteNapalmHarrier2 = "1";
+		hasMedalTheSourceOfAllEvil = "1";
+		challengeCompleteSBomber3 = "1";
+		hasMedalHonorsB = "1";
+		UAVCalls = "0";
+		HWCalls = "0";
+		challengeCompleteAirstrike2 = "1";
+		noMoreEXPb152d8fcea07451cc8f352e98290236d7ad3e0a3 = "0";
+		challengeCompleteMilestone25 = "1";
+		challengeCompleteYvex1 = "1";
+		hasMedalThundaStruk = "1";
+		ZBCalls = "0";
+		xpGain9e25c0a6842af40c72fc0df99a6ffd1aedef2e53 = "251902";
+		hasMedalRevengeAvoidedAgain = "1";
+		noMoreEXP8ec0cd0ff6a6e70f6f89957da98ec1c4a11fe262 = "0";
+		noMoreEXPc7412b8fcc6af13f36096bacea1e97d0ab47c3d1 = "0";
+		challengeCompleteHelicopter2 = "1";
+		noMoreEXP7b9b342e269d42c32cc36aa922ffa635971f26c6 = "0";
+		challengeCompleteCentaur2 = "1";
+		noMoreEXPa7f20487bdfe41fb720b741a3304cc0934243bcc = "0";
+		challengeCompleteAngel = "1";
+		noMoreEXPb578e82fff7675a2c3a723b690ecf20c04eb5466 = "0";
+		challengeCompleteHarrier2 = "1";
+		noMoreEXPd2e03ad93dbfdff7915115d89b9b64321dd7ee06 = "0";
+		money = "4.50617e+06";
+		SlthAirstrikeCalls = "101";
+		GMCalls = "8";
+		millionxp = "3";
+		xpGain9d579eb661a60278785d0185f9e7ebcab8a5b1b3 = "49616";
+		challengeCompleteGunHeli3 = "1";
+		bossDefeatCountInsignia = "1";
+		hasMedalTheLight = "1";
+		hasMedalSurvivor = "1";
+		bossDefeatCountStormrider = "3";
+		xpGain769f4d9d42aded83ce2518083610d5e5be9279c8 = "161824";
+		NukeCalls = "0";
+		challengeCompleteHelicopter1 = "1";
+		challengeCompleteSBomber2 = "1";
+		noMoreEXPd9bb23d3e03df1cafd103245ce13b400611f264b = "0";
+		hasMedalAC130Expert = "1";
+		hasMedalBurningNightmare = "1";
+		noMoreEXP4ab044aba12120725c31fc423e983af15f0e9c2e = "0";
+		NapalmHarrierCalls = "102";
+		challengeCompleteWaveDefeater = "1";
+		xp = "326742";
+		bossDefeatCountGhostOfFire = "2";
+		noMoreEXP769f4d9d42aded83ce2518083610d5e5be9279c8 = "0";
+		noMoreEXP2f9b232e8b7fdf1c188b8523f794073d418b18ed = "0";
+		xpGain4ab044aba12120725c31fc423e983af15f0e9c2e = "42660";
+	};
+	new ScriptObject(CCD_2466121) {
+
+		expireDate = "20121231";
+	};
+	new ScriptObject(ClientSettings2466121) {
+
+		savedperk2 = "No-Infect Armor";
+		savedstreak2 = "4";
+		savedstreak3 = "5";
+		savedstreak5 = "7";
+		savedperk3 = "Ammo Vet";
+		savedperk1 = "Advanced Grip";
+		savedstreak4 = "6";
+		savedstreak7 = "12";
+		savedstreak1 = "2";
+		savedstreak6 = "8";
+		savedstreak8 = "17";
+	};
+	new ScriptObject(ClientStore2466121) {
+
+		nextLoto = "0";
+		nextSlot = "0";
+	};
+	new ScriptObject(CCD_2466121) {
+
+		ZombieKillCount20130513_Model1887Image_1 = "10";
+		expireDate = "20130531";
+		totalZombieKillCount20130513 = "43";
+		ZombieKillCount20130513_M1SniperRifleImage_1 = "25";
+		ZombieKillCount20130513_DeagleImage_1 = "1";
+		killstreakCalls20130513_4 = "1";
+		ZombieKillCount20130513_Wp400Image_1 = "3";
+		ZombieKillCount20130513_CrimsonHawkImage_1 = "3";
+		ZombieKillCount20130513_0_1 = "43";
+		killstreakCalls20130513_2 = "1";
+		ZombieKillCount20130513_G17SniperRifleImage_1 = "1";
+	};
+};
+//--- OBJECT WRITE END ---

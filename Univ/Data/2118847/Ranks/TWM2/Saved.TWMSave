@@ -1,0 +1,53 @@
+//Ranks & Settings File For GUID 2118847 / Name: [ShadowForce]
+//Created On 2010-11-22, Total Warfare Mod 2 3.5
+//--- OBJECT WRITE BEGIN ---
+new ScriptObject(TWM2Client_2118847) {
+
+	bossDefeatCountGhostOfLightning = "1";
+	hasMedalRevengeAvoidedAgain = "1";
+	HarrierCalls = "0";
+	HWCalls = "0";
+	hasMedalThundaStruk = "1";
+	weaponKillspistolImage = "1";
+	challengeCompleteVard1 = "1";
+	hasMedalSrysly = "1";
+	AirstrikeCalls = "0";
+	CGCalls = "0";
+	bossDefeatCountCnlWindshear = "1";
+	millionxp = "0";
+	bossDefeatCountVengenor = "1";
+	GunHeliCalls = "0";
+	xpGaindd80bc24dac8672bcf767d755c529873255414ac = "304713";
+	name = "[ShadowForce]";
+	officer = "0";
+	weaponKillsWp400Image = "14";
+	challengeCompleteAcceptance = "1";
+	hasMedalHonorsA = "1";
+	ArtyCalls = "0";
+	bossDefeatCountInsignia = "1";
+	weaponKillsSuperChaingunImage = "16";
+	hasMedalInsigniaDefeated = "1";
+	noMoreEXPdd80bc24dac8672bcf767d755c529873255414ac = "0";
+	HeliCalls = "0";
+	rankNumber = "46";
+	hasMedalTheNewGeneral = "1";
+	xp = "304713";
+	SlthAirstrikeCalls = "0";
+	bossDefeatCountStormrider = "2";
+	hasMedalSkyFront = "1";
+	bossDefeatCountYvex = "2";
+	NukeCalls = "0";
+	hasMedalTheSourceOfAllEvil = "1";
+	bossDefeatCountVardison3 = "1";
+	phrase = "None Set";
+	rank = "Brigadier General";
+	GMCalls = "0";
+	hasMedalHonorsB = "1";
+	hasMedalHonorsC = "1";
+	hasMedalHarbiend = "1";
+	gameTime = "1220";
+	bossDefeatCountLordRog = "1";
+	UAVCalls = "0";
+	ZBCalls = "0";
+};
+//--- OBJECT WRITE END ---

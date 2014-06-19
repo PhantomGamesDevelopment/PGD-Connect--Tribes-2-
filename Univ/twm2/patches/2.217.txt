@@ -1,0 +1,4 @@
+#Patch 2.25 - 1-9-10: Upgrades the autopatch system and makes it open source.
+[DL]	/public/Univ/twm2/patches/2.217/Patcher.cs	scripts/TWM2/PGDConnect/Patcher.cs
+[RL]	scripts/TWM2/Systems/MainControl.cs	2	$TWM2::Version = 2.217;
+*END

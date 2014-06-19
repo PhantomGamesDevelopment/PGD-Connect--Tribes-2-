@@ -1,0 +1,6 @@
+#Patch 3.025 6-29-10: Adds a patch loading script for more efficient patch loading
+[DL]	/public/Univ/twm2/patches/3.025/Patchloader.cs	scripts/TWM2/Systems/Patchloader.cs
+[DL]	/public/Univ/twm2/patches/3.025/server.cs	scripts/server.cs
+[DL]	/public/Univ/twm2/patches/3.025/LoadMod.cs	scripts/TWM2/LoadMod.cs
+[RL]	scripts/TWM2/Systems/MainControl.cs	2	$TWM2::Version = 3.025;
+*END

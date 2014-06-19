@@ -1,0 +1,14 @@
+$PowerSave::Level[2763554, 2] = 14;
+$PowerSave::SpendPoints[2763554, 2] = 9;
+$PowerSave::EXP[2763554, 2] = 1978;
+$PowerSave::TopPlPosition[2763554, 2] = 1;
+$PowerSave::Class[2763554, 2] = "Phantom";
+$PowerSave::HasPower[2763554, 2, "ShadowStrike"] = 1;
+$PowerSave::HasPower[2763554, 2, "ShadowRush"] = 1;
+$PowerSave::HasPower[2763554, 2, "Flicker"] = 1;
+$PowerSave::HasPower[2763554, 2, "ShadowBomb"] = 1;
+$PowerSave::Level[2763554, 1] = 1;
+$PowerSave::SpendPoints[2763554, 1] = 1;
+$PowerSave::EXP[2763554, 1] = 0;
+$PowerSave::TopPlPosition[2763554, 1] = 1;
+$PowerSave::Class[2763554, 1] = "Phantom";

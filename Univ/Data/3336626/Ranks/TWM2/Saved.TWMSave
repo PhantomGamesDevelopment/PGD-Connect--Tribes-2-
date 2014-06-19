@@ -1,0 +1,117 @@
+//Ranks & Settings File For GUID 3336626 / Name: <!>Mainframe---
+//Created On 2011-03-15, Total Warfare Mod 2 3.6
+//--- OBJECT WRITE BEGIN ---
+new SimSet(Container_3336626) {
+
+	new ScriptObject(TWM2Client_3336626) {
+
+		noMoreEXPba937bb0ce80fc1d9d269b739df9ba36963f59ef = "0";
+		xpGainc9b1c8e149a084575e67d1204b521967027eeac5 = "861344";
+		challengeCompleteLRog1 = "1";
+		CGCalls = "0";
+		bossDefeatCountYvex = "2";
+		weaponKillsMp26CMDOImage = "25";
+		challengeCompleteS3RifleImage_1 = "1";
+		weaponKillsMRXXImage = "6";
+		noMoreEXP0f9225c945c00190a8d2c619e62f8700b9444d21 = "0";
+		noMoreEXP12450b8e5194422786c5c4fe37d7568f39290898 = "0";
+		hasMedalTheNewGeneral = "1";
+		challengeCompleteMilestone25 = "1";
+		HarrierCalls = "0";
+		xpGain8ef7f28db8a7ff3196ad40b78d982f15117c9015 = "560444";
+		bossDefeatCountGhostOfLightning = "1";
+		hasMedalInsigniaDefeated = "1";
+		noMoreEXPc99f0f968381c3efca4ec770550d3b9fa369c4e9 = "0";
+		challengeCompleteArmyOf50Stopped = "1";
+		rank = "Commander";
+		HWCalls = "0";
+		UAVCalls = "0";
+		bossDefeatCountTrebor = "2";
+		name = "<!>Mainframe---";
+		noMoreEXP0ac238afdd346e7b2e22a669d608862c217b87af = "0";
+		challengeCompleteTreb1 = "1";
+		ZBCalls = "0";
+		officer = "0";
+		hasMedalHonorsB = "1";
+		noMoreEXPc9b1c8e149a084575e67d1204b521967027eeac5 = "0";
+		xpGain1c97952230da7e336c4f52ada01d327642bb2bf9 = "70";
+		noMoreEXP32e62694dd31776e24f357b4acc4e988e3e000d3 = "0";
+		weaponKillsMiniColliderCannonImage = "24";
+		money = "2.58988e+06";
+		bossDefeatCountInsignia = "1";
+		xpGainede11104d231d7649917ff6289def0f9287e6902 = "19908";
+		noMoreEXPc8d602f0119c3e057f98db8a525ca495492398b4 = "0";
+		weaponKillsLD06SavagerImage = "2";
+		hasMedalLordraniussFall = "1";
+		millionxp = "2";
+		noMoreEXP1c97952230da7e336c4f52ada01d327642bb2bf9 = "0";
+		SlthAirstrikeCalls = "0";
+		GMCalls = "3";
+		noMoreEXP1039f9bee04ef0fe706e8b49159ab9825bd08d7f = "0";
+		weaponKillsPulsePhaserImage = "42";
+		NukeCalls = "0";
+		weaponKillsR700SniperRifleImage = "2";
+		hasMedalHonorsC = "1";
+		xpGain8fe73260320a28b967b224838a8d18e8b114b893 = "10104";
+		noMoreEXP60139aabd4a586f03d899468251279e30e94c23e = "0";
+		hasMedalSrysly = "1";
+		xp = "766924";
+		noMoreEXP8ef7f28db8a7ff3196ad40b78d982f15117c9015 = "0";
+		weaponKillsRP432Image = "13";
+		weaponKillsG17SniperRifleImage = "9";
+		bossDefeatCountLordRog = "2";
+		noMoreEXP61dc1bca329e4d265ee03f78391f8fd83d969dd4 = "0";
+		weaponKillsWp400Image = "30";
+		weaponKillsS3RifleImage = "85";
+		HeliCalls = "0";
+		noMoreEXP8fe73260320a28b967b224838a8d18e8b114b893 = "0";
+		xpGain0f9225c945c00190a8d2c619e62f8700b9444d21 = "13040";
+		xpGain61dc1bca329e4d265ee03f78391f8fd83d969dd4 = "1.11678e+06";
+		gameTime = "3397";
+		hasMedalRevengeAvoidedAgain = "1";
+		challengeComplete15For15 = "1";
+		SatNukeCalls = "2";
+		ArtyCalls = "0";
+		bossDefeatCountVengenor = "3";
+		hasMedalThundaStruk = "1";
+		noMoreEXP49106f22de9d150fbd5606af00eb16405f8f8184 = "0";
+		weaponKillsMiniChaingunImage = "5";
+		GunHeliCalls = "0";
+		rankNumber = "60";
+		hasMedalTheUltimateHeadshot = "1";
+		noMoreEXPbfd3af5ac87c8ba425473a98c935ec3a04b4aa41 = "0";
+		weaponKillsSuperChaingunImage = "269";
+		weaponKillspistolImage = "13";
+		xpGainba937bb0ce80fc1d9d269b739df9ba36963f59ef = "3792";
+		weaponKillsDiscImage = "12";
+		xpGain0ac238afdd346e7b2e22a669d608862c217b87af = "4116";
+		hasMedalHonorsA = "1";
+		AirstrikeCalls = "6";
+		noMoreEXPede11104d231d7649917ff6289def0f9287e6902 = "0";
+		phrase = "None Set";
+		hasMedalGamerExcuisite = "1";
+	};
+	new ScriptObject(ClientSettings3336626) {
+
+		savedstreak1 = "1";
+		savedstreak3 = "4";
+		savedperk1 = "AP Bullets";
+		savedperk3 = "Clip Boxes";
+		savedperk2 = "Head Guard";
+		savedstreak2 = "2";
+	};
+	new ScriptObject(ClientStore3336626) {
+
+		nextSlot = "0";
+		nextLoto = "0";
+	};
+	new ScriptObject(CCD_3336626) {
+
+		expireDate = "20120131";
+	};
+	new ScriptObject(CCD_3336626) {
+
+		expireDate = "20140228";
+	};
+};
+//--- OBJECT WRITE END ---

@@ -1,0 +1,267 @@
+//Ranks & Settings File For GUID 3040953 / Name: Lone Warrior
+//Created On 2010-11-08, Total Warfare Mod 2 3.4
+//--- OBJECT WRITE BEGIN ---
+new SimSet(Container_3040953) {
+
+	new ScriptObject(ClientSettings3040953) {
+	};
+	new ScriptObject(CCD_3040953) {
+
+		ZombieKillCount20120326_0_1 = "18";
+		expireDate = "20120331";
+		totalZombieKillCount20120326 = "18";
+		ZombieKillCount20120326_PistolImage_1 = "18";
+	};
+	new ScriptObject(ClientSettings3040953) {
+
+		weaponUpgradePulsePhaserImage = "Laser";
+		savedperk2 = "Double Down";
+		savedstreak5 = "16";
+		savedstreak3 = "12";
+		savedstreak1 = "2";
+		savedperk5 = "Bandolier";
+		savedperk1 = "Advanced Grip";
+		savedstreak2 = "6";
+		savedperk3 = "Kevlar Armor";
+		savedperk4 = "No-Infect Armor";
+		savedstreak4 = "14";
+	};
+	new ScriptObject(ClientStore3040953) {
+
+		nextLoto = "0";
+		purchasedFireworks = "0";
+		purchasedThunderstorm = "0";
+		nextSlot = "0";
+		purchasedHologram = "0";
+		purchasedSpontaneousCombustion = "1";
+		purchasedFalseExplosion = "0";
+		purchasedGuardianFlare = "0";
+	};
+	new ScriptObject(ClientSettings3040953) {
+
+		weaponUpgradePulsePhaserImage = "Laser";
+		savedperk2 = "Kevlar Armor";
+		savedstreak5 = "16";
+		savedstreak3 = "12";
+		savedstreak1 = "2";
+		savedperk1 = "AP Bullets";
+		savedstreak2 = "6";
+		savedperk3 = "No-Infect Armor";
+		savedperk4 = "Bandolier";
+		savedstreak4 = "14";
+	};
+	new ScriptObject(ClientSettings3040953) {
+
+		weaponUpgradePulsePhaserImage = "Laser";
+		savedperk2 = "Kevlar Armor";
+		savedstreak5 = "16";
+		savedstreak3 = "6";
+		savedstreak1 = "2";
+		savedperk1 = "AP Bullets";
+		savedstreak2 = "4";
+		savedperk3 = "No-Infect Armor";
+		savedperk4 = "Bandolier";
+		savedstreak4 = "14";
+	};
+	new ScriptObject(ClientSettings3040953) {
+
+		weaponUpgradePulsePhaserImage = "Laser";
+		savedperk2 = "Kevlar Armor";
+		savedstreak5 = "16";
+		savedstreak3 = "6";
+		savedstreak1 = "2";
+		savedperk1 = "AP Bullets";
+		savedstreak2 = "4";
+		savedperk3 = "No-Infect Armor";
+		savedperk4 = "Bandolier";
+		savedstreak4 = "14";
+	};
+	new ScriptObject(ClientSettings3040953) {
+
+		weaponUpgradePulsePhaserImage = "Laser";
+		savedperk2 = "Double Down";
+		savedstreak5 = "16";
+		savedstreak3 = "6";
+		savedstreak1 = "2";
+		savedperk5 = "Bandolier";
+		savedperk1 = "Advanced Grip";
+		savedstreak2 = "4";
+		savedperk3 = "Kevlar Armor";
+		savedperk4 = "No-Infect Armor";
+		savedstreak4 = "14";
+	};
+	new ScriptObject(ClientSettings3040953) {
+
+		weaponUpgradePulsePhaserImage = "Laser";
+		savedperk2 = "Kevlar Armor";
+		savedstreak5 = "16";
+		savedstreak3 = "6";
+		savedstreak1 = "2";
+		savedperk1 = "AP Bullets";
+		savedstreak2 = "4";
+		savedperk3 = "No-Infect Armor";
+		savedperk4 = "Bandolier";
+		savedstreak4 = "14";
+	};
+	new ScriptObject(ClientSettings3040953) {
+
+		weaponUpgradePulsePhaserImage = "Laser";
+		savedperk2 = "Double Down";
+		savedstreak5 = "16";
+		savedstreak3 = "6";
+		savedstreak1 = "2";
+		savedperk5 = "Bandolier";
+		savedperk1 = "Advanced Grip";
+		savedstreak2 = "4";
+		savedperk3 = "Kevlar Armor";
+		savedperk4 = "No-Infect Armor";
+		savedstreak4 = "14";
+	};
+	new ScriptObject(CCD_3040953) {
+
+		ZombieKillCount20111125_0_2 = "2";
+		totalZombieKillCount20111125 = "2";
+		expireDate = "20111130";
+		ZombieKillCount20111125_P90Image_1 = "1";
+		ZombieKillCount20111125_0_1 = "1";
+		ZombieKillCount20111125_P90Image_2 = "2";
+	};
+	new ScriptObject(CCD_3040953) {
+
+		expireDate = "20111130";
+	};
+	new ScriptObject(CCD_3040953) {
+
+		expireDate = "20111130";
+	};
+	new ScriptObject(CCD_3040953) {
+
+		expireDate = "20111231";
+	};
+	new ScriptObject(ClientSettings3040953) {
+
+		weaponUpgradePulsePhaserImage = "Laser";
+		savedperk2 = "Double Down";
+		savedstreak5 = "16";
+		savedstreak3 = "7";
+		savedstreak1 = "2";
+		savedperk5 = "Bandolier";
+		savedperk1 = "Advanced Grip";
+		savedstreak2 = "6";
+		savedperk3 = "Kevlar Armor";
+		savedperk4 = "No-Infect Armor";
+		savedstreak4 = "14";
+	};
+	new ScriptObject(CCD_3040953) {
+
+		killstreakCalls20111212_6 = "4";
+		ZombieKillCount20111212_0_14 = "2";
+		ZombieKillCount20111212_m93Image_1 = "118";
+		ZombieKillCount20111212_0_1 = "156";
+		killstreakCalls20111212_2 = "4";
+		expireDate = "20111231";
+		ZombieKillCount20111212_PulsePhaserImage_1 = "9";
+		ZombieKillCount20111212_m93Image_14 = "2";
+		ZombieKillCount20111212_MeleeImage_1 = "5";
+		totalZombieKillCount20111212 = "157";
+		ZombieKillCount20111212_M4A1Image_1 = "1";
+		ZombieKillCount20111212__1 = "23";
+	};
+	new ScriptObject(CCD_3040953) {
+
+		expireDate = "20111231";
+	};
+	new ScriptObject(CCD_3040953) {
+
+		expireDate = "20111231";
+	};
+	new ScriptObject(CCD_3040953) {
+
+		expireDate = "20111231";
+	};
+	new ScriptObject(TWM2Client_3040953) {
+
+		millionxp = "0";
+		GMCalls = "0";
+		SlthAirstrikeCalls = "0";
+		rankNumber = "8";
+		NukeCalls = "0";
+		noMoreEXP56e985bae39b83aded1a7bda3a35cc45ca9dd8c5 = "0";
+		xp = "414";
+		HeliCalls = "0";
+		gameTime = "7155";
+		ArtyCalls = "0";
+		GunHeliCalls = "0";
+		noMoreEXP89cdac08df21a5718f555304b1ff83706f567ff0 = "0";
+		AirstrikeCalls = "0";
+		officer = "4";
+		xpGain0242e146cf59a545568a0c91351c7d8a6002d7d7 = "414";
+		phrase = "[RETURNING PLAYER] Plz excuse me if i act like a noob sometimes i just started playing T2 again in months!";
+		noMoreEXP0242e146cf59a545568a0c91351c7d8a6002d7d7 = "0";
+		CGCalls = "0";
+		hasMedalGamerExcuisite = "1";
+		name = "Lone Warrior";
+		noMoreEXPbc92bde0fa78008460571f8238edd60056307e7b = "0";
+		HarrierCalls = "0";
+		rank = "Corporal";
+		UAVCalls = "0";
+		HWCalls = "0";
+		ZBCalls = "0";
+		money = "4.10454e+06";
+	};
+	new ScriptObject(CCD_3040953) {
+
+		ZombieKillCount20111209_0_3 = "1";
+		ZombieKillCount20111209_PulseSMGImage_1 = "1";
+		ZombieKillCount20111209_S3RifleImage_2 = "1";
+		ZombieKillCount20111209_S3RifleImage_4 = "2";
+		ZombieKillCount20111209_0_4 = "2";
+		ZombieKillCount20111209_0_1 = "12";
+		ZombieKillCount20111209_0_13 = "1";
+		ZombieKillCount20111209_S3RifleImage_11 = "8";
+		ZombieKillCount20111209_S3RifleImage_1 = "11";
+		expireDate = "20111231";
+		ZombieKillCount20111209_0_11 = "8";
+		totalZombieKillCount20111209 = "28";
+		ZombieKillCount20111209_S3RifleImage_3 = "1";
+		ZombieKillCount20111209_0_2 = "1";
+		ZombieKillCount20111209_0_5 = "1";
+		zombieHeadshots20111209 = "21";
+		ZombieKillCount20111209_S3RifleImage_9 = "2";
+		ZombieKillCount20111209_0_9 = "2";
+		ZombieKillCount20111209_S3RifleImage_13 = "1";
+		ZombieKillCount20111209_RP432Image_5 = "1";
+	};
+	new ScriptObject(CCD_3040953) {
+
+		ZombieKillCount20111209_PulseSMGImage_1 = "6";
+		ZombieKillCount20111209_Grenade_13 = "1";
+		ZombieKillCount20111209_0_1 = "13";
+		ZombieKillCount20111209_0_13 = "4";
+		ZombieKillCount20111209_S3RifleImage_1 = "6";
+		ZombieKillCount20111209__13 = "1";
+		ZombieKillCount20111209_PulseSMGImage_13 = "1";
+		expireDate = "20111231";
+		totalZombieKillCount20111209 = "16";
+		zombieHeadshots20111209 = "2";
+		ZombieKillCount20111209_MeleeImage_1 = "1";
+		ZombieKillCount20111209_S3RifleImage_13 = "1";
+	};
+	new ScriptObject(CCD_3040953) {
+
+		ZombieKillCount20111211_0_13 = "2";
+		killstreakCalls20111211_2 = "1";
+		expireDate = "20111231";
+		ZombieKillCount20111211_0_1 = "13";
+		ZombieKillCount20111211_Mp26CMDOImage_1 = "3";
+		zombieHeadshots20111211 = "9";
+		totalZombieKillCount20111211 = "14";
+		ZombieKillCount20111211_S3SRifleImage_1 = "10";
+		ZombieKillCount20111211_Mp26CMDOImage_13 = "2";
+	};
+	new ScriptObject(CCD_3040953) {
+
+		expireDate = "20120331";
+	};
+};
+//--- OBJECT WRITE END ---

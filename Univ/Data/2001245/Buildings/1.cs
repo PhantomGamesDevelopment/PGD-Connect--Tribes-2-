@@ -1,0 +1,13 @@
+// C.S.S CONSTRUCTION MOD SAVE FILE
+// Saved by "Signal360"
+// Created in mission "slapmydash"
+// Construction v0.70 Development Version 1
+
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "-101.225 -236.656 128.938";rotation = "0 0 1 109.314";scale = "0.125 0.166666 0.2";team = "1";ownerGUID = "2001245";needsfit = "1";grounded = "1";powerFreq = "1";};addToDeployGroup(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "-101.514 -236.555 128.938";rotation = "0 0 1 109.314";scale = "0.125 0.166666 0.2";team = "1";ownerGUID = "2001245";needsfit = "1";grounded = "1";powerFreq = "1";};addToDeployGroup(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "-102.04 -236.371 128.938";rotation = "0 0 1 109.314";scale = "0.125 0.166666 0.2";team = "1";ownerGUID = "2001245";needsfit = "1";grounded = "1";powerFreq = "1";};addToDeployGroup(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "-102.538 -236.196 128.938";rotation = "0 0 1 109.314";scale = "0.125 0.166666 0.2";team = "1";ownerGUID = "2001245";needsfit = "1";grounded = "1";powerFreq = "1";};addToDeployGroup(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "-103.563 -235.795 128.938";rotation = "0 0 1 109.885";scale = "0.125 0.166666 0.2";team = "1";ownerGUID = "2001245";needsfit = "1";grounded = "1";powerFreq = "1";};addToDeployGroup(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "-103.888 -235.585 128.938";rotation = "0 0 1 111.028";scale = "0.125 0.166666 0.2";team = "1";ownerGUID = "2001245";needsfit = "1";grounded = "1";powerFreq = "1";};addToDeployGroup(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "-103.888 -235.585 129.038";rotation = "0 0 1 111.028";scale = "0.125 0.166666 0.2";team = "1";ownerGUID = "2001245";needsfit = "1";powerFreq = "1";};addToDeployGroup(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "9.96319 -195.136 129.427";rotation = "-0.00293192 -0.00830612 0.999961 218.883";scale = "0.125 0.166666 0.2";team = "1";ownerGUID = "2001245";needsfit = "1";grounded = "1";powerFreq = "1";};addToDeployGroup(%building);checkPowerObject(%building);

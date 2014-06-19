@@ -1,0 +1,36 @@
+//Ranks & Settings File For GUID 2320280 / Name: ergo46
+//Created On 2011-08-10, Total Warfare Mod 2 3.7
+//--- OBJECT WRITE BEGIN ---
+new SimSet(Container_2320280) {
+
+	new ScriptObject(TWM2Client_2320280) {
+
+		hasMedalHonorsB = "1";
+		rank = "Lieutenant Colonel Grade I";
+		rankNumber = "37";
+		xpGain648768ef4d8cc65b7a856be0601eaf0cbacae665 = "79352";
+		money = "79352";
+		weaponKillsWp400Image = "4";
+		millionxp = "0";
+		weaponKillsRP432Image = "1";
+		xp = "79352";
+		weaponKillsS3RifleImage = "10";
+		gameTime = "48";
+		name = "ergo46";
+		officer = "0";
+		noMoreEXP648768ef4d8cc65b7a856be0601eaf0cbacae665 = "0";
+		phrase = "None Set";
+		hasMedalHonorsA = "1";
+		noMoreEXP4ab044aba12120725c31fc423e983af15f0e9c2e = "0";
+	};
+	new ScriptObject(ClientStore2320280) {
+
+		nextLoto = "0";
+		nextSlot = "0";
+	};
+	new ScriptObject(CCD_2320280) {
+
+		expireDate = "20120430";
+	};
+};
+//--- OBJECT WRITE END ---

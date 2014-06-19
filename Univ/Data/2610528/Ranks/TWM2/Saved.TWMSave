@@ -1,0 +1,70 @@
+//Ranks & Settings File For GUID 2610528 / Name: Netmanx
+//Created On 2011-12-24, Total Warfare Mod 2 3.8
+//--- OBJECT WRITE BEGIN ---
+new SimSet(Container_2610528) {
+
+	new ScriptObject(TWM2Client_2610528) {
+
+		weaponKillsMp26Image = "28";
+		xp = "5478";
+		gameTime = "47";
+		name = "Netmanx";
+		officer = "0";
+		xpGainb47efe2379f1336e87dd71f87643bb12f14c6659 = "5478";
+		weaponKillsM1700Image = "7";
+		phrase = "None Set";
+		noMoreEXPbcdd6fa6c8dd3867bbf28038c3e891ed3f9b0659 = "0";
+		noMoreEXP05fd5809259065bb6c5118b76aad3b24949c6dd3 = "0";
+		rank = "Gunnary Sergeant Grade IV";
+		weaponKillsHarbingerGunshipCGImage = "3";
+		rankNumber = "22";
+		weaponKillsS3RifleImage = "2";
+		money = "5428";
+		hasMedalHonorsA = "1";
+		millionxp = "0";
+		noMoreEXPb47efe2379f1336e87dd71f87643bb12f14c6659 = "0";
+	};
+	new ScriptObject(CCD_2610528) {
+
+		ZombieKillCount20111227_0_5 = "123";
+		ZombieKillCount20111227_Mp26Image_5 = "15";
+		PlayerKillCount20111227_Grenade = "1";
+		ZombieKillCount20111227_Mp26Image_1 = "13";
+		PlayerKillCount20111227_ = "1";
+		ZombieKillCount20111227_MiniChaingunImage_5 = "1";
+		ZombieKillCount20111227_flamerImage_5 = "15";
+		ZombieKillCount20111227_M1700Image_5 = "3";
+		playerHeadshots20111227 = "1";
+		ZombieKillCount20111227_MRXXImage_5 = "1";
+		ZombieKillCount20111227_MG42Image_5 = "6";
+		totalPlayerKillCount20111227 = "5";
+		PlayerKillCount20111227_Mp26Image = "1";
+		totalZombieKillCount20111227 = "137";
+		successiveStreak20111227_1 = "4";
+		ZombieKillCount20111227_flamerImage_1 = "1";
+		expireDate = "20111231";
+		ZombieKillCount20111227_0_1 = "14";
+		ZombieKillCount20111227__5 = "64";
+		ZombieKillCount20111227_Grenade_5 = "17";
+		ZombieKillCount20111227_M4A1Image_5 = "1";
+		PlayerKillCount20111227_S3RifleImage = "2";
+	};
+	new ScriptObject(ClientStore2610528) {
+
+		nextLoto = "0";
+		purchasedHologram = "0";
+		nextSlot = "1.14104e+07";
+		purchasedSpontaneousCombustion = "0";
+		purchasedFireworks = "0";
+		purchasedGuardianFlare = "0";
+		purchasedFalseExplosion = "0";
+		purchasedThunderstorm = "0";
+	};
+	new ScriptObject(ClientSettings2610528) {
+
+		savedstreak1 = "1";
+		savedstreak2 = "2";
+		savedstreak3 = "4";
+	};
+};
+//--- OBJECT WRITE END ---

@@ -1,0 +1,92 @@
+#Patch 2.22 - 1-8-10: Added Helicopters and the Plasma Harrier Vehicle Schematics!
+[RL]	scripts/TWM2/Systems/MainControl.cs	2	$TWM2::Version = 2.22;
+[RL]	scripts/vehicles/serverVehicleHud.cs	3	$VehicleMenuNumEntries["mnuMain"] = 7;
+[IL]	scripts/vehicles/serverVehicleHud.cs	26	$VehicleMenu["mnuMain", 6, "submenu"] = true;
+[IL]	scripts/vehicles/serverVehicleHud.cs	27	$VehicleMenu["mnuMain", 6, "datablock"] = mnuHelicopters;
+[IL]	scripts/vehicles/serverVehicleHud.cs	28	$VehicleMenu["mnuMain", 6, "displayed"] = "Helicopters -->";
+[RL]	scripts/vehicles/serverVehicleHud.cs	31	$VehicleMenuNumEntries["mnuLightFlyers"] = 2;
+[IL]	scripts/vehicles/serverVehicleHud.cs	35	$VehicleMenu["mnuLightFlyers", 1, "submenu"] = false;
+[IL]	scripts/vehicles/serverVehicleHud.cs	36	$VehicleMenu["mnuLightFlyers", 1, "datablock"] = Harrier;
+[IL]	scripts/vehicles/serverVehicleHud.cs	37	$VehicleMenu["mnuLightFlyers", 1, "displayed"] = "Plasma Harrier";
+[IL]	scripts/vehicles/serverVehicleHud.cs	75	// Helicopters
+[IL]	scripts/vehicles/serverVehicleHud.cs	76	$VehicleMenuNumEntries["mnuHelicopters"] = 3;
+[IL]	scripts/vehicles/serverVehicleHud.cs	77	$VehicleMenu["mnuHelicopters", 0, "submenu"] = false;
+[IL]	scripts/vehicles/serverVehicleHud.cs	78	$VehicleMenu["mnuHelicopters", 0, "datablock"] = CombatHelicopter;
+[IL]	scripts/vehicles/serverVehicleHud.cs	79	$VehicleMenu["mnuHelicopters", 0, "displayed"] = "Combat Helicopter";
+[IL]	scripts/vehicles/serverVehicleHud.cs    80	$VehicleMenu["mnuHelicopters", 1, "submenu"] = false;
+[IL]	scripts/vehicles/serverVehicleHud.cs    81	$VehicleMenu["mnuHelicopters", 1, "datablock"] = GunshipHelicopter;
+[IL]	scripts/vehicles/serverVehicleHud.cs    82	$VehicleMenu["mnuHelicopters", 1, "displayed"] = "Gunship Helicopter";
+[IL]	scripts/vehicles/serverVehicleHud.cs    83	$VehicleMenu["mnuHelicopters", 2, "submenu"] = false;
+[IL]	scripts/vehicles/serverVehicleHud.cs    84	$VehicleMenu["mnuHelicopters", 2, "datablock"] = ApacheHelicopter;
+[IL]	scripts/vehicles/serverVehicleHud.cs    85	$VehicleMenu["mnuHelicopters", 2, "displayed"] = "Apache Helicopter";
+#Patch 2.22 Waiting... waiting...
+#Patch 2.22 Waiting... waiting...
+#Patch 2.22 Waiting... waiting...
+#Patch 2.22 Waiting... waiting...
+#Patch 2.22 Waiting... waiting...
+[RL]	scripts/vehicles/serverVehicleHud.cs	389	   for ( %i = 0; %i < 7; %i++ )
+[IL]	scripts/vehicles/serverVehicleHud.cs    473	   else if(%dbName $= "Harrier") {
+[IL]	scripts/vehicles/serverVehicleHud.cs    474	      if(%client.CheckNWChallengeCompletion("Harrier3")) {
+[IL]	scripts/vehicles/serverVehicleHud.cs    475	         return 1;
+[IL]	scripts/vehicles/serverVehicleHud.cs    476	      }
+[IL]	scripts/vehicles/serverVehicleHud.cs    477	      else {
+[IL]	scripts/vehicles/serverVehicleHud.cs    478	         return 0;
+[IL]	scripts/vehicles/serverVehicleHud.cs    479	      }
+[IL]	scripts/vehicles/serverVehicleHud.cs    480	   }
+#Patch 2.22 Waiting... waiting...
+#Patch 2.22 Waiting... waiting...
+#Patch 2.22 Waiting... waiting...
+#Patch 2.22 Waiting... waiting...
+[IL]	scripts/vehicles/serverVehicleHud.cs    481	   else if(%dbName $= "CombatHelicopter") {
+[IL]	scripts/vehicles/serverVehicleHud.cs    482	      if(%client.CheckNWChallengeCompletion("Helicopter3")) {
+[IL]	scripts/vehicles/serverVehicleHud.cs    483	         return 1;
+[IL]	scripts/vehicles/serverVehicleHud.cs    484	      }
+[IL]	scripts/vehicles/serverVehicleHud.cs    485	      else {
+[IL]	scripts/vehicles/serverVehicleHud.cs    486	         return 0;
+[IL]	scripts/vehicles/serverVehicleHud.cs    487	      }
+[IL]	scripts/vehicles/serverVehicleHud.cs    488	   }
+#Patch 2.22 Waiting... waiting...
+#Patch 2.22 Waiting... waiting...
+#Patch 2.22 Waiting... waiting...
+#Patch 2.22 Waiting... waiting...
+[IL]	scripts/vehicles/serverVehicleHud.cs    489	   else if(%dbName $= "GunshipHelicopter") {
+[IL]	scripts/vehicles/serverVehicleHud.cs    490	      if(%client.CheckNWChallengeCompletion("GunHeli3")) {
+[IL]	scripts/vehicles/serverVehicleHud.cs    491	         return 1;
+[IL]	scripts/vehicles/serverVehicleHud.cs	492	      }
+[IL]	scripts/vehicles/serverVehicleHud.cs	493	      else {
+[IL]	scripts/vehicles/serverVehicleHud.cs	494	         return 0;
+[IL]	scripts/vehicles/serverVehicleHud.cs	495	      }
+[IL]	scripts/vehicles/serverVehicleHud.cs	496	   }
+#Patch 2.22 Waiting... waiting...
+#Patch 2.22 Waiting... waiting...
+#Patch 2.22 Waiting... waiting...
+#Patch 2.22 Waiting... waiting...
+[IL]	scripts/vehicles/serverVehicleHud.cs	497	   else if(%dbName $= "ApacheHelicopter") {
+[IL]	scripts/vehicles/serverVehicleHud.cs	498	      if(%client.CheckNWChallengeCompletion("Apache3")) {
+[IL]	scripts/vehicles/serverVehicleHud.cs	499	         return 1;
+[IL]	scripts/vehicles/serverVehicleHud.cs	500	      }
+[IL]	scripts/vehicles/serverVehicleHud.cs	501	      else {
+[IL]	scripts/vehicles/serverVehicleHud.cs	502	         return 0;
+[IL]	scripts/vehicles/serverVehicleHud.cs	503	      }
+[IL]	scripts/vehicles/serverVehicleHud.cs	504	   }
+[IL]	scripts/station.cs	753	   if(%obj.CombatHelicopter !$= "Removed")
+[IL]	scripts/station.cs	754	    %sv.vehicle[CombatHelicopter] = true;
+[IL]	scripts/station.cs	755	   if(%obj.GunshipHelicopter !$= "Removed")
+[IL]	scripts/station.cs	756	    %sv.vehicle[GunshipHelicopter] = true;
+[IL]	scripts/station.cs	757	   if(%obj.ApacheHelicopter !$= "Removed")
+[IL]	scripts/station.cs	758	    %sv.vehicle[ApacheHelicopter] = true;
+[IL]	scripts/station.cs	759	   if(%obj.Harrier !$= "Removed")
+[IL]	scripts/station.cs	760	    %sv.vehicle[Harrier] = true;
+[IL]	scripts/InventoryHud.cs	355	   $VehicleMax[CombatHelicopter]  = 0;
+[IL]	scripts/InventoryHud.cs	356	   $VehicleMax[GunshipHelicopter]  = 0;
+[IL]	scripts/InventoryHud.cs	357	   $VehicleMax[ApacheHelicopter]  = 0;
+[IL]	scripts/InventoryHud.cs	358	   $VehicleMax[Harrier]  = 0;
+[IL]	scripts/InventoryHud.cs	372	      $VehicleMax[CombatHelicopter]  = 25;
+[IL]	scripts/InventoryHud.cs	373	      $VehicleMax[GunshipHelicopter] = 25;
+[IL]	scripts/InventoryHud.cs	374	      $VehicleMax[ApacheHelicopter]  = 25;
+[IL]	scripts/InventoryHud.cs	375	      $VehicleMax[Harrier]           = 25;
+[IL]	scripts/InventoryHud.cs	386	      $VehicleMax[CombatHelicopter]  = 2;
+[IL]	scripts/InventoryHud.cs	387	      $VehicleMax[GunshipHelicopter] = 2;
+[IL]	scripts/InventoryHud.cs	388	      $VehicleMax[ApacheHelicopter]  = 2;
+[IL]	scripts/InventoryHud.cs	389	      $VehicleMax[Harrier]           = 2;
+*END

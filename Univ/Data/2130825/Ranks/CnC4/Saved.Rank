@@ -1,0 +1,12 @@
+//Ranks File For GUID 2130825
+//Created On 2010-07-31, C&C 4
+$Rank::Name[2130825] = "DarknessOfLight";
+$Rank::Rank[2130825, 1] = "Gunnary Private";
+$Rank::XP[2130825, 1] = 1000;
+$Rank::Rank[2130825, 2] = "Initiate";
+$Rank::XP[2130825, 2] = 1250;
+$Rank::Rank[2130825, 3] = "Hunter";
+$Rank::XP[2130825, 3] = 1250;
+$CNC::Deaths[2130825] = 12;
+$CNC::KilledByPl[2130825, 2000343] = 1;
+$CNC::KilledByPl[2130825, 2714648] = 6;

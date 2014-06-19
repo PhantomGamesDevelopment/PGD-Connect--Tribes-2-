@@ -1,0 +1,19 @@
+//Ranks & Settings File For GUID 2703588 / Name: Soulice
+//Created On 2011-06-09, Total Warfare Mod 2 3.6
+//--- OBJECT WRITE BEGIN ---
+new SimSet(Container_2703588) {
+
+	new ScriptObject(TWM2Client_2703588) {
+
+		money = "0";
+		xp = "0";
+		millionxp = "0";
+		officer = "0";
+		name = "Soulice";
+		rank = "Private";
+		noMoreEXPb025cf931f2eb0d192dcfe674503e11a4351d1c6 = "0";
+		gameTime = "4";
+		phrase = "None Set";
+	};
+};
+//--- OBJECT WRITE END ---

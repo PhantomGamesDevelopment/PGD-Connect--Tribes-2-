@@ -1,0 +1,45 @@
+//Ranks & Settings File For GUID 3584821 / Name: roach45636
+//Created On 2011-09-19, Total Warfare Mod 2 3.7
+//--- OBJECT WRITE BEGIN ---
+new SimSet(Container_3584821) {
+
+	new ScriptObject(TWM2Client_3584821) {
+
+		hasMedalTheUltimateHeadshot = "1";
+		money = "350040";
+		weaponKillsWp400Image = "2";
+		noMoreEXP8ee84d4400fdb15487f29f332777c6fb40cbdb93 = "0";
+		millionxp = "0";
+		officer = "0";
+		weaponKillspistolImage = "1";
+		name = "roach45636";
+		xp = "350040";
+		weaponKillsR700SniperRifleImage = "3";
+		noMoreEXPa0655ad1e1b53b9428c8dd7910f46ec0dae117d8 = "0";
+		xpGainb1060db2b42a2ee310834657d37cdd12a3c641f4 = "265056";
+		gameTime = "120";
+		noMoreEXPf1b293c1d875dffcabcc1865ea74c06bd525614a = "0";
+		rankNumber = "47";
+		hasMedalHonorsB = "1";
+		weaponKillslasergunImage = "4";
+		weaponKillsS3RifleImage = "27";
+		weaponKillsMissileLauncherImage = "1";
+		hasMedalHonorsA = "1";
+		rank = "Brigadier General I";
+		hasMedalHonorsC = "1";
+		xpGain8ee84d4400fdb15487f29f332777c6fb40cbdb93 = "84984";
+		noMoreEXPb1060db2b42a2ee310834657d37cdd12a3c641f4 = "0";
+		weaponKillsspikerImage = "2";
+		ZBCalls = "2";
+	};
+	new ScriptObject(ClientStore3584821) {
+
+		nextSlot = "0";
+		nextLoto = "0";
+	};
+	new ScriptObject(CCD_3584821) {
+
+		expireDate = "20120331";
+	};
+};
+//--- OBJECT WRITE END ---

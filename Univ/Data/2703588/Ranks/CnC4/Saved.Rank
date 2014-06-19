@@ -1,0 +1,28 @@
+//Ranks File For GUID 2703588
+//Created On 2010-04-17, C&C 4
+$Rank::Name[2703588] = "Soulice";
+$Rank::Rank[2703588, 1] = "Private";
+$Rank::XP[2703588, 1] = 250;
+$Rank::Rank[2703588, 2] = "Initiate";
+$Rank::XP[2703588, 2] = 1450;
+$CNC::Deaths[2703588] = 38;
+$CNC::TotalKills[2703588] = 3;
+$CNC::Kills[2703588, 2001729] = 1;
+$CNC::KilledByPl[2703588, 2001729] = 2;
+$CNC::KilledByPl[2703588, 2763554] = 14;
+$CNC::KilledByPl[2703588, 2860955] = 4;
+$CNC::TotalCrawlerKills[2703588] = 4;
+$CNC::CrawlerKills[2703588, 2001729] = 2;
+$CNC::UKills[2703588] = 1;
+$CNC::Kills[2703588, 2763554] = 1;
+$CNC::KilledByObj[2703588, BunkerTurretDeployedBase] = 1;
+$CNC::TotalBuildingKills[2703588] = 4;
+$CNC::BuildingKills[2703588, "Bunker"] = 2;
+$CNC::Help[2703588, 2] = 1;
+$CNC::TotalCrawlerDecoms[2703588] = 7;
+$CNC::TotalBuilds[2703588] = 6;
+$CNC::BuildingsBuilt[2703588, "PowerPlant"] = 4;
+$CNC::BuildingsBuilt[2703588, "Bunker"] = 2;
+$CNC::TotalBuildingLosses[2703588] = 3;
+$CNC::BuildingLosses[2703588, "PowerPlant"] = 2;
+$CNC::BuildingLosses[2703588, "TempleOfNod"] = 1;

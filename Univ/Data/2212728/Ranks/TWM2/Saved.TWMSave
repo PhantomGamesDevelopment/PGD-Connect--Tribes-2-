@@ -1,0 +1,226 @@
+//Ranks & Settings File For GUID 2212728 / Name: LittleTas
+//Created On 2011-02-19, Total Warfare Mod 2 3.6
+//--- OBJECT WRITE BEGIN ---
+new SimSet(Container_2212728) {
+
+	new ScriptObject(TWM2Client_2212728) {
+
+		challengeCompleteAirstrike1 = "1";
+		noMoreEXP5d662845851c50e989e78a8c2ac577c059c5dc40 = "0";
+		bossDefeatCountGhostOfLightning = "5";
+		phrase = "Blah";
+		challengeCompletePulsePhaserImage_4 = "1";
+		challengeCompleteZoneCapture = "1";
+		xpGain20721f5a2c9680e330b67d62bac22b18f43f273c = "3e+06";
+		officer = "1";
+		hasMedalRevengeAvoidedAgain = "1";
+		challengeCompleteNuke1 = "1";
+		weaponKillsShadowRifleImage = "1";
+		CGCalls = "0";
+		challengeCompleteABC = "1";
+		challengeCompleteVard3 = "1";
+		noMoreEXP415828c918be6cdc06183a0e62ee2793b28dd66e = "0";
+		challengeCompleteModel1887Image_1 = "1";
+		noMoreEXP1435853884072077d6623cdf15c3f8c101f9f434 = "0";
+		weaponKillsPg700Image = "2";
+		challengeCompleteR700SniperRifleImage_1 = "1";
+		xpGain0acf1e7c29cf0d7a46aa6c098fef9f65ecee36ee = "47466";
+		challengeComplete3For5Sabo = "1";
+		weaponKillsPulsePhaserImage = "1782";
+		challengeCompleteTreb1 = "1";
+		challengeComplete3For5 = "1";
+		noMoreEXP7157524394b5b23795f12ae582a4859a543a7db9 = "0";
+		HarrierCalls = "1";
+		noMoreEXPd9de6e2caeda34a1a37110ca942c2f04524d90c8 = "0";
+		challengeCompleteModel1887Image_2 = "1";
+		bossDefeatCountStormrider = "1";
+		name = "LittleTas";
+		bossDefeatCountInsignia = "18";
+		hasMedalDailyMax = "1";
+		rank = "Master Commander";
+		SatNukeCalls = "16";
+		bossDefeatCountShadeLord = "2";
+		hasMedalTheSourceOfAllEvil = "1";
+		weaponKillsM1700Image = "8";
+		weaponKillsM1SniperRifleImage = "11";
+		challengeCompletePulsePhaserImage_5 = "1";
+		challengeComplete15For15 = "1";
+		challengeCompleteIns2 = "1";
+		UAVCalls = "0";
+		HWCalls = "0";
+		ACCalls = "2";
+		weaponKillsSuperChaingunImage = "1892";
+		xpGain4ab044aba12120725c31fc423e983af15f0e9c2e = "4952";
+		challengeCompleteYvex1 = "1";
+		noMoreEXPedf337ec0cf2ba8034b081eb97f1acc4b928f84f = "0";
+		challengeCompleteLifeGiver = "1";
+		bossDefeatCountLordRog = "5";
+		ZBCalls = "2";
+		noMoreEXPb636055abc5b0022020fb0c4a9415ecd675f37cb = "0";
+		noMoreEXP4ab044aba12120725c31fc423e983af15f0e9c2e = "0";
+		xpGain1435853884072077d6623cdf15c3f8c101f9f434 = "2016";
+		weaponKillsflamerImage = "12";
+		xpGain2b9346e3822872e7eddfa85b58ded002ed025f3a = "24632";
+		weaponKillsMiniChaingunImage = "3";
+		xpGain5d662845851c50e989e78a8c2ac577c059c5dc40 = "25720";
+		weaponKillsLD06SavagerImage = "27";
+		hasMedalTheUltimateHeadshot = "1";
+		hasMedalInsigniaDefeated = "1";
+		noMoreEXP0f2efa288f12b6653c5977cac93d2e5ffb67a17c = "0";
+		bossDefeatCountVardison3 = "12";
+		weaponKillsM4A1Image = "3";
+		challengeCompletePulsePhaserImage_2 = "1";
+		xpGaine5bd4d1481c47eaa816988d443cfa217b1685764 = "10896";
+		hasMedalThundaStruk = "1";
+		challengeCompleteGameEnder = "1";
+		hasMedalSkyFront = "1";
+		xpGainedf337ec0cf2ba8034b081eb97f1acc4b928f84f = "20000";
+		challengeCompletePulsePhaserImage_3 = "1";
+		money = "1.78047e+06";
+		weaponKillsModel1887Image = "200";
+		weaponKillsS3SRifleImage = "135";
+		hasMedalHonorsB = "1";
+		challengeCompleteFission2 = "1";
+		millionxp = "4";
+		SlthAirstrikeCalls = "2";
+		GMCalls = "15";
+		NukeCalls = "21";
+		challengeCompleteTreb2 = "1";
+		hasMedalSerialKiller = "1";
+		challengeCompletePulsePhaserImage_1 = "1";
+		noMoreEXP2b9346e3822872e7eddfa85b58ded002ed025f3a = "0";
+		hasMedalLordraniussFall = "1";
+		noMoreEXP4436560adc04b26b975f41b64e1a6fda2f8e2715 = "0";
+		EMPCalls = "2";
+		noMoreEXPee7c9a49018013a409231982c286cef30e7823cc = "1";
+		bossDefeatCountVengenor = "4";
+		noMoreEXPe5bd4d1481c47eaa816988d443cfa217b1685764 = "0";
+		rankNumber = "61";
+		challengeCompleteIns3 = "1";
+		xpGain4436560adc04b26b975f41b64e1a6fda2f8e2715 = "245944";
+		noMoreEXP20721f5a2c9680e330b67d62bac22b18f43f273c = "0";
+		weaponKillsMp26Image = "2";
+		xp = "183886";
+		NapalmHarrierCalls = "1";
+		weaponKillsspikerImage = "1";
+		challengeCompleteGOL2 = "1";
+		challengeCompleteVard2 = "1";
+		noMoreEXP1039f9bee04ef0fe706e8b49159ab9825bd08d7f = "0";
+		weaponKillspistolImage = "4";
+		challengeCompletePulsePhaserImage_6 = "1";
+		bossDefeatCountYvex = "4";
+		HeliCalls = "0";
+		challengeCompleteVard1 = "1";
+		hasMedalAboutDamnTime = "1";
+		noMoreEXPf4754809ab006cf7a9983d764a86f9c0150b646c = "0";
+		challengeCompleteBombDetonated = "1";
+		bossDefeatCountGhostOfFire = "8";
+		challengeCompleteFission3 = "1";
+		gameTime = "4461";
+		challengeCompleteAcceptance = "1";
+		weaponKillsRPGImage = "10";
+		hasMedalGamerExcuisite = "1";
+		hasMedalSrysly = "1";
+		xpGain7157524394b5b23795f12ae582a4859a543a7db9 = "2008";
+		noMoreEXP0acf1e7c29cf0d7a46aa6c098fef9f65ecee36ee = "0";
+		weaponKillsDiscImage = "4";
+		weaponKillsMiniColliderCannonImage = "1";
+		hasMedalBurningNightmare = "1";
+		ArtyCalls = "0";
+		weaponKillslasergunImage = "10";
+		challengeCompleteLRog1 = "1";
+		xpGainee7c9a49018013a409231982c286cef30e7823cc = "300000";
+		challengeCompleteAngel = "1";
+		challengeCompleteTreb3 = "1";
+		hasMedalNuclearDawn = "1";
+		GunHeliCalls = "0";
+		weaponKillsR700SniperRifleImage = "144";
+		weaponKillsALSWPSniperRifleImage = "4";
+		challengeCompleteFission1 = "1";
+		noMoreEXP7c002129fba7c117b128edb1f4ef0ce1153a3ea1 = "0";
+		challengeCompleteLRog2 = "1";
+		xpGainf4754809ab006cf7a9983d764a86f9c0150b646c = "660";
+		challengeCompleteGroupBuster = "1";
+		weaponKillsG17SniperRifleImage = "9";
+		challengeCompleteIns1 = "1";
+		xpGain7c002129fba7c117b128edb1f4ef0ce1153a3ea1 = "161288";
+		weaponKillsNapalmImage = "12";
+		challengeCompleteMilestone25 = "1";
+		bossDefeatCountTrebor = "8";
+		challengeCompleteNuke2 = "1";
+		xpGaind9de6e2caeda34a1a37110ca942c2f04524d90c8 = "162500";
+		weaponKillsS3RifleImage = "29";
+		hasMedalHonorsC = "1";
+		hasMedalTheNewGeneral = "1";
+		hasMedalTheLight = "1";
+		AirstrikeCalls = "35";
+		FissionCalls = "12";
+		challengeCompleteGOL1 = "1";
+	};
+	new ScriptObject(CCD_2212728) {
+
+		ZombieKillCount20120411_Model1887Image_12 = "1";
+		ZombieKillCount20120411_0_2 = "4";
+		ZombieKillCount20120411_Model1887Image_1 = "3";
+		ZombieKillCount20120411_0_1 = "4";
+		ZombieKillCount20120411_0_12 = "1";
+		ZombieKillCount20120411__2 = "1";
+		bossSlayCountGhostOfFire_20120411 = "1";
+		bossSlayCountShadeLord_20120411 = "1";
+		ZombieKillCount20120411_DeagleImage_1 = "1";
+		totalZombieKillCount20120411 = "9";
+		ZombieKillCount20120411_Grenade_2 = "3";
+		expireDate = "20120430";
+	};
+	new ScriptObject(ClientSettings2212728) {
+	};
+	new ScriptObject(ClientStore2212728) {
+
+		nextLoto = "0";
+		nextSlot = "0";
+	};
+	new ScriptObject(CCD_2212728) {
+
+		ZombieKillCount20111124_0_3 = "2";
+		ZombieKillCount20111124_S3RifleImage_1 = "6";
+		ZombieKillCount20111124_S3RifleImage_3 = "2";
+		ZombieKillCount20111124_0_1 = "13";
+		totalZombieKillCount20111124 = "14";
+		ZombieKillCount20111124__1 = "7";
+		zombieHeadshots20111124 = "8";
+		expireDate = "20111130";
+	};
+	new ScriptObject(CCD_2212728) {
+
+		expireDate = "20111231";
+	};
+	new ScriptObject(CCD_2212728) {
+
+		expireDate = "20111231";
+	};
+	new ScriptObject(CCD_2212728) {
+
+		successiveStreak20111203_1 = "5";
+		totalPlayerKillCount20111203 = "11";
+		PlayerKillCount20111203_ = "2";
+		areaCapture20111203_ChristmasMall09 = "3";
+		PlayerKillCount20111203_S3RifleImage = "1";
+		areaCaptureTotal20111203 = "3";
+		PlayerKillCount20111203_MiniColliderCannonImage = "1";
+		PlayerKillCount20111203_PulsePhaserImage = "1";
+		dominationRoundWins20111203_ChristmasMall09 = "2";
+		dominationRoundWinTotal20111203 = "2";
+		successiveStreak20111203_3 = "1";
+		PlayerKillCount20111203_RPGImage = "5";
+		successiveSolo20111203_2 = "1";
+		PlayerKillCount20111203_ConcussionGunImage = "1";
+		successiveStreak20111203_2 = "4";
+		expireDate = "20111231";
+	};
+	new ScriptObject(CCD_2212728) {
+
+		bossSlayCountGhostOfFire_20120625 = "1";
+		expireDate = "20120630";
+	};
+};
+//--- OBJECT WRITE END ---

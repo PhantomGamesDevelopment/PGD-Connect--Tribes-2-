@@ -1,0 +1,73 @@
+//Ranks & Settings File For GUID 3152732 / Name: Drakolich
+//Created On 2010-11-06, Total Warfare Mod 2 3.4
+//--- OBJECT WRITE BEGIN ---
+new SimSet(Container_3152732) {
+
+	new ScriptObject(TWM2Client_3152732) {
+
+		xpGaineda914a77e55aad7e7c12a57aa7f122fa43d085b = "2394";
+		noMoreEXP9002e32633e00c82128b7d12c928b85d2b4d3d7c = "0";
+		challengeCompleteAcceptance = "1";
+		noMoreEXPafd65474d446a6dde699343e249c8305bb5c112c = "0";
+		phrase = "You got PWN\'D";
+		xpGain20101106 = "2";
+		hasMedalHonorsB = "1";
+		xpGaina551bd7c55ccc51f49b5a3863ebc0a96223288e4 = "67019";
+		vehicleKillsCentaurVehicle = "1";
+		hasMedalBurningNightmare = "1";
+		weaponKillsM1700Image = "16";
+		bossDefeatCountInsignia = "1";
+		hasMedalHonorsA = "1";
+		weaponKillsM4A1Image = "1";
+		weaponKillsPg700Image = "4";
+		hasMedalLordraniussFall = "1";
+		rankNumber = "41";
+		hasMedalTheUltimateHeadshot = "1";
+		weaponKillsMp26Image = "1";
+		weaponKillsSA2400Image = "3";
+		noMoreEXPa551bd7c55ccc51f49b5a3863ebc0a96223288e4 = "0";
+		weaponKillsG41RifleImage = "3";
+		money = "5";
+		rank = "Colonel Grade I";
+		challengeCompleteS3RifleImage_2 = "1";
+		xpGain91add7cf7886d77002ae84ea77fa577c0db892c1 = "5";
+		bossDefeatCountGhostOfFire = "1";
+		weaponKillsPulsePhaserImage = "28";
+		challengeCompleteS3RifleImage_1 = "1";
+		weaponKillsG17SniperRifleImage = "32";
+		xpGainafd65474d446a6dde699343e249c8305bb5c112c = "66666";
+		weaponKillsM1SniperRifleImage = "2";
+		vehicleKillsScoutFlyer = "4";
+		weaponKillsRP432Image = "1";
+		xp = "136254";
+		AirstrikeCalls = "10";
+		xpGain9002e32633e00c82128b7d12c928b85d2b4d3d7c = "168";
+		weaponKillsWp400Image = "11";
+		noMoreEXPeda914a77e55aad7e7c12a57aa7f122fa43d085b = "0";
+		millionxp = "0";
+		weaponKillsMRXXImage = "1";
+		name = "Drakolich";
+		weaponKillsS3RifleImage = "314";
+		weaponKillspistolImage = "1";
+		officer = "0";
+		hasMedalInsigniaDefeated = "1";
+		challengeCompleteS3RifleImage_3 = "1";
+		bossDefeatCountTrebor = "1";
+		gameTime = "1144";
+		UAVCalls = "7";
+		noMoreEXP91add7cf7886d77002ae84ea77fa577c0db892c1 = "0";
+	};
+	new ScriptObject(CCD_3152732) {
+
+		successiveStreak20101205_1 = "1";
+		totalPlayerKillCount20101205 = "1";
+		PlayerKillCount20101205_G17SniperRifleImage = "1";
+		expireDate = "20101231";
+	};
+	new ScriptObject(ClientStore3152732) {
+
+		nextLoto = "0";
+		nextSlot = "0";
+	};
+};
+//--- OBJECT WRITE END ---

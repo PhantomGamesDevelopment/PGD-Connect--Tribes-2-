@@ -1,0 +1,4 @@
+#Patch 3.03 6-29-10: First test of patch loader, various changes, see patch file for details
+[DL]	/public/Univ/twm2/patches/3.03/3.03.cs	scripts/TWM2/patch/3.03.cs
+[RL]	scripts/TWM2/Systems/MainControl.cs	2	$TWM2::Version = 3.03;
+*END

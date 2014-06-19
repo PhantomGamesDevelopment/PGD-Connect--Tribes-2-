@@ -1,0 +1,4 @@
+#Patch 3.04 7-2-10: various changes, see patch file for details
+[DL]	/public/Univ/twm2/patches/3.04/3.04.cs	scripts/TWM2/patch/3.04.cs
+[RL]	scripts/TWM2/Systems/MainControl.cs	2	$TWM2::Version = 3.04;
+*END

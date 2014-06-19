@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /public/Univ/Data/3332624/Ranks/TWM2/Saved.TWMSave was not found on this server.</p>
+<p>Additionally, a 404 Not Found
+error was encountered while trying to use an ErrorDocument to handle the request.</p>
+<hr>
+<address>Apache Server at www.phantomdev.net Port 80</address>
+//--- OBJECT WRITE BEGIN ---
+new SimSet(Container_3332624) {
+
+	new ScriptObject(CCD_3332624) {
+
+		expireDate = "20140331";
+	};
+	new ScriptObject(ClientStore3332624) {
+
+		nextSlot = "0";
+		nextLoto = "0";
+	};
+	new ScriptObject(TWM2Client_3332624) {
+
+		gameTime = "6";
+		officer = "0";
+	};
+};
+//--- OBJECT WRITE END ---

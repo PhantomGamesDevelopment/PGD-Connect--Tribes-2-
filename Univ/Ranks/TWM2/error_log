@@ -1,0 +1,241 @@
+[04-Jan-2010 17:35:29] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 18
+[04-Jan-2010 18:24:53] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 35
+[04-Jan-2010 19:07:49] PHP Parse error:  syntax error, unexpected T_CASE in /home/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 146
+[04-Jan-2010 19:16:47] PHP Fatal error:  Call to undefined function  strreplace() in /home/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 28
+[05-Jan-2010 13:57:12] PHP Parse error:  syntax error, unexpected '$' in /home/phantom7/public_html/public/Univ/Ranks/TWM2/top15.php on line 23
+[05-Jan-2010 13:57:33] PHP Warning:  fread() [<a href='function.fread'>function.fread</a>]: Length parameter must be greater than 0 in /home/phantom7/public_html/public/Univ/Ranks/TWM2/top15.php on line 52
+[05-Jan-2010 13:57:33] PHP Warning:  strpos() [<a href='function.strpos'>function.strpos</a>]: Offset not contained in string in /home/phantom7/public_html/public/Univ/Ranks/TWM2/top15.php on line 56
+[05-Jan-2010 13:57:33] PHP Warning:  fread() [<a href='function.fread'>function.fread</a>]: Length parameter must be greater than 0 in /home/phantom7/public_html/public/Univ/Ranks/TWM2/top15.php on line 52
+[05-Jan-2010 13:57:33] PHP Warning:  strpos() [<a href='function.strpos'>function.strpos</a>]: Offset not contained in string in /home/phantom7/public_html/public/Univ/Ranks/TWM2/top15.php on line 56
+[05-Jan-2010 13:57:33] PHP Warning:  fopen(/home/phantom7/public_html/public/Univ/Data///Ranks/TWM2/Saved.TWMSave) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in /home/phantom7/public_html/public/Univ/Ranks/TWM2/top15.php on line 38
+[05-Jan-2010 13:57:33] PHP Warning:  fread(): supplied argument is not a valid stream resource in /home/phantom7/public_html/public/Univ/Ranks/TWM2/top15.php on line 39
+[05-Jan-2010 13:57:33] PHP Warning:  fclose(): supplied argument is not a valid stream resource in /home/phantom7/public_html/public/Univ/Ranks/TWM2/top15.php on line 40
+[05-Jan-2010 13:57:33] PHP Warning:  strpos() [<a href='function.strpos'>function.strpos</a>]: Offset not contained in string in /home/phantom7/public_html/public/Univ/Ranks/TWM2/top15.php on line 43
+[05-Jan-2010 13:57:33] PHP Warning:  fopen(/home/phantom7/public_html/public/Univ/Data///Ranks/TWM2/Saved.TWMSave) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in /home/phantom7/public_html/public/Univ/Ranks/TWM2/top15.php on line 38
+[05-Jan-2010 13:57:33] PHP Warning:  fread(): supplied argument is not a valid stream resource in /home/phantom7/public_html/public/Univ/Ranks/TWM2/top15.php on line 39
+[05-Jan-2010 13:57:33] PHP Warning:  fclose(): supplied argument is not a valid stream resource in /home/phantom7/public_html/public/Univ/Ranks/TWM2/top15.php on line 40
+[05-Jan-2010 13:57:33] PHP Warning:  strpos() [<a href='function.strpos'>function.strpos</a>]: Offset not contained in string in /home/phantom7/public_html/public/Univ/Ranks/TWM2/top15.php on line 43
+[05-Jan-2010 13:59:22] PHP Parse error:  syntax error, unexpected T_IF, expecting ',' or ';' in /home/phantom7/public_html/public/Univ/Ranks/TWM2/top15.php on line 24
+[05-Jan-2010 14:01:09] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/phantom7/public_html/public/Univ/Ranks/TWM2/top15.php on line 15
+[14-Jan-2010 11:10:28] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/phantom7/public_html/public/Univ/Ranks/TWM2/top.php on line 49
+[14-Jan-2010 11:21:49] PHP Parse error:  syntax error, unexpected '}' in /home/phantom7/public_html/public/Univ/Ranks/TWM2/top.php on line 123
+[14-Jan-2010 20:42:45] PHP Warning:  Missing argument 1 for GatherTopRanks(), called in /home/phantom7/public_html/public/Univ/Ranks/TWM2/top.php on line 58 and defined in /home/phantom7/public_html/public/Univ/Ranks/TWM2/top.php on line 9
+[14-Jan-2010 20:51:43] PHP Warning:  Missing argument 1 for DisplayAll(), called in /home/phantom7/public_html/public/Univ/Ranks/TWM2/top.php on line 10 and defined in /home/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 55
+[22-Jan-2010 11:08:10] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 229
+[22-Jan-2010 11:08:10] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ',' or ';' in /home/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 229
+[22-Jan-2010 11:08:44] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 229
+[22-Jan-2010 11:08:44] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ',' or ';' in /home/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 229
+[22-Jan-2010 11:08:46] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 229
+[22-Jan-2010 11:08:46] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ',' or ';' in /home/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 229
+[22-Jan-2010 11:08:46] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 229
+[22-Jan-2010 11:08:46] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ',' or ';' in /home/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 229
+[26-Jan-2010 12:33:29] PHP Parse error:  syntax error, unexpected '<' in /home/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 11
+[12-Feb-2010 15:39:47] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ',' or ';' in /home/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 24
+[02-Nov-2010 21:53:27] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 140
+[02-Nov-2010 21:53:27] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 140
+[05-Nov-2010 23:29:16] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/phantom7/public_html/public/Univ/Ranks/TWM2/top.php on line 9
+[08-Nov-2010 19:56:14] PHP Parse error:  syntax error, unexpected '"', expecting ',' or ';' in /home/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 18
+[21-Jan-2011 19:04:06] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 164
+[21-Jan-2011 19:04:06] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 164
+[21-Jan-2011 19:04:44] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 164
+[21-Jan-2011 19:04:44] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 164
+[21-Jan-2011 19:06:37] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 164
+[21-Jan-2011 19:06:37] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 164
+[21-Jan-2011 19:08:02] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 168
+[21-Jan-2011 19:08:02] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 168
+[21-Jan-2011 19:10:14] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 169
+[21-Jan-2011 19:10:49] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 169
+[21-Jan-2011 19:11:18] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ',' or ';' in /home/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 169
+[21-Jan-2011 19:12:40] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ',' or ';' in /home/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 171
+[21-Jan-2011 19:13:41] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 167
+[21-Jan-2011 19:38:09] PHP Parse error:  syntax error, unexpected ';' in /home/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 175
+[19-Jan-2012 15:04:23] PHP Warning:  fread() [<a href='function.fread'>function.fread</a>]: Length parameter must be greater than 0 in /home/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 94
+[19-Jan-2012 15:04:23] PHP Warning:  strpos() [<a href='function.strpos'>function.strpos</a>]: Offset not contained in string in /home/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 98
+[19-Jan-2012 15:04:23] PHP Warning:  strpos() [<a href='function.strpos'>function.strpos</a>]: Offset not contained in string in /home/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 106
+[19-Jan-2012 15:04:23] PHP Warning:  fread() [<a href='function.fread'>function.fread</a>]: Length parameter must be greater than 0 in /home/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 133
+[20-Jan-2012 20:37:49] PHP Warning:  fread() [<a href='function.fread'>function.fread</a>]: Length parameter must be greater than 0 in /home/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 94
+[20-Jan-2012 20:37:49] PHP Warning:  strpos() [<a href='function.strpos'>function.strpos</a>]: Offset not contained in string in /home/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 98
+[20-Jan-2012 20:37:49] PHP Warning:  strpos() [<a href='function.strpos'>function.strpos</a>]: Offset not contained in string in /home/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 106
+[20-Jan-2012 20:37:49] PHP Warning:  fread() [<a href='function.fread'>function.fread</a>]: Length parameter must be greater than 0 in /home/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 133
+[20-Jan-2012 20:40:01] PHP Warning:  fread() [<a href='function.fread'>function.fread</a>]: Length parameter must be greater than 0 in /home/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 94
+[20-Jan-2012 20:40:01] PHP Warning:  strpos() [<a href='function.strpos'>function.strpos</a>]: Offset not contained in string in /home/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 98
+[20-Jan-2012 20:40:01] PHP Warning:  strpos() [<a href='function.strpos'>function.strpos</a>]: Offset not contained in string in /home/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 106
+[20-Jan-2012 20:40:01] PHP Warning:  fread() [<a href='function.fread'>function.fread</a>]: Length parameter must be greater than 0 in /home/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 133
+[20-Jan-2012 20:40:51] PHP Warning:  fread() [<a href='function.fread'>function.fread</a>]: Length parameter must be greater than 0 in /home/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 94
+[20-Jan-2012 20:40:51] PHP Warning:  strpos() [<a href='function.strpos'>function.strpos</a>]: Offset not contained in string in /home/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 98
+[20-Jan-2012 20:40:51] PHP Warning:  strpos() [<a href='function.strpos'>function.strpos</a>]: Offset not contained in string in /home/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 106
+[20-Jan-2012 20:40:51] PHP Warning:  fread() [<a href='function.fread'>function.fread</a>]: Length parameter must be greater than 0 in /home/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 133
+[20-Jan-2012 20:41:59] PHP Warning:  fread() [<a href='function.fread'>function.fread</a>]: Length parameter must be greater than 0 in /home/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 94
+[20-Jan-2012 20:41:59] PHP Warning:  strpos() [<a href='function.strpos'>function.strpos</a>]: Offset not contained in string in /home/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 98
+[20-Jan-2012 20:41:59] PHP Warning:  strpos() [<a href='function.strpos'>function.strpos</a>]: Offset not contained in string in /home/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 106
+[20-Jan-2012 20:41:59] PHP Warning:  fread() [<a href='function.fread'>function.fread</a>]: Length parameter must be greater than 0 in /home/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 133
+[22-Jan-2012 03:30:22] PHP Warning:  fread() [<a href='function.fread'>function.fread</a>]: Length parameter must be greater than 0 in /home/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 94
+[22-Jan-2012 03:30:22] PHP Warning:  strpos() [<a href='function.strpos'>function.strpos</a>]: Offset not contained in string in /home/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 98
+[22-Jan-2012 03:30:22] PHP Warning:  strpos() [<a href='function.strpos'>function.strpos</a>]: Offset not contained in string in /home/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 106
+[22-Jan-2012 03:30:22] PHP Warning:  fread() [<a href='function.fread'>function.fread</a>]: Length parameter must be greater than 0 in /home/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 133
+[22-Jan-2012 03:58:22] PHP Warning:  fread() [<a href='function.fread'>function.fread</a>]: Length parameter must be greater than 0 in /home/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 94
+[22-Jan-2012 03:58:22] PHP Warning:  strpos() [<a href='function.strpos'>function.strpos</a>]: Offset not contained in string in /home/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 98
+[22-Jan-2012 03:58:22] PHP Warning:  strpos() [<a href='function.strpos'>function.strpos</a>]: Offset not contained in string in /home/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 106
+[22-Jan-2012 03:58:22] PHP Warning:  fread() [<a href='function.fread'>function.fread</a>]: Length parameter must be greater than 0 in /home/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 133
+[22-Jan-2012 07:30:16] PHP Warning:  fread() [<a href='function.fread'>function.fread</a>]: Length parameter must be greater than 0 in /home/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 94
+[22-Jan-2012 07:30:16] PHP Warning:  strpos() [<a href='function.strpos'>function.strpos</a>]: Offset not contained in string in /home/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 98
+[22-Jan-2012 07:30:16] PHP Warning:  strpos() [<a href='function.strpos'>function.strpos</a>]: Offset not contained in string in /home/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 106
+[22-Jan-2012 07:30:16] PHP Warning:  fread() [<a href='function.fread'>function.fread</a>]: Length parameter must be greater than 0 in /home/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 133
+[22-Jan-2012 17:25:26] PHP Warning:  fread() [<a href='function.fread'>function.fread</a>]: Length parameter must be greater than 0 in /home/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 94
+[22-Jan-2012 17:25:26] PHP Warning:  strpos() [<a href='function.strpos'>function.strpos</a>]: Offset not contained in string in /home/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 98
+[22-Jan-2012 17:25:26] PHP Warning:  strpos() [<a href='function.strpos'>function.strpos</a>]: Offset not contained in string in /home/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 106
+[22-Jan-2012 17:25:26] PHP Warning:  fread() [<a href='function.fread'>function.fread</a>]: Length parameter must be greater than 0 in /home/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 133
+[23-Jan-2012 08:33:58] PHP Warning:  fread() [<a href='function.fread'>function.fread</a>]: Length parameter must be greater than 0 in /home/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 94
+[23-Jan-2012 08:33:58] PHP Warning:  strpos() [<a href='function.strpos'>function.strpos</a>]: Offset not contained in string in /home/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 98
+[23-Jan-2012 08:33:58] PHP Warning:  strpos() [<a href='function.strpos'>function.strpos</a>]: Offset not contained in string in /home/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 106
+[23-Jan-2012 08:33:58] PHP Warning:  fread() [<a href='function.fread'>function.fread</a>]: Length parameter must be greater than 0 in /home/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 133
+[25-Jan-2012 14:54:54] PHP Warning:  fread() [<a href='function.fread'>function.fread</a>]: Length parameter must be greater than 0 in /home/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 94
+[25-Jan-2012 14:54:54] PHP Warning:  strpos() [<a href='function.strpos'>function.strpos</a>]: Offset not contained in string in /home/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 98
+[25-Jan-2012 14:54:54] PHP Warning:  strpos() [<a href='function.strpos'>function.strpos</a>]: Offset not contained in string in /home/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 106
+[25-Jan-2012 14:54:54] PHP Warning:  fread() [<a href='function.fread'>function.fread</a>]: Length parameter must be greater than 0 in /home/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 133
+[25-Jan-2012 14:55:14] PHP Warning:  fread() [<a href='function.fread'>function.fread</a>]: Length parameter must be greater than 0 in /home/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 94
+[25-Jan-2012 14:55:14] PHP Warning:  strpos() [<a href='function.strpos'>function.strpos</a>]: Offset not contained in string in /home/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 98
+[25-Jan-2012 14:55:14] PHP Warning:  strpos() [<a href='function.strpos'>function.strpos</a>]: Offset not contained in string in /home/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 106
+[25-Jan-2012 14:55:14] PHP Warning:  fread() [<a href='function.fread'>function.fread</a>]: Length parameter must be greater than 0 in /home/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 133
+[25-Jan-2012 14:57:41] PHP Fatal error:  Function name must be a string in /home/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 94
+[01-Feb-2014 10:31:55 America/Denver] PHP Notice:  Undefined variable: rnk in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 173
+[01-Feb-2014 10:31:55 America/Denver] PHP Notice:  Undefined index:  in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 173
+[01-Feb-2014 10:31:55 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[03-Feb-2014 21:12:52 America/Denver] PHP Notice:  Undefined variable: rnk in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 173
+[03-Feb-2014 21:12:52 America/Denver] PHP Notice:  Undefined index:  in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 173
+[03-Feb-2014 21:12:52 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[04-Feb-2014 13:47:32 America/Denver] PHP Notice:  Undefined variable: TotalEXP in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 50
+[04-Feb-2014 14:27:56 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[04-Feb-2014 15:43:40 America/Denver] PHP Notice:  Undefined variable: rnk in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 173
+[04-Feb-2014 15:43:40 America/Denver] PHP Notice:  Undefined index:  in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 173
+[04-Feb-2014 15:43:40 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[04-Feb-2014 15:52:43 America/Denver] PHP Notice:  Undefined index: guid in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 10
+[04-Feb-2014 22:25:46 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[05-Feb-2014 02:47:24 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[05-Feb-2014 08:37:23 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[05-Feb-2014 13:16:55 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[05-Feb-2014 13:22:59 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[05-Feb-2014 21:25:33 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[07-Feb-2014 20:03:52 America/Denver] PHP Notice:  Undefined variable: rnk in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 173
+[07-Feb-2014 20:03:52 America/Denver] PHP Notice:  Undefined index:  in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 173
+[07-Feb-2014 20:03:52 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[08-Feb-2014 08:20:29 America/Denver] PHP Notice:  Undefined variable: rnk in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 173
+[08-Feb-2014 08:20:29 America/Denver] PHP Notice:  Undefined index:  in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 173
+[08-Feb-2014 08:20:29 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[09-Feb-2014 07:44:25 America/Denver] PHP Notice:  Undefined variable: rnk in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 173
+[09-Feb-2014 07:44:26 America/Denver] PHP Notice:  Undefined index:  in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 173
+[09-Feb-2014 07:44:26 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[09-Feb-2014 11:10:01 America/Denver] PHP Notice:  Undefined variable: rnk in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 173
+[09-Feb-2014 11:10:01 America/Denver] PHP Notice:  Undefined index:  in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 173
+[09-Feb-2014 11:10:01 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[09-Feb-2014 12:25:17 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[10-Feb-2014 08:49:34 America/Denver] PHP Notice:  Undefined variable: TotalEXP in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 50
+[11-Feb-2014 01:54:09 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[11-Feb-2014 08:44:49 America/Denver] PHP Notice:  Undefined variable: TotalEXP in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 50
+[11-Feb-2014 22:11:06 America/Denver] PHP Notice:  Undefined variable: rnk in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 173
+[11-Feb-2014 22:11:06 America/Denver] PHP Notice:  Undefined index:  in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 173
+[11-Feb-2014 22:11:06 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[13-Feb-2014 03:46:12 America/Denver] PHP Notice:  Undefined variable: TotalEXP in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 50
+[13-Feb-2014 03:47:33 America/Denver] PHP Notice:  Undefined variable: TotalEXP in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 50
+[13-Feb-2014 09:31:27 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[13-Feb-2014 22:57:32 America/Denver] PHP Notice:  Undefined variable: rnk in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 165
+[13-Feb-2014 22:57:32 America/Denver] PHP Notice:  Undefined index:  in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 165
+[13-Feb-2014 22:57:32 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[13-Feb-2014 23:25:18 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[14-Feb-2014 02:19:05 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[14-Feb-2014 04:06:25 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[14-Feb-2014 05:04:30 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[14-Feb-2014 06:38:14 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[15-Feb-2014 00:44:07 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[16-Feb-2014 04:05:45 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[16-Feb-2014 05:44:38 America/Denver] PHP Notice:  Undefined variable: rnk in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 173
+[16-Feb-2014 05:44:38 America/Denver] PHP Notice:  Undefined index:  in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 173
+[16-Feb-2014 05:44:38 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[16-Feb-2014 06:02:12 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[16-Feb-2014 06:09:25 America/Denver] PHP Notice:  Undefined variable: rnk in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 173
+[16-Feb-2014 06:09:25 America/Denver] PHP Notice:  Undefined index:  in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 173
+[16-Feb-2014 06:09:25 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[16-Feb-2014 06:53:24 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[16-Feb-2014 13:38:00 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[16-Feb-2014 14:06:18 America/Denver] PHP Notice:  Undefined variable: TotalEXP in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 50
+[16-Feb-2014 14:10:28 America/Denver] PHP Notice:  Undefined variable: TotalEXP in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 50
+[16-Feb-2014 14:32:11 America/Denver] PHP Notice:  Undefined variable: TotalEXP in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 50
+[16-Feb-2014 14:48:12 America/Denver] PHP Notice:  Undefined variable: TotalEXP in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 50
+[16-Feb-2014 15:38:56 America/Denver] PHP Notice:  Undefined variable: TotalEXP in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 50
+[16-Feb-2014 15:47:17 America/Denver] PHP Notice:  Undefined index: guid in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 10
+[17-Feb-2014 00:54:45 America/Denver] PHP Notice:  Undefined variable: rnk in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 165
+[17-Feb-2014 00:54:45 America/Denver] PHP Notice:  Undefined index:  in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 165
+[17-Feb-2014 00:54:45 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[18-Feb-2014 02:45:00 America/Denver] PHP Notice:  Undefined variable: rnk in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 165
+[18-Feb-2014 02:45:00 America/Denver] PHP Notice:  Undefined index:  in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 165
+[18-Feb-2014 02:45:00 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[18-Feb-2014 13:44:36 America/Denver] PHP Notice:  Undefined variable: TotalEXP in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 50
+[18-Feb-2014 18:28:33 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[18-Feb-2014 21:04:15 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[18-Feb-2014 22:10:19 America/Denver] PHP Notice:  Undefined variable: TotalEXP in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 50
+[19-Feb-2014 11:05:31 America/Denver] PHP Notice:  Undefined variable: rnk in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 173
+[19-Feb-2014 11:05:31 America/Denver] PHP Notice:  Undefined index:  in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 173
+[19-Feb-2014 11:05:31 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[23-Feb-2014 23:42:23 America/Denver] PHP Notice:  Undefined variable: rnk in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 173
+[23-Feb-2014 23:42:23 America/Denver] PHP Notice:  Undefined index:  in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 173
+[23-Feb-2014 23:42:23 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[24-Feb-2014 07:37:14 America/Denver] PHP Notice:  Undefined variable: TotalEXP in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 50
+[24-Feb-2014 07:40:59 America/Denver] PHP Notice:  Undefined variable: rnk in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 173
+[24-Feb-2014 07:40:59 America/Denver] PHP Notice:  Undefined index:  in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 173
+[24-Feb-2014 07:40:59 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[24-Feb-2014 07:49:43 America/Denver] PHP Notice:  Undefined index: guid in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 10
+[24-Feb-2014 15:59:47 America/Denver] PHP Notice:  Undefined variable: rnk in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 173
+[24-Feb-2014 15:59:47 America/Denver] PHP Notice:  Undefined index:  in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 173
+[24-Feb-2014 15:59:47 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[25-Feb-2014 14:59:46 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[25-Feb-2014 15:22:28 America/Denver] PHP Notice:  Undefined variable: rnk in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 173
+[25-Feb-2014 15:22:28 America/Denver] PHP Notice:  Undefined index:  in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 173
+[25-Feb-2014 15:22:28 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[25-Feb-2014 15:37:18 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[25-Feb-2014 16:06:57 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[25-Feb-2014 16:50:06 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[25-Feb-2014 17:19:12 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[25-Feb-2014 21:49:18 America/Denver] PHP Notice:  Undefined index: guid in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 10
+[26-Feb-2014 06:56:18 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[26-Feb-2014 12:43:27 America/Denver] PHP Notice:  Undefined variable: TotalEXP in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 50
+[26-Feb-2014 14:22:55 America/Denver] PHP Notice:  Undefined variable: TotalEXP in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 50
+[26-Feb-2014 14:31:10 America/Denver] PHP Notice:  Undefined index: guid in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 10
+[26-Feb-2014 19:06:28 America/Denver] PHP Notice:  Undefined variable: TotalEXP in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 50
+[27-Feb-2014 17:14:30 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[28-Feb-2014 00:55:46 America/Denver] PHP Notice:  Undefined variable: TotalEXP in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 50
+[28-Feb-2014 22:40:32 America/Denver] PHP Notice:  Undefined variable: TotalEXP in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 50
+[01-Mar-2014 12:04:52 America/Denver] PHP Notice:  Undefined variable: TotalEXP in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 50
+[01-Mar-2014 12:07:32 America/Denver] PHP Notice:  Undefined variable: rnk in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 173
+[01-Mar-2014 12:07:32 America/Denver] PHP Notice:  Undefined index:  in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 173
+[01-Mar-2014 12:07:32 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[02-Mar-2014 09:46:26 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[02-Mar-2014 11:19:10 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[02-Mar-2014 14:31:46 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[02-Mar-2014 15:06:44 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[02-Mar-2014 16:49:30 America/Denver] PHP Notice:  Undefined variable: TotalEXP in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 50
+[02-Mar-2014 21:06:38 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[03-Mar-2014 20:15:34 America/Denver] PHP Notice:  Undefined variable: TotalEXP in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 50
+[04-Mar-2014 02:44:56 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[05-Mar-2014 02:41:33 America/Denver] PHP Notice:  Undefined variable: rnk in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 165
+[05-Mar-2014 02:41:33 America/Denver] PHP Notice:  Undefined index:  in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 165
+[05-Mar-2014 02:41:33 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[05-Mar-2014 21:47:31 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[05-Mar-2014 22:00:37 America/Denver] PHP Notice:  Undefined variable: rnk in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 173
+[05-Mar-2014 22:00:37 America/Denver] PHP Notice:  Undefined index:  in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 173
+[05-Mar-2014 22:00:37 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[06-Mar-2014 18:25:25 America/Denver] PHP Notice:  Undefined variable: rnk in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 165
+[06-Mar-2014 18:25:25 America/Denver] PHP Notice:  Undefined index:  in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 165
+[06-Mar-2014 18:25:25 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[06-Mar-2014 20:54:38 America/Denver] PHP Notice:  Undefined variable: rnk in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 165
+[06-Mar-2014 20:54:38 America/Denver] PHP Notice:  Undefined index:  in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 165
+[06-Mar-2014 20:54:38 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[08-Mar-2014 21:43:59 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[10-Mar-2014 00:28:59 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[10-Mar-2014 01:39:09 America/Denver] PHP Notice:  Undefined variable: rnk in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 173
+[10-Mar-2014 01:39:09 America/Denver] PHP Notice:  Undefined index:  in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 173
+[10-Mar-2014 01:39:09 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[10-Mar-2014 04:40:19 America/Denver] PHP Notice:  Undefined variable: TotalEXP in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/expScripts.php on line 50
+[11-Mar-2014 04:48:00 America/Denver] PHP Notice:  Undefined variable: rnk in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 173
+[11-Mar-2014 04:48:00 America/Denver] PHP Notice:  Undefined index:  in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankPage.php on line 173
+[11-Mar-2014 04:48:00 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303
+[11-Mar-2014 08:27:37 America/Denver] PHP Notice:  Undefined variable: rankf in /home3/phantom7/public_html/public/Univ/Ranks/TWM2/RankList.php on line 303

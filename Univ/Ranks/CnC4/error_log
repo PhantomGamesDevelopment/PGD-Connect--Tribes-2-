@@ -1,0 +1,133 @@
+[09-Apr-2010 20:12:30] PHP Parse error:  syntax error, unexpected ',', expecting ']' in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 56
+[09-Apr-2010 20:13:12] PHP Parse error:  syntax error, unexpected ',', expecting ']' in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 56
+[09-Apr-2010 20:13:34] PHP Parse error:  syntax error, unexpected ',', expecting ']' in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 56
+[11-Apr-2010 10:11:51] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 90
+[11-Apr-2010 10:12:42] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 90
+[11-Apr-2010 10:14:17] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 91
+[11-Apr-2010 10:38:29] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ',' or ';' in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 77
+[12-Apr-2010 22:27:46] PHP Warning:  require(expScripts.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/phantom7/public_html/public/Univ/Ranks/CnC4/top.php on line 7
+[12-Apr-2010 22:27:46] PHP Warning:  require(expScripts.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/phantom7/public_html/public/Univ/Ranks/CnC4/top.php on line 7
+[12-Apr-2010 22:27:46] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'expScripts.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/phantom7/public_html/public/Univ/Ranks/CnC4/top.php on line 7
+[15-Apr-2010 10:45:34] PHP Warning:  require(expScripts.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/phantom7/public_html/public/Univ/Ranks/CnC4/top.php on line 7
+[15-Apr-2010 10:45:34] PHP Warning:  require(expScripts.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/phantom7/public_html/public/Univ/Ranks/CnC4/top.php on line 7
+[15-Apr-2010 10:45:34] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'expScripts.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/phantom7/public_html/public/Univ/Ranks/CnC4/top.php on line 7
+[15-Apr-2010 11:54:03] PHP Parse error:  syntax error, unexpected '"', expecting ',' or ';' in /home/phantom7/public_html/public/Univ/Ranks/CnC4/expScripts.php on line 44
+[15-Apr-2010 12:20:38] PHP Parse error:  syntax error, unexpected '.' in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 104
+[01-May-2010 06:18:51] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[15-May-2010 19:02:22] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[19-May-2010 04:43:22] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[21-May-2010 13:31:31] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[23-May-2010 02:02:51] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[24-May-2010 05:03:08] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[27-May-2010 06:30:40] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[27-May-2010 19:29:04] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[28-May-2010 08:20:43] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[31-May-2010 20:04:42] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[04-Jun-2010 02:48:29] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[05-Jun-2010 10:39:41] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[11-Jun-2010 05:47:49] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[11-Jun-2010 14:14:20] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[14-Jun-2010 02:01:49] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[14-Jun-2010 17:58:36] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[14-Jun-2010 17:58:40] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[25-Jun-2010 12:35:51] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[01-Jul-2010 05:31:10] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[04-Jul-2010 01:19:24] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[05-Aug-2010 07:48:06] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[09-Aug-2010 12:38:31] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[09-Aug-2010 12:38:33] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[10-Aug-2010 14:46:41] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[13-Aug-2010 04:07:05] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[14-Aug-2010 02:48:41] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[28-Aug-2010 07:31:21] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[28-Aug-2010 07:31:35] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[30-Aug-2010 17:49:14] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[22-Sep-2010 03:31:08] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[22-Sep-2010 03:42:09] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[12-Oct-2010 01:53:15] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[12-Oct-2010 03:00:47] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[20-Oct-2010 05:00:07] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[20-Oct-2010 05:00:34] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[25-Oct-2010 13:17:33] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[25-Oct-2010 22:27:56] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[31-Oct-2010 19:10:32] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[11-Nov-2010 00:01:53] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[17-Nov-2010 05:45:39] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[30-Nov-2010 04:47:10] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[30-Nov-2010 16:05:03] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[18-Dec-2010 05:23:20] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[19-Dec-2010 22:02:13] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[24-Dec-2010 18:50:12] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[26-Dec-2010 06:02:38] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[01-Jan-2011 12:27:13] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[15-Jan-2011 10:11:25] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[16-Jan-2011 23:21:39] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[17-Jan-2011 20:37:19] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[14-Apr-2011 00:15:52] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[21-Apr-2011 20:48:36] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[26-Apr-2011 20:09:02] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[25-May-2011 14:11:57] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[14-Jul-2011 20:43:03] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[25-Sep-2011 03:18:43] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[01-Oct-2011 23:25:05] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[14-Oct-2011 22:36:19] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[16-Oct-2011 09:15:11] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[30-Oct-2011 12:16:30] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[03-Nov-2011 17:45:41] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[07-Nov-2011 15:19:58] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[07-Nov-2011 23:36:35] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[12-Nov-2011 08:55:17] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[15-Nov-2011 09:56:50] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[18-Dec-2011 11:07:26] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[20-Jan-2012 07:24:34] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[04-Feb-2012 14:12:48] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[31-Mar-2012 09:46:34] PHP Warning:  Division by zero in /home/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[31-May-2012 04:01:55] PHP Warning:  Division by zero in /home3/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[13-Jun-2012 14:42:10] PHP Warning:  Division by zero in /home3/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[15-Jul-2012 13:25:51] PHP Warning:  Division by zero in /home3/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[04-Sep-2012 09:38:01] PHP Warning:  Division by zero in /home3/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[19-Sep-2012 17:26:37] PHP Warning:  Division by zero in /home3/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[17-Oct-2012 18:25:07] PHP Warning:  Division by zero in /home3/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[18-Oct-2012 04:20:53] PHP Warning:  Division by zero in /home3/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[29-Dec-2012 22:15:25] PHP Warning:  Division by zero in /home3/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[15-Jan-2013 21:05:57] PHP Warning:  Division by zero in /home3/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[26-Feb-2013 19:44:56] PHP Warning:  Division by zero in /home3/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[28-Feb-2013 21:20:59] PHP Warning:  Division by zero in /home3/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[01-Mar-2013 23:51:32] PHP Warning:  Division by zero in /home3/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[13-Mar-2013 06:06:21] PHP Warning:  Division by zero in /home3/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[22-Mar-2013 13:16:34] PHP Warning:  Division by zero in /home3/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[08-May-2013 02:26:16] PHP Warning:  Division by zero in /home3/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[09-May-2013 00:17:56] PHP Warning:  Division by zero in /home3/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[22-May-2013 00:08:57] PHP Warning:  Division by zero in /home3/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[02-Jun-2013 11:41:15] PHP Warning:  Division by zero in /home3/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[06-Jun-2013 05:19:58] PHP Warning:  Division by zero in /home3/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[13-Jul-2013 23:38:16] PHP Warning:  Division by zero in /home3/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[15-Jul-2013 11:07:54] PHP Warning:  Division by zero in /home3/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[24-Jul-2013 02:49:00] PHP Warning:  Division by zero in /home3/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[10-Aug-2013 15:21:25] PHP Warning:  Division by zero in /home3/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[21-Aug-2013 02:47:27] PHP Warning:  Division by zero in /home3/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[31-Aug-2013 22:28:20] PHP Warning:  Division by zero in /home3/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[22-Oct-2013 09:09:01] PHP Warning:  Division by zero in /home3/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[19-Nov-2013 20:54:17] PHP Warning:  Division by zero in /home3/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[01-Dec-2013 01:19:27] PHP Warning:  Division by zero in /home3/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[01-Dec-2013 10:04:44] PHP Warning:  Division by zero in /home3/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[26-Jan-2014 21:29:42] PHP Warning:  Division by zero in /home3/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[30-Jan-2014 02:43:30] PHP Warning:  Division by zero in /home3/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[04-Feb-2014 15:51:58 America/Denver] PHP Notice:  Undefined index: guid in /home3/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 12
+[09-Feb-2014 14:54:02 America/Denver] PHP Notice:  Undefined index: guid in /home3/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 12
+[16-Feb-2014 15:47:01 America/Denver] PHP Notice:  Undefined index: guid in /home3/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 12
+[19-Feb-2014 09:45:41 America/Denver] PHP Notice:  Undefined variable: pexp in /home3/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 83
+[20-Feb-2014 08:16:30 America/Denver] PHP Notice:  Undefined variable: pexp in /home3/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 83
+[21-Feb-2014 13:09:10 America/Denver] PHP Notice:  Undefined variable: pexp in /home3/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 83
+[22-Feb-2014 23:48:21 America/Denver] PHP Warning:  Division by zero in /home3/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[23-Feb-2014 11:59:15 America/Denver] PHP Warning:  Division by zero in /home3/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[23-Feb-2014 15:25:16 America/Denver] PHP Notice:  Undefined index: guid in /home3/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 12
+[24-Feb-2014 07:47:17 America/Denver] PHP Notice:  Undefined index: guid in /home3/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 12
+[24-Feb-2014 07:49:00 America/Denver] PHP Warning:  Division by zero in /home3/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[24-Feb-2014 14:38:10 America/Denver] PHP Warning:  Division by zero in /home3/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[24-Feb-2014 15:07:17 America/Denver] PHP Notice:  Undefined variable: pexp in /home3/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 83
+[25-Feb-2014 14:58:23 America/Denver] PHP Warning:  Division by zero in /home3/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 117
+[26-Feb-2014 14:31:20 America/Denver] PHP Notice:  Undefined index: guid in /home3/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 12
+[05-Mar-2014 20:48:03 America/Denver] PHP Notice:  Undefined index: guid in /home3/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 12
+[07-Mar-2014 22:14:16 America/Denver] PHP Notice:  Undefined index: guid in /home3/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 12
+[11-Mar-2014 05:11:01 America/Denver] PHP Notice:  Undefined index: guid in /home3/phantom7/public_html/public/Univ/Ranks/CnC4/RankPage.php on line 12

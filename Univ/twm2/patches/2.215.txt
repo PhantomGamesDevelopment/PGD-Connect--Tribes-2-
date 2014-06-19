@@ -1,0 +1,7 @@
+#Patch 2.215 - 1-8-10: Various Fixes
+[RL]	scripts/TWM2/Systems/MainControl.cs	2	$TWM2::Version = 2.215;
+[RL]	scripts/RankStuff.cs	183	$Ranks::NewRank[59] = "Commanding Officer";
+[RL]	scripts/TWM2/Systems/BossSystem.cs	203	            CompleteNWChallenge(%client, "Vard1");
+[RL]	scripts/TWM2/Systems/BossSystem.cs	206	            CompleteNWChallenge(%client, "Vard2");
+[RL]	scripts/TWM2/Systems/BossSystem.cs	209	            CompleteNWChallenge(%client, "Vard3");
+*END

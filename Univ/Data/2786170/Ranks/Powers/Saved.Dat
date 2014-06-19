@@ -1,0 +1,98 @@
+//--- OBJECT WRITE BEGIN ---
+new SimSet(ClientData_2786170) {
+
+	eulaAgree = "1";
+
+	new ScriptObject(classData10_2786170) {
+		class = "Undecided";
+
+		spendPoints = "1";
+		exp = "0";
+		affinity = "0";
+		level = "1";
+	};
+	new ScriptObject(classData1_2786170) {
+		class = "Witch";
+
+		hasPowerLightStrike = "1";
+		spendPoints = "0";
+		exp = "10";
+		affinity = "0";
+		level = "1";
+	};
+	new ScriptObject(classData4_2786170) {
+		class = "Hunter";
+
+		spendPoints = "0";
+		exp = "140";
+		affinity = "0";
+		hasPowerConcussionBlow = "1";
+		hasPowerManaArrow = "1";
+		hasPowerSmackback = "1";
+		level = "6";
+	};
+	new ScriptObject(classData3_2786170) {
+		class = "Phantom";
+
+		spendPoints = "0";
+		exp = "10";
+		hasPowerShadowStrike = "1";
+		affinity = "0";
+		level = "1";
+	};
+	new ScriptObject(classData5_2786170) {
+		class = "Undecided";
+
+		spendPoints = "1";
+		exp = "0";
+		affinity = "0";
+		level = "1";
+	};
+	new ScriptObject(classData6_2786170) {
+		class = "Undecided";
+
+		spendPoints = "1";
+		exp = "0";
+		affinity = "0";
+		level = "1";
+	};
+	new ScriptObject(classData7_2786170) {
+		class = "Undecided";
+
+		spendPoints = "1";
+		exp = "0";
+		affinity = "0";
+		level = "1";
+	};
+	new ScriptObject(classData8_2786170) {
+		class = "Undecided";
+
+		spendPoints = "1";
+		exp = "0";
+		affinity = "0";
+		level = "1";
+	};
+	new ScriptObject(classData9_2786170) {
+		class = "Undecided";
+
+		spendPoints = "1";
+		exp = "0";
+		affinity = "0";
+		level = "1";
+	};
+	new ScriptObject(classData2_2786170) {
+		class = "Demon";
+
+		spendPoints = "15";
+		hasPowerEnergyBall2 = "1";
+		exp = "2673";
+		affinity = "0";
+		hasPowerFireBall2 = "1";
+		hasPowerEleStrike = "1";
+		hasPowerBasicShock = "1";
+		hasPowerFireBall3 = "1";
+		hasPowerFireBolt = "1";
+		level = "22";
+	};
+};
+//--- OBJECT WRITE END ---

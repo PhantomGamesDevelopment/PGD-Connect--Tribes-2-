@@ -1,0 +1,114 @@
+//Ranks & Settings File For GUID 3659303 / Name: jacevedo1
+//Created On 2011-12-17, Total Warfare Mod 2 3.8
+//--- OBJECT WRITE BEGIN ---
+new SimSet(Container_3659303) {
+
+	new ScriptObject(TWM2Client_3659303) {
+
+		AirstrikeCalls = "10";
+		hasMedalHonorsB = "1";
+		challengeCompleteMilestone25 = "1";
+		noMoreEXP48cce26a6ba48a39bf292fd0e6d5a0e3055da921 = "0";
+		challengeCompletePulsePhaserImage_1 = "1";
+		challengeCompletePulsePhaserImage_3 = "1";
+		noMoreEXPfa8db70e7f35c186327d98c2421d66a498b44bd6 = "0";
+		phrase = "hi";
+		noMoreEXPdd1e0860ea3c34e2286b79986ae4f9363fb4b259 = "0";
+		xpGainbcdd6fa6c8dd3867bbf28038c3e891ed3f9b0659 = "212836";
+		noMoreEXP337bec3f1f831ddb8126d3e52f11698c5d168f67 = "0";
+		challengeCompletePulsePhaserImage_2 = "1";
+		weaponKillsflamerImage = "4";
+		challengeComplete15For15 = "1";
+		weaponKillsPulsePhaserImage = "281";
+		noMoreEXP89cdac08df21a5718f555304b1ff83706f567ff0 = "0";
+		noMoreEXPb47efe2379f1336e87dd71f87643bb12f14c6659 = "0";
+		bossDefeatCountVengenor = "1";
+		name = "jacevedo1";
+		xpGainfa8db70e7f35c186327d98c2421d66a498b44bd6 = "534";
+		noMoreEXP1cebdd03e0d549faba0c1d80c580b3052ed55331 = "0";
+		officer = "0";
+		rank = "5 Star General";
+		noMoreEXP07e0b2857f554d7fb175dae282e985129316b474 = "0";
+		noMoreEXP4f91474409e3b72c7c5cf8b5e59406ea15a3d711 = "0";
+		weaponKillsM1700Image = "6";
+		noMoreEXP1dac9c2af38530e88096416147123a851ae76e40 = "0";
+		hasMedalHonorsC = "1";
+		noMoreEXPdc639ae21874998a6e776e35d984558db2913f29 = "0";
+		xpGaindd1e0860ea3c34e2286b79986ae4f9363fb4b259 = "40";
+		xpGain07e0b2857f554d7fb175dae282e985129316b474 = "550";
+		noMoreEXP9bb36e48ae146ab8e50eee42d43857bc81c3caca = "0";
+		weaponKillsMiniChaingunImage = "1";
+		hasMedalHonorsA = "1";
+		xpGain48cce26a6ba48a39bf292fd0e6d5a0e3055da921 = "552";
+		noMoreEXP29cdbe94c8a3c228b2460e13c7dc6fc367ec7e72 = "0";
+		xpGain24a5f5898db61153fd1ae9ccb7f3dd2b0429ed46 = "9810";
+		noMoreEXP56b8f856bcccc3c7bf6dda8db6c8020de1220d7a = "0";
+		money = "1.04625e+06";
+		noMoreEXPbcdd6fa6c8dd3867bbf28038c3e891ed3f9b0659 = "0";
+		millionxp = "1";
+		noMoreEXPdc7b9d125155cc301183ae093f3bfe9b8cc3a597 = "0";
+		GMCalls = "4";
+		xpGaindc7b9d125155cc301183ae093f3bfe9b8cc3a597 = "288";
+		hasMedalTheNewGeneral = "1";
+		noMoreEXP6aaa0ca8e763bdd196b7c334547e0d67d2df789e = "0";
+		xpGain6aaa0ca8e763bdd196b7c334547e0d67d2df789e = "6642";
+		xpGain9bb36e48ae146ab8e50eee42d43857bc81c3caca = "2892";
+		noMoreEXP680e7deda563526e500f58036b6375a82134c2b0 = "0";
+		challengeCompleteGOL1 = "1";
+		bossDefeatCountGhostOfLightning = "9";
+		xpGaindc639ae21874998a6e776e35d984558db2913f29 = "166149";
+		weaponKillsS3RifleImage = "4";
+		xpGain89cdac08df21a5718f555304b1ff83706f567ff0 = "12";
+		xp = "47426";
+		challengeCompleteGOL2 = "1";
+		weaponKillsG17SniperRifleImage = "3";
+		xpGain337bec3f1f831ddb8126d3e52f11698c5d168f67 = "355092";
+		HeliCalls = "6";
+		rankNumber = "53";
+		weaponKillsALSWPSniperRifleImage = "8";
+		gameTime = "2924";
+		noMoreEXP3168ab06a67b7ef06492b6f0c5af4a73283849ef = "0";
+		xpGainb47efe2379f1336e87dd71f87643bb12f14c6659 = "290994";
+		bossDefeatCountLordRog = "1";
+		hasMedalGamerExcuisite = "1";
+		noMoreEXP24a5f5898db61153fd1ae9ccb7f3dd2b0429ed46 = "0";
+		hasMedalThundaStruk = "1";
+		hasMedalRevengeAvoidedAgain = "1";
+		weaponKillsConcussionGunImage = "4";
+	};
+	new ScriptObject(CCD_3659303) {
+
+		bossSlayCountVardison1_20130330 = "1";
+		expireDate = "20130331";
+		bossSlayCountVardison2_20130330 = "1";
+	};
+	new ScriptObject(ClientStore3659303) {
+
+		nextLoto = "0";
+		nextSlot = "0";
+	};
+	new ScriptObject(CCD_3659303) {
+
+		expireDate = "20120131";
+	};
+	new ScriptObject(CCD_3659303) {
+
+		expireDate = "20120131";
+	};
+	new ScriptObject(CCD_3659303) {
+
+		expireDate = "20130331";
+	};
+	new ScriptObject(CCD_3659303) {
+
+		ZombieKillCount20130329_R700SniperRifleImage_2 = "1";
+		ZombieKillCount20130329__1 = "1";
+		ZombieKillCount20130329_SA2400Image_1 = "2";
+		totalZombieKillCount20130329 = "8";
+		ZombieKillCount20130329_0_2 = "1";
+		expireDate = "20130331";
+		ZombieKillCount20130329_R700SniperRifleImage_1 = "5";
+		ZombieKillCount20130329_0_1 = "8";
+	};
+};
+//--- OBJECT WRITE END ---

@@ -1,0 +1,155 @@
+//Ranks & Settings File For GUID 2000343 / Name: Phantom139
+//Ranks & Settings File For GUID 3569784 / Name: Cheeseman
+//Created On 2011-09-14, Total Warfare Mod 2 3.7
+//--- OBJECT WRITE BEGIN ---
+new SimSet(Container_3569784) {
+
+	new ScriptObject(TWM2Client_3569784) {
+
+		xpGain5f1188775495558a565f7bda1a812d8c6fe6da41 = "1.06311e+06";
+		NukeCalls = "20";
+		xpGainaf662d077a2c8fc44786f68fdd5c1479b195a3cc = "14";
+		weaponKillsPulsePhaserImage = "19";
+		hasMedalSkyFront = "1";
+		noMoreEXP24a5f5898db61153fd1ae9ccb7f3dd2b0429ed46 = "0";
+		challengeCompleteNuke2 = "1";
+		challengeCompleteTreb1 = "1";
+		xpGain3371fd8fb5a4263eb0b693e3683150b8177f57f0 = "498556";
+		hasMedalHonorsB = "1";
+		xpGaine8f4aaf1f8d465c5d336e38587aae9bf6e3c06ba = "246030";
+		xpGain20721f5a2c9680e330b67d62bac22b18f43f273c = "503844";
+		xpGain24a5f5898db61153fd1ae9ccb7f3dd2b0429ed46 = "48";
+		challengeCompleteVard3 = "1";
+		weaponKillsNapalmImage = "9";
+		noMoreEXPc3ac0c579876ef5c463086e09c3dc237df9ce8b0 = "0";
+		xpGain7157524394b5b23795f12ae582a4859a543a7db9 = "418464";
+		NapalmHarrierCalls = "1";
+		noMoreEXPe5bd4d1481c47eaa816988d443cfa217b1685764 = "0";
+		GMCalls = "0";
+		hasMedalTheNewGeneral = "1";
+		xp = "919634";
+		weaponKillsJavelinImage = "1";
+		hasMedalNuclearDawn = "1";
+		challengeCompleteZoneCapture = "1";
+		challengeCompleteABC = "1";
+		noMoreEXP0acf1e7c29cf0d7a46aa6c098fef9f65ecee36ee = "0";
+		hasMedalBurningNightmare = "1";
+		millionxp = "5";
+		weaponKillsG17SniperRifleImage = "1";
+		challengeCompleteLRog1 = "1";
+		name = "Cheeseman";
+		weaponKillsMRXXImage = "11";
+		weaponKillsALSWPSniperRifleImage = "1";
+		challengeCompleteMatchSet = "1";
+		UAVCalls = "4";
+		ZBCalls = "1";
+		weaponKillsSA2400Image = "33";
+		EMPCalls = "3";
+		weaponKillsflamerImage = "47";
+		officer = "0";
+		hasMedalGamerExcuisite = "1";
+		money = "5.71264e+06";
+		bossDefeatCountStormrider = "2";
+		hasMedalSrysly = "1";
+		HarrierCalls = "0";
+		HWCalls = "0";
+		hasMedalHonorsC = "1";
+		xpGain721fe14a28612ef62ec71af4fef3996e0c811647 = "385230";
+		challengeCompleteFission1 = "1";
+		xpGain2133a288a74c089b4f8ec5d7a85eae04149afeaf = "380400";
+		challengeCompleteGOL1 = "1";
+		bossDefeatCountGhostOfFire = "3";
+		bossDefeatCountInsignia = "2";
+		hasMedalLordraniussFall = "1";
+		bossDefeatCountGhostOfLightning = "4";
+		challengeCompleteFission3 = "1";
+		challengeCompleteFission2 = "1";
+		noMoreEXPbc39284a1aa14327b7c30710854ab02d70934cb4 = "0";
+		challengeCompleteVard2 = "1";
+		challengeCompleteVard1 = "1";
+		xpGain5810ab261901bdc66797a7083e12622e3ab85fe7 = "168000";
+		challengeCompleteLRog2 = "1";
+		noMoreEXP7157524394b5b23795f12ae582a4859a543a7db9 = "0";
+		challengeCompleteGunHeli3 = "1";
+		rank = "Master Commander";
+		challengeCompleteWaveDefeater = "1";
+		hasMedalThundaStruk = "1";
+		noMoreEXP0c8f78516eb5eb8e861c17cc2a17887330cc3d78 = "0";
+		CGCalls = "2";
+		weaponKillsSCD343Image = "1";
+		hasMedalRevengeAvoidedAgain = "1";
+		hasMedalInsigniaDefeated = "1";
+		AirstrikeCalls = "6";
+		bossDefeatCountShadeLord = "4";
+		challengeCompleteGunHeli2 = "1";
+		challengeCompleteTreb2 = "1";
+		xpGainbcdd6fa6c8dd3867bbf28038c3e891ed3f9b0659 = "288";
+		noMoreEXP5f1188775495558a565f7bda1a812d8c6fe6da41 = "0";
+		SatNukeCalls = "1";
+		ACCalls = "2";
+		challengeCompleteGunHeli1 = "1";
+		noMoreEXP20721f5a2c9680e330b67d62bac22b18f43f273c = "0";
+		GunHeliCalls = "110";
+		noMoreEXP5810ab261901bdc66797a7083e12622e3ab85fe7 = "0";
+		challengeComplete3For5 = "1";
+		phrase = "None Set";
+		bossDefeatCountTrebor = "6";
+		weaponKillsMiniColliderCannonImage = "3";
+		weaponKillsSuperChaingunImage = "654";
+		weaponKillsMG42Image = "8";
+		challengeCompleteIns1 = "1";
+		noMoreEXP2133a288a74c089b4f8ec5d7a85eae04149afeaf = "0";
+		xpGaine5bd4d1481c47eaa816988d443cfa217b1685764 = "1.13287e+06";
+		hasMedalHarbiend = "1";
+		ArtyCalls = "1";
+		challengeCompleteEpicFailure = "1";
+		noMoreEXPaf662d077a2c8fc44786f68fdd5c1479b195a3cc = "0";
+		bossDefeatCountYvex = "2";
+		HindCalls = "2";
+		noMoreEXPd19410caba8981d853e95f180aee12d56c1d76e6 = "0";
+		noMoreEXPbcdd6fa6c8dd3867bbf28038c3e891ed3f9b0659 = "0";
+		bossDefeatCountVardison3 = "6";
+		hasMedalTheLight = "1";
+		noMoreEXP3371fd8fb5a4263eb0b693e3683150b8177f57f0 = "0";
+		noMoreEXP680e7deda563526e500f58036b6375a82134c2b0 = "0";
+		rankNumber = "61";
+		xpGaind19410caba8981d853e95f180aee12d56c1d76e6 = "6060";
+		xpGain0acf1e7c29cf0d7a46aa6c098fef9f65ecee36ee = "173586";
+		hasMedalTheSourceOfAllEvil = "1";
+		HeliCalls = "5";
+		FissionCalls = "10";
+		weaponKillsRPGImage = "2";
+		noMoreEXP721fe14a28612ef62ec71af4fef3996e0c811647 = "0";
+		bossDefeatCountLordRog = "5";
+		bossDefeatCountCnlWindshear = "1";
+		xpGainc3ac0c579876ef5c463086e09c3dc237df9ce8b0 = "659780";
+		weaponKillsMiniChaingunImage = "1";
+		noMoreEXPe8f4aaf1f8d465c5d336e38587aae9bf6e3c06ba = "0";
+		xpGain680e7deda563526e500f58036b6375a82134c2b0 = "75000";
+		challengeCompleteNuke1 = "1";
+		bossDefeatCountVengenor = "1";
+		gameTime = "1910";
+		xpGain0c8f78516eb5eb8e861c17cc2a17887330cc3d78 = "144";
+		challengeCompleteFromTheTop = "1";
+		SlthAirstrikeCalls = "2";
+		challengeCompleteGroupBuster = "1";
+		hasMedalAboutDamnTime = "1";
+		weaponKillsM4A1Image = "9";
+	};
+	new ScriptObject(CCD_3569784) {
+
+		expireDate = "20120229";
+	};
+	new ScriptObject(ClientStore3569784) {
+
+		nextLoto = "0";
+		nextSlot = "0";
+	};
+	new ScriptObject(CCD_3569784) {
+
+		expireDate = "20120229";
+		totalPlayerKillCount20120210 = "2";
+		PlayerKillCount20120210_Wp400Image = "1";
+	};
+};
+//--- OBJECT WRITE END ---

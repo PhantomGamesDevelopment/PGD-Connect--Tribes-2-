@@ -1,0 +1,7 @@
+$PowerSave::Level[3569784, 1] = 5;
+$PowerSave::SpendPoints[3569784, 1] = 1;
+$PowerSave::EXP[3569784, 1] = 126;
+$PowerSave::TopPlPosition[3569784, 1] = 1;
+$PowerSave::Class[3569784, 1] = "Witch";
+$PowerSave::HasPower[3569784, 1, "LightStrike"] = 1;
+$PowerSave::HasPower[3569784, 1, "Dispell"] = 1;

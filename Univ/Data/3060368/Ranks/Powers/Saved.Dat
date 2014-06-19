@@ -1,0 +1,97 @@
+//Powers Mod Data Saver.
+//--- OBJECT WRITE BEGIN ---
+new SimSet(ClientData_3060368) {
+
+	new ScriptObject(classData10_3060368) {
+		class = "Undecided";
+
+		affinity = "0";
+		spendPoints = "1";
+		exp = "0";
+		level = "1";
+	};
+	new ScriptObject(classData2_3060368) {
+		class = "Phantom";
+
+		hasPowerFlicker = "1";
+		affinity = "0";
+		hasPowerShadowStrike = "1";
+		spendPoints = "6";
+		exp = "251";
+		level = "8";
+	};
+	new ScriptObject(classData3_3060368) {
+		class = "Witch";
+
+		hasPowerLightStrike = "1";
+		affinity = "0";
+		spendPoints = "0";
+		exp = "16";
+		level = "1";
+	};
+	new ScriptObject(classData4_3060368) {
+		class = "Hunter";
+
+		hasPowerManaArrow = "1";
+		affinity = "0";
+		spendPoints = "2";
+		exp = "67";
+		level = "3";
+	};
+	new ScriptObject(classData5_3060368) {
+		class = "Undecided";
+
+		affinity = "0";
+		spendPoints = "1";
+		exp = "0";
+		level = "1";
+	};
+	new ScriptObject(classData6_3060368) {
+		class = "Undecided";
+
+		affinity = "0";
+		spendPoints = "1";
+		exp = "0";
+		level = "1";
+	};
+	new ScriptObject(classData7_3060368) {
+		class = "Undecided";
+
+		affinity = "0";
+		spendPoints = "1";
+		exp = "0";
+		level = "1";
+	};
+	new ScriptObject(classData8_3060368) {
+		class = "Undecided";
+
+		affinity = "0";
+		spendPoints = "1";
+		exp = "0";
+		level = "1";
+	};
+	new ScriptObject(classData9_3060368) {
+		class = "Undecided";
+
+		affinity = "0";
+		spendPoints = "1";
+		exp = "0";
+		level = "1";
+	};
+	new ScriptObject(classData1_3060368) {
+		class = "Demon";
+
+		hasPowerFireBall1 = "1";
+		hasPowerFireBall3 = "1";
+		hasPowerEleStrike = "1";
+		affinity = "0";
+		spendPoints = "7";
+		hasPowerThunder = "1";
+		exp = "7107";
+		hasPowerLightning = "1";
+		level = "30";
+		hasPowerEnergyVampire = "1";
+		hasPowerFireBolt = "1";
+	};
+};
+//--- OBJECT WRITE END ---

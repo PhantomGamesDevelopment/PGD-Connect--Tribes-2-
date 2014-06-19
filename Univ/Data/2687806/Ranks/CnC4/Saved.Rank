@@ -1,0 +1,27 @@
+//Ranks File For GUID 2687806
+//Created On 2010-04-06, C&C 4
+$Rank::Name[2687806] = "Arctic_Winter";
+$Rank::Rank[2687806, 1] = "Corporal";
+$Rank::XP[2687806, 1] = 4199;
+$Rank::Rank[2687806, 2] = "Initiate";
+$Rank::XP[2687806, 2] = 1813;
+$Rank::Rank[2687806, 3] = "Raider";
+$Rank::XP[2687806, 3] = 0;
+$CNC::UKills[2687806] = 9;
+$CNC::KilledByObj[2687806, ObeliskTurretDeployedBase] = 1;
+$CNC::TotalCrawlerKills[2687806] = 3;
+$CNC::TotalBuilds[2687806] = 33;
+$CNC::BuildingsBuilt[2687806, "PowerPlant"] = 10;
+$CNC::BuildingsBuilt[2687806, "Bunker"] = 23;
+$CNC::Kills[2687806, 2884678] = 2;
+$CNC::KilledByObj[2687806, SkystrikeTurretDeployedBase] = 4;
+$CNC::TotalBuildingKills[2687806] = 1;
+$CNC::BuildingKills[2687806, "Skystrike"] = 2;
+$CNC::Deaths[2687806] = 26;
+$CNC::TotalKills[2687806] = 16;
+$CNC::Kills[2687806, 2793850] = 1;
+$CNC::CrawlerKills[2687806, 2793850] = 1;
+$CNC::TotalCrawlerDecoms[2687806] = 2;
+$CNC::Kills[2687806, 2886178] = 4;
+$CNC::CrawlerKills[2687806, 2886178] = 1;
+$CNC::Help[2687806, 1] = 1;

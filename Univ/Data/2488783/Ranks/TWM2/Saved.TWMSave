@@ -1,0 +1,141 @@
+//Ranks & Settings File For GUID 2488783 / Name: redfalco
+//Created On 2011-11-20, Total Warfare Mod 2 3.7
+//--- OBJECT WRITE BEGIN ---
+new SimSet(Container_2488783) {
+
+	new ScriptObject(TWM2Client_2488783) {
+
+		rankNumber = "61";
+		weaponKillspistolImage = "20";
+		challengeCompleteGroupBuster = "1";
+		challengeCompleteLifeGiver = "1";
+		rank = "Master Commander";
+		challengeCompleteModel1887Image_2 = "1";
+		AirstrikeCalls = "31";
+		xpGain57f5ca1160bc629f27c44ac3572f8931ef751903 = "227000";
+		challengeCompleteVard1 = "1";
+		hasMedalInsigniaDefeated = "1";
+		hasMedalTheNewGeneral = "1";
+		challengeCompleteIns1 = "1";
+		bossDefeatCountTrebor = "1";
+		xpGain7157524394b5b23795f12ae582a4859a543a7db9 = "1.58241e+06";
+		weaponKillsJavelinImage = "1";
+		hasMedalHonorsA = "1";
+		challengeCompleteDownBoy = "1";
+		hasMedalThundaStruk = "1";
+		noMoreEXPacc6411866b5c324fa7563f06684d17dd798ec07 = "0";
+		bossDefeatCountLordRog = "3";
+		weaponKillsMp26CMDOImage = "26";
+		bossDefeatCountGhostOfFire = "1";
+		weaponKillsS3SRifleImage = "95";
+		challengeCompleteFromTheTop = "1";
+		challengeCompleteM1SniperRifleImage_1 = "1";
+		weaponKillsflamerImage = "34";
+		money = "6.96943e+06";
+		challengeCompleteM1SniperRifleImage_2 = "1";
+		vehicleKillsHarbingerGunship = "110";
+		weaponKillsModel1887Image = "279";
+		weaponKillsRPGImage = "15";
+		challengeCompleteMilestone25 = "1";
+		millionxp = "3";
+		xpGainacc6411866b5c324fa7563f06684d17dd798ec07 = "84452";
+		noMoreEXP57f5ca1160bc629f27c44ac3572f8931ef751903 = "0";
+		hasMedalBurningNightmare = "1";
+		challengeCompleteAngel = "1";
+		UAVCalls = "1";
+		weaponKillsM1700Image = "69";
+		challengeCompleteLRog1 = "1";
+		noMoreEXP78d85c76473a76f1cbae9cdf07bae11d6363d158 = "0";
+		noMoreEXP7157524394b5b23795f12ae582a4859a543a7db9 = "0";
+		xp = "724958";
+		challengeCompleteGoldStar = "1";
+		officer = "1";
+		bossDefeatCountCnlWindshear = "2";
+		hasMedalGamerExcuisite = "1";
+		hasMedalAboutDamnTime = "1";
+		challengeCompleteEpicFailure = "1";
+		weaponKillsALSWPSniperRifleImage = "19";
+		bossDefeatCountStormrider = "2";
+		hasMedalSkyFront = "1";
+		weaponKillsMiniChaingunImage = "15";
+		challengeCompleteHelicopter1 = "1";
+		weaponKillsPulsePhaserImage = "52";
+		xpGaindd7dfcc969fa279e882307c86c4c61faece8aef0 = "1.28778e+06";
+		GMCalls = "10";
+		challengeCompleteModel1887Image_3 = "1";
+		name = "redfalco";
+		gameTime = "5133";
+		hasMedalTheUltimateHeadshot = "1";
+		weaponKillsPg700Image = "7";
+		bossDefeatCountGhostOfLightning = "1";
+		challengeCompletePulsePhaserImage_1 = "1";
+		bossDefeatCountVardison3 = "1";
+		challengeCompleteDeagleImage_2 = "1";
+		bossDefeatCountInsignia = "2";
+		weaponKillsS3RifleImage = "321";
+		weaponKillsM1SniperRifleImage = "274";
+		challengeCompleteM1700Image_1 = "1";
+		challengeCompleteDEagleImage_1 = "1";
+		challengeCompleteS3RifleImage_3 = "1";
+		HeliCalls = "30";
+		challengeCompleteS3RifleImage_1 = "1";
+		challengeCompleteAirstrike1 = "1";
+		xpGain78d85c76473a76f1cbae9cdf07bae11d6363d158 = "6956";
+		noMoreEXPdd7dfcc969fa279e882307c86c4c61faece8aef0 = "0";
+		weaponKillsRP432Image = "3";
+		weaponKillsDeagleImage = "66";
+		hasMedalHonorsB = "1";
+		hasMedalTheSourceOfAllEvil = "1";
+		hasMedalHarbiend = "1";
+		weaponKillsR700SniperRifleImage = "29";
+		hasMedalHonorsC = "1";
+		hasMedalLordraniussFall = "1";
+		hasMedalRevengeAvoidedAgain = "1";
+		bossDefeatCountVengenor = "2";
+		challengeCompleteS3RifleImage_2 = "1";
+		challengeCompleteArmyOf50Stopped = "1";
+		challengeCompleteModel1887Image_1 = "1";
+		noMoreEXP69bb82aaef99626b68151a47d8b98fceee248d7d = "0";
+	};
+	new ScriptObject(CCD_2488783) {
+
+		totalZombieKillCount20111204 = "282";
+		ZombieKillCount20111205_S3SRifleImage_1 = "6";
+		totalZombieKillCount20111205 = "78";
+		ZombieKillCount20111204_M1700Image_1 = "28";
+		killstreakCalls20111205_4 = "1";
+		zombieHeadshots20111204 = "140";
+		ZombieKillCount20111204_Model1887Image_9 = "3";
+		ZombieKillCount20111204_Grenade_1 = "3";
+		ZombieKillCount20111204_0_3 = "2";
+		ZombieKillCount20111204_flamerImage_3 = "2";
+		killstreakCalls20111204_2 = "6";
+		ZombieKillCount20111204_0_1 = "278";
+		ZombieKillCount20111205_0_4 = "7";
+		ZombieKillCount20111204_flamerImage_1 = "4";
+		expireDate = "20111231";
+		ZombieKillCount20111204_PistolImage_1 = "4";
+		ZombieKillCount20111205_PistolImage_1 = "1";
+		ZombieKillCount20111205_S3RifleImage_4 = "7";
+		ZombieKillCount20111205_M1700Image_1 = "11";
+		ZombieKillCount20111205_0_1 = "71";
+		killstreakCalls20111204_4 = "6";
+		zombieHeadshots20111205 = "35";
+		ZombieKillCount20111204__1 = "91";
+		ZombieKillCount20111205_S3RifleImage_1 = "24";
+		ZombieKillCount20111205__1 = "29";
+		ZombieKillCount20111204_0_9 = "3";
+		killstreakCalls20111205_2 = "1";
+		ZombieKillCount20111204_S3RifleImage_1 = "148";
+	};
+	new ScriptObject(ClientStore2488783) {
+
+		nextLoto = "0";
+		nextSlot = "0";
+	};
+	new ScriptObject(CCD_2488783) {
+
+		expireDate = "20121031";
+	};
+};
+//--- OBJECT WRITE END ---

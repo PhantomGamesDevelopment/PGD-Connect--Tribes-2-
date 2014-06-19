@@ -1,0 +1,6 @@
+#PATCH 2.325
+#Alerts you to download 2.35 as soon as possible
+#This version is prone to multiple hacker's entries
+#Please download the newer version.
+#This version will no longer run due to these issues.
+*END

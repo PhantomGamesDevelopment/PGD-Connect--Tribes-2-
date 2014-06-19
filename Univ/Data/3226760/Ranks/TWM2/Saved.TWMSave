@@ -1,0 +1,18 @@
+//Ranks & Settings File For GUID 3226760 / Name: J03 RUNZz XBL
+//Created On 2010-11-20, Total Warfare Mod 2 3.4
+//--- OBJECT WRITE BEGIN ---
+new ScriptObject(TWM2Client_3226760) {
+
+	phrase = "None Set";
+	name = "J03 RUNZz XBL";
+	rank = "Corporal Grade IV";
+	weaponKillsM1700Image = "2";
+	xp = "938";
+	xpGain20101120 = "938";
+	rankNumber = "12";
+	weaponKillsS3RifleImage = "19";
+	gameTime = "127";
+	weaponKillsRP432Image = "1";
+	officer = "0";
+};
+//--- OBJECT WRITE END ---

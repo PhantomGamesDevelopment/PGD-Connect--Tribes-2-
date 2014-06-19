@@ -1,0 +1,224 @@
+//Ranks & Settings File For GUID 2000343 / Name: Phantom139
+//Ranks & Settings File For GUID 3060368 / Name: ALittlebear
+//Created On 2011-10-07, Total Warfare Mod 2 3.7
+//--- OBJECT WRITE BEGIN ---
+new SimSet(Container_3060368) {
+
+	new ScriptObject(TWM2Client_3060368) {
+
+		challengeComplete15For15 = "1";
+		noMoreEXPb47efe2379f1336e87dd71f87643bb12f14c6659 = "0";
+		weaponKillsR700SniperRifleImage = "64";
+		ZBCalls = "0";
+		hasMedalHarbiend = "1";
+		bossDefeatCountCnlWindshear = "1";
+		noMoreEXP26bc77186b7fdb0087fd458a5b4986ae1822641b = "0";
+		money = "1.18985e+06";
+		challengeCompleteS3RifleImage_2 = "1";
+		noMoreEXP3168ab06a67b7ef06492b6f0c5af4a73283849ef = "0";
+		noMoreEXP8856c216a14a70b8909906a45628ed4113371b78 = "0";
+		challengeCompleteModel1887Image_1 = "1";
+		weaponKillsspikerImage = "1";
+		noMoreEXP06357015ac3cfebae2f340207cf20616b3cdb708 = "0";
+		hasMedalTheUltimateHeadshot = "1";
+		millionxp = "2";
+		hasMedalBurningNightmare = "1";
+		weaponKillspistolImage = "4";
+		rankNumber = "57";
+		challengeCompleteModel1887Image_4 = "1";
+		challengeCompleteABC = "1";
+		noMoreEXP07e0b2857f554d7fb175dae282e985129316b474 = "0";
+		GMCalls = "1";
+		SlthAirstrikeCalls = "0";
+		weaponKillsPulsePhaserImage = "101";
+		xpGain07e0b2857f554d7fb175dae282e985129316b474 = "215240";
+		challengeCompleteS3RifleImage_1 = "1";
+		weaponKillsNapalmImage = "17";
+		bossDefeatCountGhostOfFire = "2";
+		weaponKillsS3RifleImage = "211";
+		name = "ALittlebear";
+		noMoreEXP11a735ced5bdeea30f9f7fea896b285185029d99 = "0";
+		challengeCompleteGroupBuster = "1";
+		xpGain32e62694dd31776e24f357b4acc4e988e3e000d3 = "7516";
+		NukeCalls = "0";
+		challengeCompletePulsePhaserImage_1 = "1";
+		xp = "103148";
+		weaponKillsM1SniperRifleImage = "105";
+		challengeCompleteModel1887Image_2 = "1";
+		challengeCompleteZoneCapture = "1";
+		noMoreEXP4f91474409e3b72c7c5cf8b5e59406ea15a3d711 = "0";
+		xpGain4f91474409e3b72c7c5cf8b5e59406ea15a3d711 = "1.08554e+06";
+		noMoreEXPbcdd6fa6c8dd3867bbf28038c3e891ed3f9b0659 = "0";
+		hasMedalTheLight = "1";
+		HeliCalls = "1";
+		gameTime = "5778";
+		xpGainbf60b256ceb4bb9b3edef378f8535e18bd397194 = "116";
+		noMoreEXP0974a89e4f159ee762db40aa7f4ae676abd86b4d = "0";
+		ArtyCalls = "0";
+		xpGainbcdd6fa6c8dd3867bbf28038c3e891ed3f9b0659 = "457722";
+		xpGainb47efe2379f1336e87dd71f87643bb12f14c6659 = "1272";
+		SatNukeCalls = "1";
+		GunHeliCalls = "0";
+		xpGain11a735ced5bdeea30f9f7fea896b285185029d99 = "32652";
+		hasMedalRevengeAvoidedAgain = "1";
+		noMoreEXP232efdff56b108c368cbe587f5fd4eac010b95f4 = "0";
+		bossDefeatCountLordRog = "1";
+		challengeCompleteAcceptance = "1";
+		bossDefeatCountShadeLord = "1";
+		challengeCompleteM1SniperRifleImage_1 = "1";
+		hasMedalHonorsA = "1";
+		challengeCompleteMilestone25 = "1";
+		hasMedalHonorsC = "1";
+		AirstrikeCalls = "2";
+		weaponKillsM1700Image = "24";
+		phrase = "Boom Headshot";
+		officer = "1";
+		challengeCompleteAngel = "1";
+		weaponKillsWp400Image = "14";
+		weaponKillsMp26CMDOImage = "8";
+		vehicleKillsHarbingerGunship = "1";
+		weaponKillsMiniChaingunImage = "2";
+		weaponKillsS3SRifleImage = "29";
+		xpGain232efdff56b108c368cbe587f5fd4eac010b95f4 = "3678";
+		CGCalls = "0";
+		weaponKillsM4A1Image = "1";
+		hasMedalSurvivor = "1";
+		weaponKillslasergunImage = "1";
+		noMoreEXPb4b3b9bbb32de394f880cda62002aeb900c8e5f4 = "0";
+		bossDefeatCountInsignia = "1";
+		hasMedalMySky = "1";
+		hasMedalInsigniaDefeated = "1";
+		challengeCompleteModel1887Image_3 = "1";
+		HarrierCalls = "0";
+		rank = "Commanding General";
+		hasMedalHonorsB = "1";
+		challengeCompleteLifeGiver = "1";
+		noMoreEXPbf60b256ceb4bb9b3edef378f8535e18bd397194 = "0";
+		hasMedalGamerExcuisite = "1";
+		weaponKillsModel1887Image = "648";
+		xpGainc709bed61d79462c4b5dbb6925539e9605f5832f = "5404";
+		hasMedalLordraniussFall = "1";
+		noMoreEXPc709bed61d79462c4b5dbb6925539e9605f5832f = "0";
+		UAVCalls = "0";
+		HWCalls = "0";
+		bossDefeatCountTrebor = "1";
+		noMoreEXP32e62694dd31776e24f357b4acc4e988e3e000d3 = "0";
+		noMoreEXPf97387eb0a60a81f7be6f9f82140426f0b5ba7ef = "0";
+	};
+	new ScriptObject(CCD_3060368) {
+
+		expireDate = "20120731";
+	};
+	new ScriptObject(TWM2Client_3060368) {
+
+		money = "201207";
+		millionxp = "0";
+		rankNumber = "36";
+		challengeCompleteS3RifleImage_1 = "1";
+		weaponKillsS3RifleImage = "94";
+		name = "ALittlebear";
+		noMoreEXP11a735ced5bdeea30f9f7fea896b285185029d99 = "0";
+		xp = "68046";
+		HeliCalls = "7";
+		gameTime = "4174";
+		xpGain11a735ced5bdeea30f9f7fea896b285185029d99 = "68046";
+		hasMedalHonorsA = "1";
+		AirstrikeCalls = "7";
+		weaponKillsM1700Image = "2";
+		phrase = "None Set";
+		officer = "1";
+		weaponKillsMp26CMDOImage = "5";
+		weaponKillsS3SRifleImage = "22";
+		rank = "Lieutenant Colonel";
+		hasMedalHonorsB = "1";
+		hasMedalGamerExcuisite = "1";
+	};
+	new ScriptObject(ClientStore3060368) {
+
+		purchasedFireworks = "1";
+		purchasedHologram = "0";
+		nextLoto = "0";
+		purchasedThunderstorm = "0";
+		purchasedSpontaneousCombustion = "0";
+		nextSlot = "0";
+		purchasedGuardianFlare = "0";
+		purchasedFalseExplosion = "0";
+	};
+	new ScriptObject(ClientSettings3060368) {
+	};
+	new ScriptObject(ClientSettings3060368) {
+	};
+	new ScriptObject(CCD_3060368) {
+
+		ZombieKillCount20111223_S3RifleImage_1 = "2";
+		ZombieKillCount20111223_0_3 = "11";
+		ZombieKillCount20111223_R700SniperRifleImage_1 = "41";
+		totalZombieKillCount20111223 = "88";
+		ZombieKillCount20111223_R700SniperRifleImage_2 = "2";
+		ZombieKillCount20111223_0_2 = "28";
+		ZombieKillCount20111223_Model1887Image_2 = "16";
+		ZombieKillCount20111223_AcidCannonImage_2 = "1";
+		ZombieKillCount20111223__2 = "6";
+		ZombieKillCount20111223_Model1887Image_1 = "6";
+		ZombieKillCount20111223_S3RifleImage_2 = "1";
+		ZombieKillCount20111223_MeleeImage_2 = "2";
+		ZombieKillCount20111223_MeleeImage_3 = "1";
+		ZombieKillCount20111223_0_1 = "50";
+		ZombieKillCount20111223_lasergunImage_1 = "1";
+		expireDate = "20111231";
+		ZombieKillCount20111223_Model1887Image_3 = "1";
+		ZombieKillCount20111223_R700SniperRifleImage_3 = "9";
+		zombieHeadshots20111223 = "52";
+	};
+	new ScriptObject(CCD_3060368) {
+
+		ZombieKillCount20111223_R700SniperRifleImage_1 = "5";
+		totalZombieKillCount20111223 = "33";
+		ZombieKillCount20111223_M1SniperRifleImage_1 = "29";
+		ZombieKillCount20111223_0_1 = "34";
+		expireDate = "20111231";
+		zombieHeadshots20111223 = "34";
+	};
+	new ScriptObject(CCD_3060368) {
+
+		ZombieKillCount20111223_S3RifleImage_1 = "46";
+		totalZombieKillCount20111223 = "53";
+		ZombieKillCount20111223_M1700Image_1 = "8";
+		ZombieKillCount20111223_0_1 = "54";
+		expireDate = "20111231";
+		zombieHeadshots20111223 = "45";
+	};
+	new ScriptObject(ClientSettings3060368) {
+
+		savedperk1 = "Wind Brake Beacon";
+		savedperk2 = "Kevlar Armor";
+		savedperk3 = "Hardline";
+	};
+	new ScriptObject(CCD_3060368) {
+
+		zombieHeadshots20111224 = "15";
+		totalZombieKillCount20111224 = "51";
+		killstreakCalls20111224_4 = "1";
+		ZombieKillCount20111224_0_1 = "37";
+		ZombieKillCount20111224_PistolImage_13 = "2";
+		killstreakCalls20111224_2 = "1";
+		ZombieKillCount20111224_S3SRifleImage_13 = "11";
+		ZombieKillCount20111224_Mp26CMDOImage_1 = "6";
+		ZombieKillCount20111224_Mp26CMDOImage_13 = "2";
+		ZombieKillCount20111224_S3SRifleImage_1 = "18";
+		ZombieKillCount20111224_PistolImage_1 = "1";
+		ZombieKillCount20111224_0_13 = "15";
+		ZombieKillCount20111224__1 = "12";
+		expireDate = "20111231";
+		killstreakCalls20111224_3 = "1";
+	};
+	new ScriptObject(CCD_3060368) {
+
+		expireDate = "20120131";
+	};
+	new ScriptObject(CCD_3060368) {
+
+		expireDate = "20121130";
+	};
+};
+//--- OBJECT WRITE END ---

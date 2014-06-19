@@ -1,0 +1,30 @@
+$PowerSave::Level[2771857, 1] = 21;
+$PowerSave::SpendPoints[2771857, 1] = 15;
+$PowerSave::EXP[2771857, 1] = 13000;
+$PowerSave::TopPlPosition[2771857, 1] = 1;
+$PowerSave::Class[2771857, 1] = "Demon";
+$PowerSave::HasPower[2771857, 1, "FireBolt"] = 1;
+$PowerSave::HasPower[2771857, 1, "FireBolt"] = 1;
+$PowerSave::HasPower[2771857, 1, "FireBall1"] = 1;
+$PowerSave::HasPower[2771857, 1, "FireBall1"] = 1;
+$PowerSave::HasPower[2771857, 1, "EnergyBall1"] = 1;
+$PowerSave::HasPower[2771857, 1, "EnergyBall1"] = 1;
+$PowerSave::HasPower[2771857, 1, "EnergyDrainer"] = 1;
+$PowerSave::HasPower[2771857, 1, "FireBall2"] = 1;
+$PowerSave::HasPower[2771857, 1, "FireBall3"] = 1;
+$PowerSave::HasPower[2771857, 1, "EleStrike"] = 1;
+$PowerSave::Level[2771857, 2] = 14;
+$PowerSave::SpendPoints[2771857, 2] = 0;
+$PowerSave::EXP[2771857, 2] = 1690;
+$PowerSave::TopPlPosition[2771857, 2] = 1;
+$PowerSave::Class[2771857, 2] = "Phantom";
+$PowerSave::HasPower[2771857, 2, "ShadowStrike"] = 1;
+$PowerSave::HasPower[2771857, 2, "ShadowBomb"] = 1;
+$PowerSave::HasPower[2771857, 2, "Flicker"] = 1;
+$PowerSave::HasPower[2771857, 2, "ShadowRush"] = 1;
+//--- OBJECT WRITE BEGIN ---
+new SimSet(ClientData_2771857) {
+
+	eulaAgree = "1";
+};
+//--- OBJECT WRITE END ---

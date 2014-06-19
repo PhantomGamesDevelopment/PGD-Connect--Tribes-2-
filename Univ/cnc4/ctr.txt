@@ -1,0 +1,15 @@
+C&C Tiberium Uprising
+Created By: Phantom139, DarkTiger
+Mod Version: Alpha 13
+---------------------
+Latest Updates:
+* Welcome to the brand new C&C TU Client!
+* Similar to our first C&C mod, it has tabs for each faction
+* Data will be added to them as time progresses!
+* A C&C TU soundpack is in the works by DarkTiger.
+******************************
+* New gameplay style has been introduced
+* Instead of being assigned your faction by team
+* you now choose your faction to use.
+******************************
+**End

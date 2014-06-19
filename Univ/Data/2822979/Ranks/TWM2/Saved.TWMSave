@@ -1,0 +1,143 @@
+//Ranks & Settings File For GUID 2822979 / Name: MasterBlaster10
+//Created On 2011-09-20, Total Warfare Mod 2 3.7
+//--- OBJECT WRITE BEGIN ---
+new SimSet(Container_2822979) {
+
+	new ScriptObject(TWM2Client_2822979) {
+
+		UAVCalls = "0";
+		HWCalls = "0";
+		officer = "4";
+		ZBCalls = "0";
+		challengeCompletePulsePhaserImage_1 = "1";
+		bossDefeatCountVardison3 = "1";
+		challengeCompleteTreb1 = "1";
+		hasMedalTheSourceOfAllEvil = "1";
+		challengeCompleteFromTheTop = "1";
+		noMoreEXPe8f4aaf1f8d465c5d336e38587aae9bf6e3c06ba = "0";
+		xpGain3fff5581ed175894ba62b9644117f99dbb2df614 = "96594";
+		SatNukeCalls = "12";
+		money = "1.29413e+07";
+		noMoreEXPbd48c846517b4b75dc7cd1d86c0fafe33e62e6cb = "0";
+		name = "MasterBlaster10";
+		challengeCompleteCentaur1 = "1";
+		xpGain5fee0414a8d60335286629d7cd63255d472cda63 = "86";
+		millionxp = "2";
+		SlthAirstrikeCalls = "0";
+		GMCalls = "34";
+		weaponKillsPlasmaTorpedoImage = "3";
+		challengeCompleteAirstrike1 = "1";
+		weaponKillsS3RifleImage = "397";
+		NukeCalls = "0";
+		challengeCompletePulsePhaserImage_3 = "1";
+		challengeCompletePulsePhaserImage_2 = "1";
+		noMoreEXP5be143b521a92037e4ff2c5bdc0d1c925af7e527 = "0";
+		hasMedalHarbiend = "1";
+		xp = "963012";
+		weaponKillsPulseSMGImage = "3";
+		hasMedalHonorsA = "1";
+		challengeCompleteM1700Image_2 = "1";
+		xpGain4f91474409e3b72c7c5cf8b5e59406ea15a3d711 = "770010";
+		challengeCompleteM1700Image_1 = "1";
+		xpGain5be143b521a92037e4ff2c5bdc0d1c925af7e527 = "979566";
+		HeliCalls = "19";
+		gameTime = "11015";
+		challengeCompleteCentaur2 = "1";
+		weaponKillspistolImage = "1";
+		bossDefeatCountVengenor = "1";
+		ArtyCalls = "25";
+		challengeCompleteS3RifleImage_3 = "1";
+		bossDefeatCountLordRog = "1";
+		noMoreEXP5fee0414a8d60335286629d7cd63255d472cda63 = "0";
+		GunHeliCalls = "0";
+		rankNumber = "60";
+		challengeCompleteAcceptance = "1";
+		vehicleKillsScoutFlyer = "2";
+		noMoreEXP3fff5581ed175894ba62b9644117f99dbb2df614 = "0";
+		challengeCompleteUAMS1 = "1";
+		weaponKillsModel1887Image = "1";
+		noMoreEXP4f91474409e3b72c7c5cf8b5e59406ea15a3d711 = "0";
+		hasMedalGamerExcuisite = "1";
+		AirstrikeCalls = "57";
+		challengeCompleteEpicFailure = "1";
+		weaponKillsDeagleImage = "2";
+		challengeCompleteS3RifleImage_2 = "1";
+		challengeCompleteSimonSays = "1";
+		hasMedalRevengeAvoidedAgain = "1";
+		bossDefeatCountCnlWindshear = "2";
+		hasMedalTheNewGeneral = "1";
+		xpGaine8f4aaf1f8d465c5d336e38587aae9bf6e3c06ba = "586236";
+		hasMedalBurningNightmare = "1";
+		bossDefeatCountGhostOfFire = "1";
+		challengeCompleteVard1 = "1";
+		hasMedalHonorsB = "1";
+		challengeCompleteS3RifleImage_1 = "1";
+		CGCalls = "0";
+		weaponKillsPulsePhaserImage = "1117";
+		hasMedalThundaStruk = "1";
+		noMoreEXPbcdd6fa6c8dd3867bbf28038c3e891ed3f9b0659 = "0";
+		weaponKillsM1700Image = "107";
+		challengeCompletePulsePhaserImage_4 = "1";
+		hasMedalHonorsC = "1";
+		HarrierCalls = "0";
+		noMoreEXPeeb6c2be70a59f303f0728bbe542e6b394262d7e = "0";
+		bossDefeatCountShadeLord = "3";
+		xpGaina434f8ec3f83ddad58d113e12223bf37481a2472 = "12010";
+		bossDefeatCountTrebor = "2";
+		xpGaineeb6c2be70a59f303f0728bbe542e6b394262d7e = "299580";
+		rank = "Commander";
+		bossDefeatCountGhostOfLightning = "1";
+		hasMedalLordraniussFall = "1";
+		xpGainbcdd6fa6c8dd3867bbf28038c3e891ed3f9b0659 = "180906";
+		hasMedalTheLight = "1";
+		challengeCompletePulsePhaserImage_5 = "1";
+		noMoreEXPa434f8ec3f83ddad58d113e12223bf37481a2472 = "0";
+	};
+	new ScriptObject(CCD_2822979) {
+
+		expireDate = "20120131";
+	};
+	new ScriptObject(ClientSettings2822979) {
+	};
+	new ScriptObject(ClientStore2822979) {
+
+		nextLoto = "0";
+		nextSlot = "0";
+	};
+	new ScriptObject(CCD_2822979) {
+
+		expireDate = "20111231";
+	};
+	new ScriptObject(CCD_2822979) {
+
+		expireDate = "20120131";
+	};
+	new ScriptObject(CCD_2822979) {
+
+		expireDate = "20120131";
+	};
+	new ScriptObject(CCD_2822979) {
+
+		expireDate = "20120131";
+	};
+	new ScriptObject(CCD_2822979) {
+
+		successiveStreak20120118_1 = "1";
+		successiveStreak20120118_2 = "2";
+		successiveStreak20120118_3 = "1";
+		totalPlayerKillCount20120118 = "6";
+		PlayerKillCount20120118_ = "5";
+		PlayerKillCount20120118_PlasmaTorpedoImage = "1";
+		successiveStreak20120118_4 = "1";
+		expireDate = "20120131";
+	};
+	new ScriptObject(CCD_2822979) {
+
+		totalZombieKillCount20120118 = "3";
+		ZombieKillCount20120118_0_1 = "4";
+		ZombieKillCount20120118_S3SRifleImage_1 = "3";
+		expireDate = "20120131";
+		ZombieKillCount20120118_Mp26CMDOImage_1 = "1";
+	};
+};
+//--- OBJECT WRITE END ---

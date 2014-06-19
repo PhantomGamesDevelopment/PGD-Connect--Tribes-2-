@@ -1,0 +1,4 @@
+#Patch 2.21 - 1-8-10: Testing the autoupdate system
+[DL]	/public/Univ/twm2/patches/2.21/Works.txt	Works.txt
+[RL]	scripts/TWM2/Systems/MainControl.cs	2	$TWM2::Version = 2.21;
+*END

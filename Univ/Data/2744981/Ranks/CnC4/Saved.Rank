@@ -1,0 +1,18 @@
+//Ranks File For GUID 2744981
+//Created On 2010-12-05, C&C 4
+$Rank::Name[2744981] = "Runningbook";
+$Rank::Rank[2744981, 1] = "Gunnary Private";
+$Rank::XP[2744981, 1] = 1281;
+$Rank::Rank[2744981, 2] = "Acolyte";
+$Rank::XP[2744981, 2] = 0;
+$Rank::Rank[2744981, 3] = "Raider";
+$Rank::XP[2744981, 3] = 0;
+$CNC::Deaths[2744981] = 13;
+$CNC::KilledByObj[2744981, DeployedIonControl] = 1;
+$CNC::TotalKills[2744981] = 4;
+$CNC::Kills[2744981, 2000343] = 1;
+$CNC::Kills[2744981, 3206219] = 2;
+$CNC::UKills[2744981] = 1;
+$CNC::TotalCrawlerDecoms[2744981] = 1;
+$CNC::KilledByObj[2744981, ObeliskTurretDeployedBase] = 2;
+$CNC::KilledByObj[2744981, SalamanderFireBombTurret] = 1;

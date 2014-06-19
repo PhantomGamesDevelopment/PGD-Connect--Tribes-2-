@@ -1,0 +1,89 @@
+$PowerSave::Level[2073419, 1] = 1;
+$PowerSave::SpendPoints[2073419, 1] = 1;
+$PowerSave::EXP[2073419, 1] = 0;
+$PowerSave::TopPlPosition[2073419, 1] = 1;
+//--- OBJECT WRITE BEGIN ---
+new SimSet(ClientData_2073419) {
+
+	new ScriptObject(classData10_2073419) {
+		class = "Undecided";
+
+		level = "1";
+		spendPoints = "1";
+		exp = "0";
+		affinity = "0";
+	};
+	new ScriptObject(classData2_2073419) {
+		class = "Undecided";
+
+		level = "1";
+		spendPoints = "1";
+		exp = "0";
+		affinity = "0";
+	};
+	new ScriptObject(classData3_2073419) {
+		class = "Undecided";
+
+		level = "1";
+		spendPoints = "1";
+		exp = "0";
+		affinity = "0";
+	};
+	new ScriptObject(classData4_2073419) {
+		class = "Undecided";
+
+		level = "1";
+		spendPoints = "1";
+		exp = "0";
+		affinity = "0";
+	};
+	new ScriptObject(classData5_2073419) {
+		class = "Undecided";
+
+		level = "1";
+		spendPoints = "1";
+		exp = "0";
+		affinity = "0";
+	};
+	new ScriptObject(classData6_2073419) {
+		class = "Undecided";
+
+		level = "1";
+		spendPoints = "1";
+		exp = "0";
+		affinity = "0";
+	};
+	new ScriptObject(classData7_2073419) {
+		class = "Undecided";
+
+		level = "1";
+		spendPoints = "1";
+		exp = "0";
+		affinity = "0";
+	};
+	new ScriptObject(classData8_2073419) {
+		class = "Undecided";
+
+		level = "1";
+		spendPoints = "1";
+		exp = "0";
+		affinity = "0";
+	};
+	new ScriptObject(classData9_2073419) {
+		class = "Undecided";
+
+		level = "1";
+		spendPoints = "1";
+		exp = "0";
+		affinity = "0";
+	};
+	new ScriptObject(classData1_2073419) {
+		class = "Undecided";
+
+		level = "1";
+		spendPoints = "1";
+		exp = "0";
+		affinity = "0";
+	};
+};
+//--- OBJECT WRITE END ---

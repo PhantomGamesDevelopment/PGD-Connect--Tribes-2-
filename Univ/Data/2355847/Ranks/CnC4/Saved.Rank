@@ -1,0 +1,23 @@
+//Ranks File For GUID 2355847
+//Created On 2010-04-17, C&C 4
+$Rank::Name[2355847] = "Harris";
+$Rank::Rank[2355847, 1] = "Private";
+$Rank::XP[2355847, 1] = 628;
+$Rank::Rank[2355847, 2] = "Acolyte";
+$Rank::XP[2355847, 2] = 0;
+$CNC::Deaths[2355847] = 17;
+$CNC::TotalBuildingKills[2355847] = 1;
+$CNC::BuildingKills[2355847, "ObeliskOfLight"] = 1;
+$CNC::KilledByObj[2355847, ObeliskTurretDeployedBase] = 1;
+$CNC::TotalCrawlerDecoms[2355847] = 1;
+$CNC::KilledByPl[2355847, 2687806] = 7;
+$CNC::TotalKills[2355847] = 8;
+$CNC::Kills[2355847, 2485526] = 2;
+$CNC::TotalCrawlerKills[2355847] = 3;
+$CNC::CrawlerKills[2355847, 2485526] = 1;
+$CNC::UKills[2355847] = 4;
+$CNC::CrawlerKills[2355847, 2687806] = 1;
+$CNC::KilledByPl[2355847, 2148110] = 4;
+$CNC::Kills[2355847, 2148110] = 1;
+$CNC::Kills[2355847, 2000343] = 1;
+$CNC::CrawlerKills[2355847, 2000343] = 1;

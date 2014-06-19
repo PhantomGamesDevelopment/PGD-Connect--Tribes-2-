@@ -1,0 +1,135 @@
+//Ranks & Settings File For GUID 2205246 / Name: Castiger
+//Created On 2011-06-23, Total Warfare Mod 2 3.6
+//--- OBJECT WRITE BEGIN ---
+new SimSet(Container_2205246) {
+
+	new ScriptObject(TWM2Client_2205246) {
+
+		noMoreEXPc99f0f968381c3efca4ec770550d3b9fa369c4e9 = "0";
+		xp = "909194";
+		challengeComplete15For15 = "1";
+		noMoreEXP07e0b2857f554d7fb175dae282e985129316b474 = "0";
+		HeliCalls = "0";
+		challengeCompleteModel1887Image_2 = "1";
+		challengeCompleteS3RifleImage_3 = "1";
+		hasMedalBurningNightmare = "1";
+		challengeCompleteYvex2 = "1";
+		hasMedalGamerExcuisite = "1";
+		noMoreEXP34388eba3196d3e9224da2701a0743701fbee7b7 = "0";
+		gameTime = "7110";
+		bossDefeatCountInsignia = "1";
+		hasMedalTheSourceOfAllEvil = "1";
+		ArtyCalls = "1";
+		challengeCompleteModel1887Image_1 = "1";
+		hasMedalSrysly = "1";
+		xpGainbfd3af5ac87c8ba425473a98c935ec3a04b4aa41 = "1.26224e+06";
+		noMoreEXPd42b9e509cb3fa62d6456d4b2eb65d2f9ad74e4b = "0";
+		bossDefeatCountCnlWindshear = "3";
+		GunHeliCalls = "0";
+		challengeCompleteM1SniperRifleImage_1 = "1";
+		xpGainb1060db2b42a2ee310834657d37cdd12a3c641f4 = "947276";
+		bossDefeatCountTrebor = "7";
+		challengeCompleteMilestone25 = "1";
+		challengeCompleteS3RifleImage_1 = "1";
+		xpGainaf3d41c0bf4e57991df72328fbba87cd53317fc4 = "200";
+		officer = "2";
+		challengeCompleteLRog1 = "1";
+		challengeCompleteS3RifleImage_4 = "1";
+		noMoreEXPb0368046d129bf6f36fd8d3738013d518762379e = "0";
+		noMoreEXPbfd3af5ac87c8ba425473a98c935ec3a04b4aa41 = "0";
+		xpGainfbb5b6b4f8e8fb89a7827ea5778aa61bf1d4deba = "102684";
+		AirstrikeCalls = "3";
+		FissionCalls = "2";
+		xpGain07e0b2857f554d7fb175dae282e985129316b474 = "24260";
+		challengeCompletePulsePhaserImage_3 = "1";
+		noMoreEXPda594d12b291175d63f4c64bafdcfa94150d4812 = "0";
+		phrase = "None Set";
+		noMoreEXP8ee84d4400fdb15487f29f332777c6fb40cbdb93 = "0";
+		challengeCompleteAcceptance = "1";
+		noMoreEXPaf3d41c0bf4e57991df72328fbba87cd53317fc4 = "0";
+		CGCalls = "0";
+		hasMedalTheNewGeneral = "1";
+		noMoreEXPc9b1c8e149a084575e67d1204b521967027eeac5 = "0";
+		bossDefeatCountVengenor = "4";
+		hasMedalHonorsC = "1";
+		hasMedalInsigniaDefeated = "1";
+		challengeCompleteTreb3 = "1";
+		noMoreEXPd19410caba8981d853e95f180aee12d56c1d76e6 = "0";
+		noMoreEXPbf60b256ceb4bb9b3edef378f8535e18bd397194 = "0";
+		hasMedalRevengeAvoidedAgain = "1";
+		HarrierCalls = "1";
+		bossDefeatCountVardison3 = "2";
+		hasMedalHarbiend = "1";
+		challengeCompleteGOL1 = "1";
+		SatNukeCalls = "1";
+		name = "Castiger";
+		noMoreEXPb1060db2b42a2ee310834657d37cdd12a3c641f4 = "0";
+		rank = "Master Commander";
+		noMoreEXP8967c9a10334098c95a5e0fc77f75a334e312bc2 = "0";
+		hasMedalAboutDamnTime = "1";
+		weaponKillsPlasmaImage = "1";
+		UAVCalls = "0";
+		HWCalls = "0";
+		weaponKillsPulsePhaserImage = "374";
+		challengeCompleteGOL2 = "1";
+		xpGainda594d12b291175d63f4c64bafdcfa94150d4812 = "736";
+		challengeCompleteAngel = "1";
+		ZBCalls = "1";
+		xpGainbf60b256ceb4bb9b3edef378f8535e18bd397194 = "8734";
+		xpGainb0368046d129bf6f36fd8d3738013d518762379e = "55284";
+		rankNumber = "61";
+		hasMedalLordraniussFall = "1";
+		challengeCompleteGameEnder = "1";
+		challengeCompleteS3RifleImage_2 = "1";
+		challengeCompleteTreb2 = "1";
+		hasMedalDownWithTheHarbingers = "1";
+		noMoreEXPdb8184dfdfb3bae7e35d6a877c15c940318d3f3c = "0";
+		challengeCompleteTreb1 = "1";
+		hasMedalTheUltimateHeadshot = "1";
+		money = "490436";
+		bossDefeatCountGhostOfFire = "9";
+		noMoreEXPce254afd0de88a81022dc6913dd6eec687f75ab8 = "0";
+		millionxp = "3";
+		challengeCompleteCWS1 = "1";
+		challengeCompletePulsePhaserImage_1 = "1";
+		bossDefeatCountYvex = "7";
+		GMCalls = "0";
+		SlthAirstrikeCalls = "1";
+		weaponKillsM1SniperRifleImage = "102";
+		hasMedalThundaStruk = "1";
+		challengeCompleteYvex1 = "1";
+		challengeCompleteVard1 = "1";
+		noMoreEXPfbb5b6b4f8e8fb89a7827ea5778aa61bf1d4deba = "0";
+		weaponKillsS3RifleImage = "681";
+		xpGain8ee84d4400fdb15487f29f332777c6fb40cbdb93 = "74744";
+		xpGainc9b1c8e149a084575e67d1204b521967027eeac5 = "1.33483e+06";
+		NukeCalls = "0";
+		weaponKillsModel1887Image = "175";
+		challengeCompletePulsePhaserImage_2 = "1";
+		bossDefeatCountLordRog = "2";
+		weaponKillsSuperChaingunImage = "97";
+		bossDefeatCountGhostOfLightning = "6";
+	};
+	new ScriptObject(ClientStore2205246) {
+
+		nextLoto = "0";
+		nextSlot = "0";
+	};
+	new ScriptObject(ClientSettings2205246) {
+
+		weaponUpgradeS3RifleImage = "Grip";
+		savedstreak5 = "14";
+		savedstreak2 = "5";
+		savedperk3 = "Clip Boxes";
+		savedperk2 = "No-Infect Armor";
+		savedstreak1 = "2";
+		savedperk1 = "Advanced Grip";
+		savedstreak3 = "6";
+		savedstreak4 = "8";
+	};
+	new ScriptObject(CCD_2205246) {
+
+		expireDate = "20120531";
+	};
+};
+//--- OBJECT WRITE END ---

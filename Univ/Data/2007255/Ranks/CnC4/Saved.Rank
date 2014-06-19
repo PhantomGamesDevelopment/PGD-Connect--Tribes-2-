@@ -1,0 +1,23 @@
+//Ranks File For GUID 2007255
+//Created On 2010-04-16, C&C 4
+$Rank::Name[2007255] = "DEATHBORN";
+$Rank::Rank[2007255, 1] = "Private";
+$Rank::XP[2007255, 1] = 632;
+$Rank::Rank[2007255, 2] = "Acolyte";
+$Rank::XP[2007255, 2] = 0;
+$CNC::Deaths[2007255] = 11;
+$CNC::TotalCrawlerDecoms[2007255] = 5;
+$CNC::KilledByObj[2007255, RifleSoldierArmor] = 2;
+$CNC::TotalKills[2007255] = 27;
+$CNC::Kills[2007255, 2007255] = 2;
+$CNC::UKills[2007255] = 24;
+$CNC::TotalBuilds[2007255] = 8;
+$CNC::BuildingsBuilt[2007255, "PowerPlant"] = 6;
+$CNC::BuildingsBuilt[2007255, "Bunker"] = 2;
+$CNC::TotalBuildingLosses[2007255] = 3;
+$CNC::BuildingLosses[2007255, "Bunker"] = 1;
+$CNC::TotalBuildingKills[2007255] = 3;
+$CNC::BuildingKills[2007255, "ObeliskOfLight"] = 1;
+$CNC::BuildingLosses[2007255, "PowerPlant"] = 2;
+$CNC::BuildingKills[2007255, "PowerPlant"] = 2;
+$CNC::Kills[2007255, 2148110] = 1;

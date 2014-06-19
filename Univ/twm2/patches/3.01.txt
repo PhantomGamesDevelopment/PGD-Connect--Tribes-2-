@@ -1,0 +1,4 @@
+#Patch 3.01 6-22-10: Modifies the killstreak datablocks to prevent admins from using /getgun to obtain killstreaks
+[DL]	/public/Univ/twm2/patches/3.01/SWBeaconer.cs	scripts/weapons/Equipment/SWBeaconer.cs
+[RL]	scripts/TWM2/Systems/MainControl.cs	2	$TWM2::Version = 3.01;
+*END

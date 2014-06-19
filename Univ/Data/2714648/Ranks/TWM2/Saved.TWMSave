@@ -1,0 +1,123 @@
+//Ranks & Settings File For GUID 2714648 / Name: ChuckConnors
+//Created On 2010-11-02, Total Warfare Mod 2 3.4
+//--- OBJECT WRITE BEGIN ---
+new SimSet(Container_2714648) {
+
+	new ScriptObject(TWM2Client_2714648) {
+
+		noMoreEXP91add7cf7886d77002ae84ea77fa577c0db892c1 = "0";
+		weaponKillsNuclearImage = "12";
+		noMoreEXPba937bb0ce80fc1d9d269b739df9ba36963f59ef = "0";
+		challengeCompleteM1SniperRifleImage_1 = "1";
+		weaponKillsG17SniperRifleImage = "1";
+		weaponKillsMiniChaingunImage = "4";
+		CGCalls = "0";
+		weaponKillslasergunImage = "2";
+		rank = "3 Star General";
+		hasMedalRevengeAvoidedAgain = "1";
+		weaponKillsspikerImage = "1";
+		weaponKillsM1700Image = "40";
+		weaponKillsMp26Image = "8";
+		bossDefeatCountYvex = "2";
+		xpGain20101111 = "41";
+		phrase = "None Set";
+		noMoreEXPee7c9a49018013a409231982c286cef30e7823cc = "0";
+		weaponKillspistolImage = "5";
+		HarrierCalls = "0";
+		hasMedalTheSourceOfAllEvil = "1";
+		noMoreEXPa8fddb1f8fd50ae9e9deff924f327c011b684f1c = "0";
+		xpGaind163c4100b1ac6d411ab99ba7d2497825c4d50ee = "157058";
+		rankNumber = "51";
+		noMoreEXP85e7d97d19576d63d1950df6305f4e40ba337578 = "1";
+		hasMedalTheUltimateHeadshot = "1";
+		xpGain85e7d97d19576d63d1950df6305f4e40ba337578 = "75000";
+		xpGain20101102 = "27891";
+		UAVCalls = "20";
+		HWCalls = "0";
+		xpGainfdd9330966537889b883c917c248124703b206ee = "22912";
+		hasMedalTheNewGeneral = "1";
+		xpGain91add7cf7886d77002ae84ea77fa577c0db892c1 = "748";
+		xpGainba937bb0ce80fc1d9d269b739df9ba36963f59ef = "3620";
+		weaponKillsS3RifleImage = "72";
+		ZBCalls = "0";
+		money = "557916";
+		challengeCompleteLRog1 = "1";
+		challengeCompleteVard1 = "1";
+		noMoreEXP3036b90eb1218d797775c8e553bff2027f8a2da7 = "0";
+		challengeCompleteAcceptance = "1";
+		hasMedalSerialKiller = "1";
+		noMoreEXPfdd9330966537889b883c917c248124703b206ee = "0";
+		noMoreEXP1d2b8714ce7c012c9d52c1996bb86953bf638943 = "0";
+		noMoreEXPd163c4100b1ac6d411ab99ba7d2497825c4d50ee = "0";
+		SlthAirstrikeCalls = "0";
+		GMCalls = "0";
+		weaponKillsWp400Image = "25";
+		hasMedalDailyMax = "1";
+		vehicleKillsScoutFlyer = "1";
+		NukeCalls = "0";
+		xpGain1d2b8714ce7c012c9d52c1996bb86953bf638943 = "2050";
+		hasMedalHonorsB = "1";
+		weaponKillsG41RifleImage = "5";
+		weaponKillsM4A1Image = "19";
+		bossDefeatCountVengenor = "1";
+		xp = "688933";
+		bossDefeatCountVardison3 = "4";
+		bossDefeatCountLordRog = "2";
+		xpGaineda914a77e55aad7e7c12a57aa7f122fa43d085b = "2009";
+		weaponKillsM1SniperRifleImage = "190";
+		millionxp = "0";
+		officer = "0";
+		weaponKillsHarbingerGunshipColliderImage = "2";
+		weaponKillsMRXXImage = "4";
+		HeliCalls = "3";
+		weaponKillsSA2400Image = "1";
+		noMoreEXP415828c918be6cdc06183a0e62ee2793b28dd66e = "0";
+		xpGain3036b90eb1218d797775c8e553bff2027f8a2da7 = "223144";
+		weaponKillsPulsePhaserImage = "62";
+		xpGain20101109 = "3064";
+		xpGainee7c9a49018013a409231982c286cef30e7823cc = "112408";
+		challengeCompletePulsePhaserImage_1 = "1";
+		weaponKillsflamerImage = "3";
+		ArtyCalls = "0";
+		hasMedalHonorsC = "1";
+		noMoreEXPeda914a77e55aad7e7c12a57aa7f122fa43d085b = "0";
+		hasMedalSrysly = "1";
+		name = "ChuckConnors";
+		GunHeliCalls = "0";
+		weaponKillsSuperChaingunImage = "32";
+		gameTime = "1336";
+		AirstrikeCalls = "9";
+		challengeCompleteS3RifleImage_1 = "1";
+		xpGaina8fddb1f8fd50ae9e9deff924f327c011b684f1c = "58988";
+		challengeCompleteVard2 = "1";
+	};
+	new ScriptObject(ClientStore2714648) {
+
+		nextSlot = "0";
+		nextLoto = "0";
+	};
+	new ScriptObject(CCD_2714648) {
+
+		ZombieKillCount20110630__2 = "8";
+		totalZombieKillCount20110630 = "59";
+		ZombieKillCount20110630_PulsePhaserImage_1 = "2";
+		zombieHeadshots20110630 = "44";
+		ZombieKillCount20110630_M1SniperRifleImage_1 = "44";
+		killstreakCalls20110630_2 = "2";
+		ZombieKillCount20110630_PulsePhaserImage_2 = "3";
+		ZombieKillCount20110630__1 = "1";
+		ZombieKillCount20110630_Grenade_2 = "1";
+		expireDate = "20110630";
+		ZombieKillCount20110630_0_2 = "12";
+		ZombieKillCount20110630_0_1 = "47";
+	};
+	new ScriptObject(CCD_2714648) {
+
+		ZombieKillCount20110706__9 = "1";
+		totalZombieKillCount20110706 = "6";
+		ZombieKillCount20110706_PulsePhaserImage_9 = "5";
+		expireDate = "20110731";
+		ZombieKillCount20110706_0_9 = "6";
+	};
+};
+//--- OBJECT WRITE END ---

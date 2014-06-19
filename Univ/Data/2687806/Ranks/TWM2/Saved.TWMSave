@@ -1,0 +1,71 @@
+//Ranks & Settings File For GUID 2687806 / Name: Arctic_Winter
+//Created On 2010-11-02, Total Warfare Mod 2 3.4
+//--- OBJECT WRITE BEGIN ---
+new SimSet(Container_2687806) {
+
+	new ScriptObject(CCD_2687806) {
+
+		ZombieKillCount20110702_0_9 = "5";
+		ZombieKillCount20110702__5 = "4";
+		ZombieKillCount20110705__1 = "14";
+		ZombieKillCount20110702__12 = "1";
+		totalZombieKillCount20110705 = "21";
+		ZombieKillCount20110702_S3RifleImage_15 = "1";
+		ZombieKillCount20110702__4 = "8";
+		ZombieKillCount20110702_0_12 = "1";
+		ZombieKillCount20110702_0_4 = "8";
+		expireDate = "20110731";
+		ZombieKillCount20110702_PulsePhaserImage_11 = "1";
+		ZombieKillCount20110706_0_1 = "1";
+		ZombieKillCount20110702_0_5 = "4";
+		ZombieKillCount20110702__1 = "3";
+		ZombieKillCount20110705_0_1 = "15";
+		ZombieKillCount20110702_PulsePhaserImage_1 = "1";
+		totalZombieKillCount20110706 = "1";
+		ZombieKillCount20110705_PulsePhaserImage_2 = "3";
+		ZombieKillCount20110702__9 = "5";
+		ZombieKillCount20110702_0_11 = "1";
+		ZombieKillCount20110705_MiniColliderCannonImage_1 = "1";
+		ZombieKillCount20110705__2 = "3";
+		ZombieKillCount20110702_0_15 = "1";
+		ZombieKillCount20110706__1 = "1";
+		ZombieKillCount20110702_0_3 = "3";
+		ZombieKillCount20110702_0_1 = "4";
+		ZombieKillCount20110705_0_2 = "6";
+		ZombieKillCount20110702__3 = "3";
+		totalZombieKillCount20110702 = "27";
+	};
+	new ScriptObject(ClientStore2687806) {
+
+		nextLoto = "0";
+		nextSlot = "0";
+	};
+	new ScriptObject(TWM2Client_2687806) {
+
+		challengeCompleteVard1 = "1";
+		hasMedalGamerExcuisite = "1";
+		weaponKillsSuperChaingunImage = "6";
+		rank = "2 Star General";
+		officer = "1";
+		hasMedalTheSourceOfAllEvil = "1";
+		noMoreEXP9ebf52d7849805989308bb86b0eed48fdf8f2b26 = "0";
+		money = "2.23364e+06";
+		noMoreEXP37d004e0f3d875d102d73bb0eb6faf2d05c69bdb = "0";
+		bossDefeatCountVardison3 = "3";
+		noMoreEXP2dbce9985bacac8a47437cb73c0443ee30ce6d06 = "0";
+		noMoreEXPbfd3af5ac87c8ba425473a98c935ec3a04b4aa41 = "0";
+		xp = "592000";
+		millionxp = "0";
+		hasMedalHonorsC = "1";
+		challengeCompleteVard2 = "1";
+		rankNumber = "50";
+		xpGain3036b90eb1218d797775c8e553bff2027f8a2da7 = "592000";
+		name = "Arctic_Winter";
+		noMoreEXP3036b90eb1218d797775c8e553bff2027f8a2da7 = "0";
+		gameTime = "6924";
+		weaponKillsNuclearImage = "2";
+	};
+	new ScriptObject(ClientSettings2687806) {
+	};
+};
+//--- OBJECT WRITE END ---

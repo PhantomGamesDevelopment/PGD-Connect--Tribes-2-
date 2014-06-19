@@ -1,0 +1,3 @@
+This is a text file to test the new auto update system.
+
+If you can read this file, the auto updater works perfectly!

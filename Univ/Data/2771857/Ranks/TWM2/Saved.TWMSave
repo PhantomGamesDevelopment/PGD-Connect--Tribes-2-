@@ -1,0 +1,131 @@
+//Ranks & Settings File For GUID 2771857 / Name: Xlthuathopec
+//Created On 2010-11-20, Total Warfare Mod 2 3.4
+//--- OBJECT WRITE BEGIN ---
+new SimSet(Container_2771857) {
+
+	new ScriptObject(TWM2Client_2771857) {
+
+		challengeCompleteM1SniperRifleImage_2 = "1";
+		gameTime = "3287";
+		noMoreEXPb83507ec9eb66c5c2ad20c7a9d913e577e3ce341 = "0";
+		noMoreEXPc8d602f0119c3e057f98db8a525ca495492398b4 = "0";
+		ArtyCalls = "0";
+		noMoreEXP12450b8e5194422786c5c4fe37d7568f39290898 = "0";
+		weaponKillsM4A1Image = "1";
+		challengeCompletespikerImage_1 = "1";
+		challengeCompleteBombDetonated = "1";
+		GunHeliCalls = "0";
+		noMoreEXP3fff5581ed175894ba62b9644117f99dbb2df614 = "0";
+		challengeCompleteM1700Image_1 = "1";
+		xpGain4cd972c0b24dfb1cd782ebf2cec5b8e02036a7e0 = "150752";
+		challengeCompleteM1SniperRifleImage_3 = "1";
+		xpGain20101120 = "144239";
+		AirstrikeCalls = "11";
+		challengeCompleteUndefeatable = "1";
+		challengeCompletePulsePhaserImage_2 = "1";
+		weaponKillsM1700Image = "61";
+		challengeComplete3For5Sabo = "1";
+		xpGain3fff5581ed175894ba62b9644117f99dbb2df614 = "19554";
+		weaponKillspistolImage = "41";
+		phrase = "So i herd u liek mudkipz.";
+		challengeCompleteWp400Image_1 = "1";
+		noMoreEXPacc6411866b5c324fa7563f06684d17dd798ec07 = "0";
+		hasMedalDailyMax = "1";
+		CGCalls = "0";
+		challengeComplete3For5 = "1";
+		weaponKillsspikerImage = "28";
+		challengeCompletepistolImage_1 = "1";
+		challengeCompleteMatchSet = "1";
+		challengeCompleteZoneCapture = "1";
+		challengeCompleteS3RifleImage_2 = "1";
+		weaponKillsPulsePhaserImage = "351";
+		hasMedalHonorsB = "1";
+		challengeCompleteS3RifleImage_1 = "1";
+		HarrierCalls = "2";
+		officer = "0";
+		hasMedalTheUltimateHeadshot = "1";
+		noMoreEXP4cd972c0b24dfb1cd782ebf2cec5b8e02036a7e0 = "0";
+		challengeCompleteM1SniperRifleImage_1 = "1";
+		noMoreEXP8fe73260320a28b967b224838a8d18e8b114b893 = "0";
+		weaponKillsWp400Image = "197";
+		rank = "General";
+		noMoreEXP1e84ac41718b17b5c1b99f04a25438aa2536b56e = "0";
+		hasMedalGamerExcuisite = "1";
+		UAVCalls = "6";
+		HWCalls = "0";
+		hasMedalInsigniaDefeated = "1";
+		name = "Xlthuathopec";
+		noMoreEXP092e6e043d7478c5d69cae7658ba713758156a84 = "0";
+		ZBCalls = "0";
+		challengeCompleteS3RifleImage_3 = "1";
+		challengeCompleteVard1 = "1";
+		weaponKillsStingerImage = "5";
+		weaponKillsM1SniperRifleImage = "795";
+		weaponKillsS3RifleImage = "406";
+		SatNukeCalls = "2";
+		weaponKillslasergunImage = "5";
+		challengeCompletePulsePhaserImage_3 = "1";
+		money = "102422";
+		bossDefeatCountLordRog = "1";
+		xpGaincb5f2b6e9942a0fb863208a2a982d96514215537 = "150";
+		noMoreEXPb8aa431df9cc0276ff50d4c36ad4db3645aa7954 = "0";
+		weaponKillsSuperChaingunImage = "111";
+		millionxp = "0";
+		challengeCompleteABC = "1";
+		hasMedalRevengeAvoidedAgain = "1";
+		hasMedalHonorsC = "1";
+		bossDefeatCountVardison3 = "2";
+		SlthAirstrikeCalls = "0";
+		GMCalls = "1";
+		noMoreEXPcb5f2b6e9942a0fb863208a2a982d96514215537 = "0";
+		xpGain38913e5ddc4b7a9cc22652c7ec793f3010e192f6 = "102368";
+		challengeCompleteAcceptance = "1";
+		noMoreEXP0acf1e7c29cf0d7a46aa6c098fef9f65ecee36ee = "0";
+		challengeCompletePulsePhaserImage_1 = "1";
+		NukeCalls = "0";
+		weaponKillsG17SniperRifleImage = "15";
+		bossDefeatCountInsignia = "1";
+		weaponKillsShadowRifleImage = "2";
+		weaponKillsMRXXImage = "4";
+		weaponKillsMiniChaingunImage = "23";
+		weaponKillsModel1887Image = "8";
+		xp = "500281";
+		xpGainc8d602f0119c3e057f98db8a525ca495492398b4 = "40150";
+		noMoreEXP38913e5ddc4b7a9cc22652c7ec793f3010e192f6 = "0";
+		xpGain092e6e043d7478c5d69cae7658ba713758156a84 = "20132";
+		xpGainb83507ec9eb66c5c2ad20c7a9d913e577e3ce341 = "22936";
+		hasMedalTheSourceOfAllEvil = "1";
+		challengeCompleteWp400Image_2 = "1";
+		HeliCalls = "2";
+		weaponKillsPg700Image = "1";
+		rankNumber = "49";
+		hasMedalSerialKiller = "1";
+	};
+	new ScriptObject(CCD_2771857) {
+
+		expireDate = "20121031";
+	};
+	new ScriptObject(ClientSettings2771857) {
+
+		savedstreak1 = "1";
+		savedperk3 = "Bandolier";
+		savedstreak2 = "3";
+		savedstreak3 = "6";
+		savedperk2 = "Kevlar Armor";
+		savedperk1 = "AP Bullets";
+	};
+	new ScriptObject(ClientStore2771857) {
+
+		nextLoto = "0";
+		nextSlot = "0";
+	};
+	new ScriptObject(CCD_2771857) {
+
+		expireDate = "20120731";
+	};
+	new ScriptObject(CCD_2771857) {
+
+		expireDate = "20130630";
+	};
+};
+//--- OBJECT WRITE END ---

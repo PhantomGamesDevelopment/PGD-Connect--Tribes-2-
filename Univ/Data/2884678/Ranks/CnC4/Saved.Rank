@@ -1,0 +1,18 @@
+//Ranks File For GUID 2884678
+//Created On 2010-07-07, C&C 4
+$Rank::Name[2884678] = "henry";
+$Rank::Rank[2884678, 1] = "Private";
+$Rank::XP[2884678, 1] = 754;
+$Rank::Rank[2884678, 2] = "Acolyte";
+$Rank::XP[2884678, 2] = 1;
+$CNC::Deaths[2884678] = 16;
+$CNC::TotalBuilds[2884678] = 11;
+$CNC::BuildingsBuilt[2884678, "PowerPlant"] = 4;
+$CNC::BuildingsBuilt[2884678, "Bunker"] = 7;
+$CNC::KilledByObj[2884678, SalamanderFireMissileTurret] = 1;
+$CNC::TotalBuildingLosses[2884678] = 2;
+$CNC::BuildingLosses[2884678, "PowerPlant"] = 1;
+$CNC::KilledByPl[2884678, 2687806] = 2;
+$CNC::TotalCrawlerDecoms[2884678] = 4;
+$CNC::TotalBuildingKills[2884678] = 2;
+$CNC::BuildingKills[2884678, "Bunker"] = 2;

@@ -1,0 +1,46 @@
+body
+{
+font:small "Myriad Pro", sans-serif; font-size:1.5em;
+background-image:url('screen_rank.png');
+background-repeat:no-repeat;
+background-position:center center;
+}
+h1{font-size:1.5em;}
+h2{color:#666;font-size:1em;font-weight:normal;}
+
+/*= Core CSS progress bar code */
+.progressbar1 {
+    width: 300px;
+    background: url(progressbar1.png) no-repeat 0 -40px;
+}
+.progressbar1-completed {
+    height: 20px;
+    margin-left: -1px;
+    background: url(progressbar1.png) no-repeat 1px 0;
+}
+.progressbar1-completed div {
+    float: right;
+    width: 50%;
+    height: 20px;
+    margin-right: -1px;
+    background: url(progressbar1.png) no-repeat 100% 0;
+    display: inline; 
+}
+
+.progressbar2 {
+    width: 300px;
+    background: url(progressbar2.png) no-repeat 0 -40px;
+}
+.progressbar2-completed {
+    height: 20px;
+    margin-left: -1px;
+    background: url(progressbar2.png) no-repeat 1px 0;
+}
+.progressbar2-completed div {
+    float: right;
+    width: 50%;
+    height: 20px;
+    margin-right: -1px;
+    background: url(progressbar2.png) no-repeat 100% 0;
+    display: inline; 
+}

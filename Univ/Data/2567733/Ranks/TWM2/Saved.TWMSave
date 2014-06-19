@@ -1,0 +1,50 @@
+//Ranks & Settings File For GUID 2567733 / Name: CubsFan815
+//Created On 2010-11-24, Total Warfare Mod 2 3.5
+//--- OBJECT WRITE BEGIN ---
+new ScriptObject(TWM2Client_2567733) {
+
+	bossDefeatCountGhostOfFire = "1";
+	weaponKillsMRXXImage = "5";
+	ArtyCalls = "0";
+	xp = "304803";
+	challengeCompleteAcceptance = "1";
+	bossDefeatCountVardison3 = "1";
+	weaponKillsS3RifleImage = "17";
+	HeliCalls = "3";
+	hasMedalBurningNightmare = "1";
+	hasMedalTheSourceOfAllEvil = "1";
+	SlthAirstrikeCalls = "0";
+	phrase = "put your money when your mouth is";
+	hasMedalInsigniaDefeated = "1";
+	NukeCalls = "0";
+	EMPCalls = "1";
+	hasMedalSerialKiller = "1";
+	noMoreEXP4cd972c0b24dfb1cd782ebf2cec5b8e02036a7e0 = "0";
+	GMCalls = "0";
+	gameTime = "569";
+	hasMedalRevengeAvoidedAgain = "1";
+	challengeCompleteVard1 = "1";
+	UAVCalls = "3";
+	ZBCalls = "0";
+	challengeCompletePulsePhaserImage_1 = "1";
+	weaponKillsG17SniperRifleImage = "9";
+	officer = "0";
+	xpGain4cd972c0b24dfb1cd782ebf2cec5b8e02036a7e0 = "304803";
+	HarrierCalls = "0";
+	HWCalls = "0";
+	SatNukeCalls = "3";
+	bossDefeatCountLordRog = "1";
+	millionxp = "0";
+	rankNumber = "46";
+	hasMedalHonorsB = "1";
+	bossDefeatCountInsignia = "1";
+	rank = "Brigadier General";
+	hasMedalHonorsC = "1";
+	weaponKillsMiniChaingunImage = "2";
+	AirstrikeCalls = "5";
+	CGCalls = "0";
+	name = "CubsFan815";
+	weaponKillsPulsePhaserImage = "83";
+	GunHeliCalls = "0";
+};
+//--- OBJECT WRITE END ---

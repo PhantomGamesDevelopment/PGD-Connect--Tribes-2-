@@ -1,0 +1,14 @@
+// C.S.S CONSTRUCTION MOD SAVE FILE
+// Saved by "Kingsnake"
+// Created in mission "FlatlandBig"
+// Construction v0.70 Development Version 1
+
+%building = new (StaticShape) () {datablock = "Deployedfloor";position = "177.171 183.682 113";rotation = "0 0 1 54.7002";scale = "1 5.33367 3";team = "1";ownerGUID = "2495338";needsfit = "1";powerFreq = "1";};addToDeployGroup(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "Deployedfloor";position = "178.837 193.44 99.5";rotation = "-0 -0 1 54.7002";scale = "2.5 3.33333 30";team = "1";ownerGUID = "2495338";needsfit = "1";grounded = "1";powerFreq = "1";};addToDeployGroup(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "Deployedfloor";position = "188.597 191.773 113";rotation = "0 0 1 54.7002";scale = "4.00012 1.33333 3";team = "1";ownerGUID = "2495338";needsfit = "1";powerFreq = "1";};addToDeployGroup(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "Deployedfloor";position = "169.079 195.107 113";rotation = "0 0 1 54.7002";scale = "3.99997 1.33333 3";team = "1";ownerGUID = "2495338";needsfit = "1";powerFreq = "1";};addToDeployGroup(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "Deployedfloor";position = "171.184 169.641 99.5";rotation = "0 0 1 54.7002";scale = "5.00002 3.33333 30";team = "1";ownerGUID = "2495338";needsfit = "1";powerFreq = "1";};addToDeployGroup(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "Deployedfloor";position = "180.503 203.199 113";rotation = "0 0 1 54.7002";scale = "1 5.3334 3";team = "1";ownerGUID = "2495338";needsfit = "1";powerFreq = "1";};addToDeployGroup(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "Deployedfloor";position = "202.637 185.786 99.5";rotation = "0 0 1 54.7002";scale = "2.5 6.6667 30";team = "1";ownerGUID = "2495338";needsfit = "1";powerFreq = "1";};addToDeployGroup(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "Deployedfloor";position = "155.036 201.094 99.5";rotation = "-2.4441e-06 -3.25845e-07 1 54.7001";scale = "2.5 6.6667 30";team = "1";ownerGUID = "2495338";needsfit = "1";powerFreq = "1";};addToDeployGroup(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "Deployedfloor";position = "186.49 217.24 99.5";rotation = "0 0 1 54.7002";scale = "5.00002 3.33333 30";team = "1";ownerGUID = "2495338";needsfit = "1";powerFreq = "1";};addToDeployGroup(%building);checkPowerObject(%building);

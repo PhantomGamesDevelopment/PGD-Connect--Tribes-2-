@@ -1,0 +1,68 @@
+//Ranks & Settings File For GUID 2513554 / Name: mars
+//Created On 2011-09-19, Total Warfare Mod 2 3.7
+//--- OBJECT WRITE BEGIN ---
+new SimSet(Container_2513554) {
+
+	new ScriptObject(TWM2Client_2513554) {
+
+		bossDefeatCountLordRog = "1";
+		phrase = "None Set";
+		millionxp = "0";
+		weaponKillsMRXXImage = "15";
+		noMoreEXPb1060db2b42a2ee310834657d37cdd12a3c641f4 = "0";
+		rankNumber = "42";
+		rank = "Colonel Grade II";
+		challengeCompleteS3RifleImage_2 = "1";
+		money = "148692";
+		weaponKillsM1700Image = "7";
+		noMoreEXP8ee84d4400fdb15487f29f332777c6fb40cbdb93 = "0";
+		weaponKillsMp26Image = "7";
+		challengeCompleteS3RifleImage_1 = "1";
+		xp = "158592";
+		xpGainb1060db2b42a2ee310834657d37cdd12a3c641f4 = "131692";
+		weaponKillsRP432Image = "4";
+		xpGain8ee84d4400fdb15487f29f332777c6fb40cbdb93 = "26900";
+		hasMedalHonorsB = "1";
+		officer = "0";
+		hasMedalRevengeAvoidedAgain = "1";
+		AirstrikeCalls = "2";
+		weaponKillsS3RifleImage = "146";
+		gameTime = "321";
+		name = "mars";
+	};
+	new ScriptObject(CCD_2513554) {
+
+		ZombieKillCount20110919_Model1887Image_1 = "4";
+		ZombieKillCount20110919_S3RifleImage_2 = "2";
+		ZombieKillCount20110919_MRXXImage_1 = "11";
+		ZombieKillCount20110919_PulsePhaserImage_1 = "2";
+		zombieHeadshots20110919 = "144";
+		ZombieKillCount20110919_RP432Image_1 = "5";
+		ZombieKillCount20110919_Mp26Image_1 = "9";
+		ZombieKillCount20110919__2 = "14";
+		ZombieKillCount20110919_0_2 = "28";
+		ZombieKillCount20110919_M1700Image_1 = "7";
+		ZombieKillCount20110919__3 = "2";
+		ZombieKillCount20110919_AcidCannonImage_2 = "2";
+		expireDate = "20110930";
+		zombieBackstabs20110919 = "1";
+		ZombieKillCount20110919_AcidCannonImage_1 = "1";
+		ZombieKillCount20110919_0_1 = "220";
+		killstreakCalls20110919_2 = "3";
+		totalZombieKillCount20110919 = "257";
+		ZombieKillCount20110919_Grenade_1 = "1";
+		ZombieKillCount20110919_S3RifleImage_1 = "148";
+		ZombieKillCount20110919_0_3 = "10";
+		ZombieKillCount20110919_MRXXImage_2 = "9";
+		ZombieKillCount20110919_AcidCannonImage_3 = "2";
+		ZombieKillCount20110919__1 = "32";
+		ZombieKillCount20110919_S3RifleImage_3 = "6";
+		ZombieKillCount20110919_PulsePhaserImage_2 = "1";
+	};
+	new ScriptObject(ClientStore2513554) {
+
+		nextLoto = "0";
+		nextSlot = "0";
+	};
+};
+//--- OBJECT WRITE END ---

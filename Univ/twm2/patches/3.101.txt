@@ -1,0 +1,6 @@
+#Patch 3.101 7-13-10: fixes crash on max EXP rate, and patches the autopatcher
+[REQVER]	3.1
+[DL]	/public/Univ/twm2/patches/3.101/Patcher.cs	scripts/TWM2/PGDConnect/Patcher.cs
+[DL]	/public/Univ/twm2/patches/3.101/3.101.cs	scripts/TWM2/patch/3.101.cs
+[RL]	scripts/TWM2/Systems/MainControl.cs	2	$TWM2::Version = 3.101;
+*END

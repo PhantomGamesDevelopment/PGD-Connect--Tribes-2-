@@ -1,0 +1,5 @@
+#Patch 2.301
+#Signal360 makes speling mistakes, so this fixes /voteboss
+[RL]	scripts/TWM2/ChatCommands/Public.cs	18	if (!isObject(RndCli()))
+[RL]	scripts/TWM2/Systems/MainControl.cs	2	$TWM2::Version = 2.301;
+*END

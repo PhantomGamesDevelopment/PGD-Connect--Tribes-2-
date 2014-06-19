@@ -1,0 +1,254 @@
+//--- OBJECT WRITE BEGIN ---
+new SimSet(ClientData_2000343) {
+
+	eulaAgree = "1";
+
+	new ScriptObject(classData5_2000343) {
+		class = "Star Lighter";
+
+		level = "67";
+		affinity = "1";
+		hasPowerEnergyBoost1 = "1";
+		hasPowerHPBoost2 = "1";
+		hasPowerShiningStar = "1";
+		hasPowerShift = "1";
+		hasPowerHPBoost1 = "1";
+		hasPowerMedHeal = "1";
+		hasPowerHealer = "1";
+		hasPowerRepelShift = "1";
+		hasPowerVapExplosion = "1";
+		hasPowerEnviousDownpour = "1";
+		hasPowerEnergyBoost3 = "1";
+		hasPowerVaporize = "1";
+		hasPowerEnergyBoost2 = "1";
+		hasPowerCatalystBurst = "1";
+		spendPoints = "68";
+		hasPowerHPBoost3 = "1";
+		exp = "9375";
+		hasPowerStarShard = "1";
+		hasPowerLightStrike = "1";
+		hasPowerShardStorm = "1";
+	};
+	new ScriptObject(classData8_2000343) {
+		class = "Undecided";
+
+		level = "1";
+		affinity = "0";
+		spendPoints = "1";
+		exp = "0";
+	};
+	new ScriptObject(classData7_2000343) {
+		class = "Phantom Lord";
+
+		hasPowerBarrierField = "1";
+		level = "100";
+		affinity = "2";
+		hasPowerEnergyBoost5 = "1";
+		hasPowerEnergyBoost1 = "1";
+		hasPowerHPBoost2 = "1";
+		hasPowerShadowArtillery = "1";
+		hasPowerAvadusLightning = "1";
+		hasPowerHPBoost4 = "1";
+		hasPowerHPBoost1 = "1";
+		hasPowerHPBoost6 = "1";
+		hasPowerAvalanche = "1";
+		hasPowerShadowHeal = "1";
+		hasPowerShadowBoost = "1";
+		hasPowerShadowSwipe = "1";
+		hasPowerEnergyBoost3 = "1";
+		hasPowerEnergyBoost7 = "1";
+		hasPowerHPBoost5 = "1";
+		hasPowerEnergyBoost4 = "1";
+		hasPowerFlicker = "1";
+		hasPowerShadowBomb = "1";
+		hasPowerDematerialize = "1";
+		hasPowerShadowBombDrop = "1";
+		hasPowerEnergyBoost2 = "1";
+		hasPowerAsteroidFall = "1";
+		hasPowerShadowStrike = "1";
+		spendPoints = "330";
+		hasPowerShadowStorm = "1";
+		hasPowerHPBoost3 = "1";
+		exp = "153777";
+		hasPowerEnergyBoost6 = "1";
+		hasPowerShadowRift = "1";
+	};
+	new ScriptObject(classData3_2000343) {
+		class = "Annihilator";
+
+		hasPowerEnergyBall2 = "1";
+		level = "86";
+		affinity = "2";
+		hasPowerEnergyBoost5 = "1";
+		hasPowerEnergyBoost1 = "1";
+		hasPowerHPBoost2 = "1";
+		hasPowerMicrowave = "1";
+		hasPowerHPBoost4 = "1";
+		hasPowerHPBoost1 = "1";
+		hasPowerHPBoost6 = "1";
+		hasPowerSunRay = "1";
+		hasPowerDarkVoid = "1";
+		hasPowerSunStorm = "1";
+		hasPowerEnergyBoost3 = "1";
+		hasPowerLightning = "1";
+		hasPowerEnergyBoost7 = "1";
+		hasPowerHPBoost5 = "1";
+		hasPowerFissureBurst = "1";
+		hasPowerEnergyBoost4 = "1";
+		hasPowerSplitFire = "1";
+		hasPowerFireBall4 = "1";
+		hasPowerBurnForce = "1";
+		hasPowerFireBolt = "1";
+		hasPowerEnergyBoost2 = "1";
+		spendPoints = "105";
+		hasPowerCrisp = "1";
+		hasPowerHPBoost3 = "1";
+		exp = "3643";
+		hasPowerEnergyBoost6 = "1";
+		hasPowerEnergyBall1 = "1";
+		hasPowerEnergyBall3 = "1";
+		hasPowerDesolation = "1";
+	};
+	new ScriptObject(classData1_2000343) {
+		class = "Deep Freezer";
+
+		hasPowerIceRush = "1";
+		level = "100";
+		affinity = "2";
+		hasPowerEnergyBoost5 = "1";
+		hasPowerEnergyBoost1 = "1";
+		hasPowerHail = "1";
+		hasPowerSeekingFreeze = "1";
+		hasPowerHPBoost2 = "1";
+		hasPowerShadowArtillery = "1";
+		hasPowerHPBoost4 = "1";
+		hasPowerSnowstorm = "1";
+		hasPowerWhiteout = "1";
+		hasPowerHPBoost1 = "1";
+		hasPowerHPBoost6 = "1";
+		hasPowerShadowRush = "1";
+		hasPowerAvalanche = "1";
+		hasPowerBlizzard = "1";
+		hasPowerShadowBoost = "1";
+		hasPowerEnergyBoost3 = "1";
+		hasPowerEnergyBoost7 = "1";
+		hasPowerHPBoost5 = "1";
+		hasPowerIceBomb = "1";
+		hasPowerEnergyBoost4 = "1";
+		hasPowerFlicker = "1";
+		hasPowerShadowBomb = "1";
+		hasPowerShadowBrigade = "1";
+		hasPowerShadowBombDrop = "1";
+		hasPowerCrystalShock = "1";
+		hasPowerEnergyBoost2 = "1";
+		hasPowerCrystalBlast = "1";
+		hasPowerDeepFreeze = "1";
+		hasPowerShadowStrike = "1";
+		spendPoints = "173";
+		hasPowerShadowStorm = "1";
+		hasPowerHPBoost3 = "1";
+		hasPowerFrozenTwister = "1";
+		exp = "156511";
+		hasPowerEnergyBoost6 = "1";
+		hasPowerShadowRift = "1";
+	};
+	new ScriptObject(classData6_2000343) {
+		class = "Guardian";
+
+		level = "60";
+		affinity = "1";
+		hasPowerEnergyBoost1 = "1";
+		hasPowerDegaussianStrike = "1";
+		hasPowerHPBoost2 = "1";
+		hasPowerShift = "1";
+		hasPowerHPBoost1 = "1";
+		hasPowerMedHeal = "1";
+		hasPowerHealer = "1";
+		hasPowerStasisField = "1";
+		hasPowerVapExplosion = "1";
+		hasPowerEnergyBoost3 = "1";
+		hasPowerForceedPush = "1";
+		hasPowerVaporize = "1";
+		hasPowerEnergyBoost2 = "1";
+		hasPowerEnergyNuke = "1";
+		spendPoints = "48";
+		hasPowerHPBoost3 = "1";
+		exp = "3555";
+		hasPowerLightStrike = "1";
+		hasPowerShielder = "1";
+	};
+	new ScriptObject(classData10_2000343) {
+		class = "Hunter";
+
+		level = "23";
+		affinity = "0";
+		hasPowerManaArrow = "1";
+		hasPowerToxicTrap = "1";
+		hasPowerAcidArrow = "1";
+		spendPoints = "9";
+		hasPowerBurnTrap = "1";
+		exp = "3014";
+		hasPowerSpearShower = "1";
+		hasPowerBlastTrap = "1";
+	};
+	new ScriptObject(classData2_2000343) {
+		class = "Enforcer";
+
+		hasPowerEnergyBall2 = "1";
+		level = "57";
+		affinity = "1";
+		hasPowerEnergyBoost1 = "1";
+		hasPowerHPBoost2 = "1";
+		hasPowerHPBoost1 = "1";
+		hasPowerDeepFlameShot = "1";
+		hasPowerEnergyBoost3 = "1";
+		hasPowerLightning = "1";
+		hasPowerSplitFire = "1";
+		hasPowerFireBall4 = "1";
+		hasPowerFireBolt = "1";
+		hasPowerEnergyBoost2 = "1";
+		hasPowerFireBall3 = "1";
+		hasPowerFireBall5 = "1";
+		spendPoints = "34";
+		hasPowerHPBoost3 = "1";
+		exp = "2323";
+		hasPowerEnergyBall1 = "1";
+		hasPowerEnergyBall3 = "1";
+		hasPowerHellstorm = "1";
+	};
+	new ScriptObject(classData9_2000343) {
+		class = "Undecided";
+
+		level = "1";
+		affinity = "0";
+		spendPoints = "1";
+		exp = "0";
+	};
+	new ScriptObject(classData4_2000343) {
+		class = "Nature Walker";
+
+		hasPowerSmackback = "1";
+		level = "68";
+		affinity = "1";
+		hasPowerComposite = "1";
+		hasPowerFreezeTrap = "1";
+		hasPowerQuakeTrap = "1";
+		hasPowerStrikeDown = "1";
+		hasPowerManaArrow = "1";
+		hasPowerToxicTrap = "1";
+		hasPowerBurstTrap = "1";
+		hasPowerMultishot = "1";
+		hasPowerAcidArrow = "1";
+		hasPowerNightTrap = "1";
+		hasPowerAmbush = "1";
+		hasPowerShineShot = "1";
+		hasPowerNetTrap = "1";
+		spendPoints = "81";
+		hasPowerBurnTrap = "1";
+		exp = "11986";
+		hasPowerSpearShower = "1";
+		hasPowerConcussionBlow = "1";
+		hasPowerBlastTrap = "1";
+	};
+};
+//--- OBJECT WRITE END ---

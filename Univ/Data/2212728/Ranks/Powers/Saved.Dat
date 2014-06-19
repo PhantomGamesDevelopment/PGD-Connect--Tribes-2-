@@ -1,0 +1,13 @@
+$PowerSave::Level[2212728, 1] = 7;
+$PowerSave::SpendPoints[2212728, 1] = 4;
+$PowerSave::EXP[2212728, 1] = 204;
+$PowerSave::TopPlPosition[2212728, 1] = 1;
+$PowerSave::Class[2212728, 1] = "Demon";
+$PowerSave::HasPower[2212728, 1, "FireBolt"] = 1;
+$PowerSave::HasPower[2212728, 1, "BasicShock"] = 1;
+$PowerSave::Level[2212728, 2] = 3;
+$PowerSave::SpendPoints[2212728, 2] = 3;
+$PowerSave::EXP[2212728, 2] = 55;
+$PowerSave::TopPlPosition[2212728, 2] = 1;
+$PowerSave::Class[2212728, 2] = "Phantom";
+$PowerSave::HasPower[2212728, 2, "ShadowStrike"] = 1;

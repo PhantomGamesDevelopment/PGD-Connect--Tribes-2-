@@ -1,0 +1,26 @@
+//Ranks File For GUID 2860955
+//Created On 2010-04-17, C&C 4
+$Rank::Name[2860955] = "{Fiend}";
+$Rank::Rank[2860955, 1] = "Private";
+$Rank::XP[2860955, 1] = 981;
+$Rank::Rank[2860955, 2] = "Acolyte";
+$Rank::XP[2860955, 2] = 0;
+$CNC::Deaths[2860955] = 11;
+$CNC::TotalBuilds[2860955] = 3;
+$CNC::BuildingsBuilt[2860955, "PowerPlant"] = 2;
+$CNC::BuildingsBuilt[2860955, "Bunker"] = 1;
+$CNC::KilledByObj[2860955, ObeliskTurretDeployedBase] = 1;
+$CNC::TotalKills[2860955] = 13;
+$CNC::Kills[2860955, 2687806] = 1;
+$CNC::Kills[2860955, 2148110] = 2;
+$CNC::Kills[2860955, 2000343] = 4;
+$CNC::Kills[2860955, 2703588] = 4;
+$CNC::TotalBuildingKills[2860955] = 1;
+$CNC::BuildingKills[2860955, "ObeliskOfLight"] = 1;
+$CNC::KilledByPl[2860955, 2000343] = 2;
+$CNC::Kills[2860955, 2485526] = 1;
+$CNC::UKills[2860955] = 1;
+$CNC::TotalCrawlerKills[2860955] = 2;
+$CNC::CrawlerKills[2860955, 2485526] = 1;
+$CNC::KilledByPl[2860955, 2485526] = 1;
+$CNC::CrawlerKills[2860955, 2703588] = 1;

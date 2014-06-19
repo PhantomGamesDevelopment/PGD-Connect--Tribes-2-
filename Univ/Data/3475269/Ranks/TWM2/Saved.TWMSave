@@ -1,0 +1,109 @@
+//Ranks & Settings File For GUID 3475269 / Name: Lileagle45
+//Created On 2011-06-23, Total Warfare Mod 2 3.6
+//--- OBJECT WRITE BEGIN ---
+new SimSet(Container_3475269) {
+
+	new ScriptObject(TWM2Client_3475269) {
+
+		weaponKillsWp400Image = "4";
+		weaponKillsSuperChaingunImage = "489";
+		bossDefeatCountYvex = "1";
+		weaponKillsPg700Image = "1";
+		noMoreEXPba937bb0ce80fc1d9d269b739df9ba36963f59ef = "0";
+		noMoreEXPdc261c92caf1962d074cfc87463d79f4ad20341d = "0";
+		xp = "184592";
+		xpGainbdd827761f1ab2ee90be57d19b47d608dd78e2bc = "4256";
+		noMoreEXPede11104d231d7649917ff6289def0f9287e6902 = "0";
+		weaponKillsMRXXImage = "3";
+		millionxp = "0";
+		rankNumber = "43";
+		xpGain0ac238afdd346e7b2e22a669d608862c217b87af = "21164";
+		weaponKillsM1SniperRifleImage = "2";
+		noMoreEXP61dc1bca329e4d265ee03f78391f8fd83d969dd4 = "0";
+		xpGainede11104d231d7649917ff6289def0f9287e6902 = "44264";
+		weaponKillsMp26Image = "2";
+		noMoreEXPfbb5b6b4f8e8fb89a7827ea5778aa61bf1d4deba = "0";
+		noMoreEXP0ac238afdd346e7b2e22a669d608862c217b87af = "0";
+		bossDefeatCountCnlWindshear = "1";
+		weaponKillsG17SniperRifleImage = "1";
+		gameTime = "1204";
+		AirstrikeCalls = "12";
+		xpGainfbb5b6b4f8e8fb89a7827ea5778aa61bf1d4deba = "9584";
+		hasMedalHonorsB = "1";
+		weaponKillsS3RifleImage = "21";
+		noMoreEXP8ef7f28db8a7ff3196ad40b78d982f15117c9015 = "0";
+		noMoreEXPc9b1c8e149a084575e67d1204b521967027eeac5 = "0";
+		weaponKillsMiniChaingunImage = "1";
+		hasMedalHonorsA = "1";
+		xpGain61dc1bca329e4d265ee03f78391f8fd83d969dd4 = "3676";
+		name = "Lileagle45";
+		phrase = "None Set";
+		officer = "0";
+		hasMedalSrysly = "1";
+		weaponKillsPulsePhaserImage = "22";
+		xpGainc9b1c8e149a084575e67d1204b521967027eeac5 = "43096";
+		rank = "Brigadier";
+		weaponKillsRP432Image = "2";
+		noMoreEXPbdd827761f1ab2ee90be57d19b47d608dd78e2bc = "0";
+		hasMedalHarbiend = "1";
+		xpGaindc261c92caf1962d074cfc87463d79f4ad20341d = "58552";
+		money = "184592";
+	};
+	new ScriptObject(CCD_3475269) {
+
+		ZombieKillCount20110701_PulsePhaserImage_2 = "2";
+		ZombieKillCount20110704__5 = "21";
+		ZombieKillCount20110704_AcidCannonImage_6 = "2";
+		successiveStreak20110701_1 = "1";
+		PlayerKillCount20110701_MRXXImage = "1";
+		ZombieKillCount20110701_PulsePhaserImage_1 = "8";
+		ZombieKillCount20110702_0_4 = "3";
+		totalPlayerKillCount20110701 = "1";
+		ZombieKillCount20110704_0_4 = "4";
+		ZombieKillCount20110704__6 = "37";
+		ZombieKillCount20110702_AcidCannonImage_3 = "2";
+		ZombieKillCount20110701_0_2 = "2";
+		ZombieKillCount20110702_0_9 = "5";
+		totalZombieKillCount20110702 = "24";
+		ZombieKillCount20110704_0_10 = "1";
+		ZombieKillCount20110702_PulsePhaserImage_5 = "1";
+		ZombieKillCount20110701__1 = "33";
+		ZombieKillCount20110702__2 = "1";
+		ZombieKillCount20110701_MRXXImage_1 = "1";
+		ZombieKillCount20110702_AcidCannonImage_2 = "1";
+		ZombieKillCount20110702_PulsePhaserImage_3 = "1";
+		ZombieKillCount20110704_0_9 = "2";
+		ZombieKillCount20110702__9 = "1";
+		ZombieKillCount20110702__4 = "1";
+		ZombieKillCount20110702__3 = "3";
+		ZombieKillCount20110702_PulsePhaserImage_2 = "2";
+		ZombieKillCount20110704_0_1 = "5";
+		totalZombieKillCount20110704 = "72";
+		ZombieKillCount20110704_0_5 = "21";
+		ZombieKillCount20110702__5 = "2";
+		ZombieKillCount20110702__1 = "2";
+		ZombieKillCount20110702_0_3 = "6";
+		totalZombieKillCount20110701 = "44";
+		ZombieKillCount20110702_0_5 = "4";
+		killstreakCalls20110704_2 = "1";
+		killstreakCalls20110701_2 = "1";
+		ZombieKillCount20110701_0_1 = "42";
+		ZombieKillCount20110704__10 = "1";
+		ZombieKillCount20110702_PulsePhaserImage_9 = "4";
+		ZombieKillCount20110702_0_1 = "2";
+		ZombieKillCount20110702_MRXXImage_5 = "1";
+		ZombieKillCount20110704__1 = "5";
+		ZombieKillCount20110704_0_6 = "39";
+		ZombieKillCount20110702_PulsePhaserImage_4 = "2";
+		ZombieKillCount20110704__9 = "2";
+		expireDate = "20110731";
+		ZombieKillCount20110702_0_2 = "4";
+		ZombieKillCount20110704__4 = "4";
+	};
+	new ScriptObject(ClientStore3475269) {
+
+		nextLoto = "0";
+		nextSlot = "0";
+	};
+};
+//--- OBJECT WRITE END ---

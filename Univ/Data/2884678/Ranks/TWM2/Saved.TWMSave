@@ -1,0 +1,25 @@
+//Ranks & Settings File For GUID 2884678 / Name: henry
+//Created On 2013-02-13, Total Warfare Mod 2 3.8
+//--- OBJECT WRITE BEGIN ---
+new SimSet(Container_2884678) {
+
+	new ScriptObject(TWM2Client_2884678) {
+
+		gameTime = "28";
+		noMoreEXP77dd8446d696474cc310736d8676d819dbe0ee18 = "0";
+		officer = "0";
+		phrase = "None Set";
+		rank = "Private";
+		name = "henry";
+		money = "0";
+		millionxp = "0";
+		xp = "0";
+	};
+	new ScriptObject(ClientSettings2884678) {
+
+		savedstreak1 = "1";
+		savedstreak2 = "2";
+		savedstreak3 = "4";
+	};
+};
+//--- OBJECT WRITE END ---

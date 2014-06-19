@@ -1,0 +1,64 @@
+//Ranks & Settings File For GUID 3322673 / Name: zachkillsyouall
+//Ranks & Settings File For GUID 3498885 / Name: GeEkOfWiReS1097
+//Created On 2011-11-09, Total Warfare Mod 2 3.7
+//--- OBJECT WRITE BEGIN ---
+new SimSet(Container_3498885) {
+
+	new ScriptObject(TWM2Client_3498885) {
+
+		AirstrikeCalls = "22";
+		weaponKillsG17SniperRifleImage = "5";
+		phrase = "None Set";
+		CGCalls = "0";
+		noMoreEXP44e360d06fb9bc433bfda3a64b4c2a1496c315bb = "0";
+		hasMedalHonorsA = "1";
+		xpGain43be0ebaf6ea45eb749520ed7c615c00172b92a7 = "9972";
+		HarrierCalls = "0";
+		rank = "Lieutenant Colonel Grade II";
+		rankNumber = "38";
+		xpGain8d0fc508615725718e009df09699c012d754ce7b = "42822";
+		UAVCalls = "0";
+		HWCalls = "0";
+		noMoreEXP64b4c8be8f1c0f44fe5fa8ab9b591acf699a735c = "0";
+		ZBCalls = "0";
+		xpGain4572b1a2de4d331e9f84f96628eaa46971188607 = "582";
+		money = "82776";
+		noMoreEXPad3e10f8e35ce208284ad9df6080b560151ddba5 = "0";
+		noMoreEXP8d0fc508615725718e009df09699c012d754ce7b = "0";
+		name = "GeEkOfWiReS1097";
+		millionxp = "0";
+		GMCalls = "11";
+		SlthAirstrikeCalls = "0";
+		hasMedalHonorsB = "1";
+		NukeCalls = "0";
+		noMoreEXP43be0ebaf6ea45eb749520ed7c615c00172b92a7 = "0";
+		noMoreEXP4572b1a2de4d331e9f84f96628eaa46971188607 = "0";
+		xp = "82776";
+		HeliCalls = "15";
+		officer = "0";
+		NapalmHarrierCalls = "1";
+		gameTime = "1069";
+		xpGain0eb529f6a90c7ec5b9c1dbe52ded5285d5aee89c = "23576";
+		ArtyCalls = "1";
+		hasMedalAGreatCommando = "1";
+		GunHeliCalls = "0";
+		xpGainad3e10f8e35ce208284ad9df6080b560151ddba5 = "5824";
+		noMoreEXP0eb529f6a90c7ec5b9c1dbe52ded5285d5aee89c = "0";
+	};
+	new ScriptObject(CCD_3498885) {
+
+		killstreakCalls20140216_2 = "1";
+		totalZombieKillCount20140216 = "38";
+		ZombieKillCount20140216__1 = "4";
+		ZombieKillCount20140216_S3RifleImage_1 = "8";
+		ZombieKillCount20140216_PulsePhaserImage_1 = "26";
+		ZombieKillCount20140216_0_1 = "38";
+		expireDate = "20140228";
+	};
+	new ScriptObject(ClientStore3498885) {
+
+		nextSlot = "0";
+		nextLoto = "0";
+	};
+};
+//--- OBJECT WRITE END ---

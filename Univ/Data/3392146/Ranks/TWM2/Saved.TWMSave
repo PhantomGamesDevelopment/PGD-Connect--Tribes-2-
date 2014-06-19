@@ -1,0 +1,139 @@
+//Ranks & Settings File For GUID 3392146 / Name: Animitation
+//Created On 2011-06-22, Total Warfare Mod 2 3.7
+//--- OBJECT WRITE BEGIN ---
+new SimSet(Container_3392146) {
+
+	new ScriptObject(TWM2Client_3392146) {
+
+		xpGainb4b3b9bbb32de394f880cda62002aeb900c8e5f4 = "50934";
+		xpGaindc639ae21874998a6e776e35d984558db2913f29 = "7446";
+		weaponKillsPulseSMGImage = "3";
+		NukeCalls = "0";
+		noMoreEXP5fee0414a8d60335286629d7cd63255d472cda63 = "0";
+		challengeCompletem93Image_3 = "1";
+		noMoreEXPfa8db70e7f35c186327d98c2421d66a498b44bd6 = "0";
+		noMoreEXP769f4d9d42aded83ce2518083610d5e5be9279c8 = "0";
+		xpGain05fd5809259065bb6c5118b76aad3b24949c6dd3 = "14358";
+		challengeCompletem93Image_2 = "1";
+		noMoreEXPcf2c9dddda893c59031ef5ce5e5a8fff24281047 = "0";
+		xpGain7b9b342e269d42c32cc36aa922ffa635971f26c6 = "200932";
+		xp = "269458";
+		xpGain88dfe234cf9bcb0f0b20f3c8b9ecd21aec9b2345 = "120";
+		xpGainc709bed61d79462c4b5dbb6925539e9605f5832f = "2848";
+		weaponKillsm93Image = "317";
+		challengeCompleteMilestone25 = "1";
+		noMoreEXP337bec3f1f831ddb8126d3e52f11698c5d168f67 = "0";
+		noMoreEXP24a5f5898db61153fd1ae9ccb7f3dd2b0429ed46 = "0";
+		noMoreEXPb47efe2379f1336e87dd71f87643bb12f14c6659 = "0";
+		HeliCalls = "21";
+		noMoreEXPf1b293c1d875dffcabcc1865ea74c06bd525614a = "0";
+		name = "Animitation";
+		noMoreEXPb4b3b9bbb32de394f880cda62002aeb900c8e5f4 = "0";
+		bossDefeatCountGhostOfFire = "1";
+		rankNumber = "54";
+		gameTime = "20393";
+		ArtyCalls = "0";
+		hasMedalHonorsA = "1";
+		noMoreEXP614508913f1350047f2036932b7b3febfa64320a = "0";
+		noMoreEXPa434f8ec3f83ddad58d113e12223bf37481a2472 = "0";
+		weaponKillsPulsePhaserImage = "514";
+		noMoreEXP103e66039034f730769ef68347814cb14b19b24b = "0";
+		NapalmHarrierCalls = "3";
+		noMoreEXPdc7b9d125155cc301183ae093f3bfe9b8cc3a597 = "0";
+		hasMedalInsigniaDefeated = "1";
+		GunHeliCalls = "0";
+		noMoreEXPe757d19354f8a1053d193a6261ad4617887c42fe = "0";
+		noMoreEXP4d6541ad0d9b0d724d44a4da00f64be0f39ae07c = "0";
+		challengeComplete3For5Sabo = "1";
+		hasMedalRevengeAvoidedAgain = "1";
+		noMoreEXP1129ddfb616f0cc506c8d30e305f9827645c1295 = "0";
+		xpGaindc7b9d125155cc301183ae093f3bfe9b8cc3a597 = "15648";
+		xpGain337bec3f1f831ddb8126d3e52f11698c5d168f67 = "984";
+		noMoreEXPd9bb23d3e03df1cafd103245ce13b400611f264b = "0";
+		noMoreEXPba128552ac345bae3a977f3de9cb3feddca537b3 = "0";
+		noMoreEXPb1fd600680666b8dc4172c96cd10d65fa29106ac = "0";
+		noMoreEXPbc92bde0fa78008460571f8238edd60056307e7b = "0";
+		AirstrikeCalls = "28";
+		noMoreEXPdc639ae21874998a6e776e35d984558db2913f29 = "0";
+		noMoreEXP3f728f31cd3c15f23ee0f30d832c2c46b47e9a06 = "0";
+		challengeCompletePulsePhaserImage_1 = "1";
+		hasMedalHonorsB = "1";
+		noMoreEXPd85dcaef9413c53e7bd62d650a982b31413801b2 = "0";
+		phrase = "Insanity wins.";
+		challengeCompletePulsePhaserImage_4 = "1";
+		noMoreEXP88dfe234cf9bcb0f0b20f3c8b9ecd21aec9b2345 = "0";
+		noMoreEXP56b8f856bcccc3c7bf6dda8db6c8020de1220d7a = "0";
+		CGCalls = "0";
+		xpGain232efdff56b108c368cbe587f5fd4eac010b95f4 = "7758";
+		challengeCompleteAcceptance = "1";
+		bossDefeatCountLordRog = "1";
+		noMoreEXP7b9b342e269d42c32cc36aa922ffa635971f26c6 = "0";
+		noMoreEXPc709bed61d79462c4b5dbb6925539e9605f5832f = "0";
+		noMoreEXPfa7b60f70e0bdb4f70083644e52bb33ce78820eb = "0";
+		xpGain56b8f856bcccc3c7bf6dda8db6c8020de1220d7a = "356076";
+		xpGainb47efe2379f1336e87dd71f87643bb12f14c6659 = "2184";
+		noMoreEXP11a735ced5bdeea30f9f7fea896b285185029d99 = "0";
+		HarrierCalls = "0";
+		hasMedalMySky = "1";
+		hasMedalHonorsC = "1";
+		weaponKillsrapierShieldImage = "1";
+		hasMedalGamerExcuisite = "1";
+		noMoreEXP35f136884b65ba778bbcfa4ccd59bcefc1cf8258 = "0";
+		weaponKillsSuperChaingunImage = "714";
+		weaponKillsS3RifleImage = "8";
+		officer = "5";
+		bossDefeatCountInsignia = "1";
+		noMoreEXP4ab044aba12120725c31fc423e983af15f0e9c2e = "0";
+		rank = "Master General";
+		challengeCompletePulsePhaserImage_2 = "1";
+		xpGain4ab044aba12120725c31fc423e983af15f0e9c2e = "172";
+		noMoreEXP93100e78a63d34f669ae1e90809d76e5cf5067a4 = "0";
+		xpGain5fee0414a8d60335286629d7cd63255d472cda63 = "4024";
+		UAVCalls = "9";
+		HWCalls = "0";
+		challengeCompletem93Image_4 = "1";
+		hasMedalExpertSurvivor = "1";
+		noMoreEXP232efdff56b108c368cbe587f5fd4eac010b95f4 = "0";
+		weaponKillsM1SniperRifleImage = "9";
+		noMoreEXPbd48c846517b4b75dc7cd1d86c0fafe33e62e6cb = "0";
+		noMoreEXP2e05d1d1d2224290c739678bfbccdc90222cb405 = "0";
+		ZBCalls = "0";
+		challengeCompleteBombDetonated = "1";
+		noMoreEXP9bb36e48ae146ab8e50eee42d43857bc81c3caca = "0";
+		noMoreEXP0c8f78516eb5eb8e861c17cc2a17887330cc3d78 = "0";
+		noMoreEXP05fd5809259065bb6c5118b76aad3b24949c6dd3 = "0";
+		xpGainfa8db70e7f35c186327d98c2421d66a498b44bd6 = "596736";
+		noMoreEXP07e0b2857f554d7fb175dae282e985129316b474 = "0";
+		challengeCompletePulsePhaserImage_3 = "1";
+		challengeComplete15For15 = "1";
+		money = "1.40025e+07";
+		hasMedalBurningNightmare = "1";
+		challengeCompleteAirstrike1 = "1";
+		xpGainb1fd600680666b8dc4172c96cd10d65fa29106ac = "7556";
+		challengeCompletem93Image_1 = "1";
+		noMoreEXP1607678153c617bff98aa1dbfed451779fd5084c = "0";
+		SlthAirstrikeCalls = "0";
+		GMCalls = "3";
+		millionxp = "1";
+		noMoreEXPa0655ad1e1b53b9428c8dd7910f46ec0dae117d8 = "0";
+	};
+	new ScriptObject(CCD_3392146) {
+
+		bossSlayCountVardison2_20120804 = "1";
+		ZombieKillCount20120804_0_1 = "1";
+		expireDate = "20120831";
+		ZombieKillCount20120804__1 = "1";
+		totalZombieKillCount20120804 = "1";
+		bossSlayCountVardison1_20120804 = "1";
+	};
+	new ScriptObject(ClientStore3392146) {
+
+		nextSlot = "0";
+		nextLoto = "0";
+	};
+	new ScriptObject(CCD_3392146) {
+
+		expireDate = "20120831";
+	};
+};
+//--- OBJECT WRITE END ---

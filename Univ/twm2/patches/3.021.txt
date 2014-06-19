@@ -1,0 +1,4 @@
+#Patch 3.021 6-23-10: PATCH 1 -> Attempting to fix the glitch where martyrdom kills teammates when TD is off
+[DL]	/public/Univ/twm2/patches/3.021/Perks.cs	scripts/TWM2/Systems/Perks.cs
+[RL]	scripts/TWM2/Systems/MainControl.cs	2	$TWM2::Version = 3.021;
+*END

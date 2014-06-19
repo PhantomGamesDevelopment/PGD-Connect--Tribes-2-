@@ -1,0 +1,48 @@
+//Ranks & Settings File For GUID 3232740 / Name: Death Ghost
+//Created On 2010-11-24, Total Warfare Mod 2 3.5
+//--- OBJECT WRITE BEGIN ---
+new SimSet(Container_3232740) {
+
+	new ScriptObject(TWM2Client_3232740) {
+
+		xp = "51508";
+		CGCalls = "0";
+		millionxp = "0";
+		HarrierCalls = "0";
+		UAVCalls = "0";
+		HWCalls = "0";
+		ZBCalls = "0";
+		hasMedalHonorsB = "1";
+		gameTime = "47";
+		rank = "Major Grade II";
+		officer = "0";
+		SlthAirstrikeCalls = "0";
+		GMCalls = "0";
+		hasMedalTheUltimateHeadshot = "1";
+		NukeCalls = "0";
+		noMoreEXP4cd972c0b24dfb1cd782ebf2cec5b8e02036a7e0 = "0";
+		hasMedalHonorsA = "1";
+		weaponKillsR700SniperRifleImage = "3";
+		xpGain4cd972c0b24dfb1cd782ebf2cec5b8e02036a7e0 = "51508";
+		name = "Death Ghost";
+		phrase = "None Set";
+		noMoreEXP6a7c7eb2feb760bf98217eeee06e9b652947e70e = "0";
+		HeliCalls = "0";
+		ArtyCalls = "0";
+		money = "51492";
+		GunHeliCalls = "0";
+		weaponKillsG17SniperRifleImage = "12";
+		rankNumber = "34";
+		AirstrikeCalls = "0";
+	};
+	new ScriptObject(CCD_3232740) {
+
+		expireDate = "20101130";
+	};
+	new ScriptObject(ClientStore3232740) {
+
+		nextLoto = "0";
+		nextSlot = "0";
+	};
+};
+//--- OBJECT WRITE END ---

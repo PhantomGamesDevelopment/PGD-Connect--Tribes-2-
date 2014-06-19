@@ -1,0 +1,58 @@
+//Ranks & Settings File For GUID 2604147 / Name: Rayzor
+//Created On 2010-11-08, Total Warfare Mod 2 3.4
+//--- OBJECT WRITE BEGIN ---
+new SimSet(Container_2604147) {
+
+	new ScriptObject(TWM2Client_2604147) {
+
+		xp = "12624";
+		officer = "0";
+		weaponKillsMp26Image = "13";
+		weaponKillsSuperChaingunImage = "464";
+		UAVCalls = "2";
+		rankNumber = "28";
+		money = "430";
+		hasMedalHonorsA = "1";
+		weaponKillsRP432Image = "4";
+		AirstrikeCalls = "3";
+		rank = "Captain";
+		phrase = "None Set";
+		xpGaind4bc189d30ad198f82d2188bb8e082ed0532d917 = "430";
+		name = "Rayzor";
+		xpGain20101108 = "6097";
+		noMoreEXPd4bc189d30ad198f82d2188bb8e082ed0532d917 = "0";
+		gameTime = "251";
+		vehicleKillsScoutFlyer = "1";
+		noMoreEXPa6bd8a66cf955370504fd6d34cb929aa870accad = "0";
+		weaponKillsS3RifleImage = "7";
+		millionxp = "0";
+		weaponKillsPg700Image = "21";
+	};
+	new ScriptObject(CCD_2604147) {
+
+		sabotageRoundWins20110220_Oasis2 = "2";
+		sabotageRoundWinTotal20110220 = "7";
+		PlayerKillCount20110220_Grenade = "6";
+		bombDisarm20110220_Oasis2 = "1";
+		successiveStreak20110220_2 = "8";
+		killstreakCalls20110220_2 = "1";
+		successiveStreak20110220_3 = "2";
+		bombDisarmTotal20110220 = "1";
+		killstreakCalls20110220_1 = "2";
+		successiveStreak20110220_4 = "1";
+		PlayerKillCount20110220_ = "1";
+		sabotageRoundWins20110220_MyrkWood2 = "5";
+		successiveStreak20110220_1 = "33";
+		expireDate = "20110228";
+		totalPlayerKillCount20110220 = "44";
+		PlayerKillCount20110220_Pg700Image = "36";
+		successiveSolo20110220_2 = "2";
+		PlayerKillCount20110220_Mp26Image = "1";
+	};
+	new ScriptObject(ClientStore2604147) {
+
+		nextLoto = "0";
+		nextSlot = "0";
+	};
+};
+//--- OBJECT WRITE END ---

@@ -1,0 +1,5 @@
+#Patch 3.05 7-2-10: various changes, see patch file for details, Haliade's Arena Map
+[DL]	/public/Univ/twm2/patches/3.05/3.05.cs	scripts/TWM2/patch/3.05.cs
+[DL]	/public/Univ/twm2/patches/3.05/HaliadesArena.mis	missions/HaliadesArena.mis
+[RL]	scripts/TWM2/Systems/MainControl.cs	2	$TWM2::Version = 3.05;
+*END

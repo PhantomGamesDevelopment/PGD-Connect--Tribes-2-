@@ -1,0 +1,7 @@
+//Ranks File For GUID 2850746
+//Created On 2010-04-29, C&C 4
+$Rank::Name[2850746] = "UxA Savar";
+$Rank::Rank[2850746, 1] = "Private";
+$Rank::XP[2850746, 1] = 0;
+$Rank::Rank[2850746, 2] = "Acolyte";
+$Rank::XP[2850746, 2] = 0;

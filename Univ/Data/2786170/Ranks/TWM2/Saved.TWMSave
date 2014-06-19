@@ -1,0 +1,121 @@
+//Ranks & Settings File For GUID 3322673 / Name: zachkillsyouall
+//Ranks & Settings File For GUID 3322673 / Name: zachkillsyouall
+//Ranks & Settings File For GUID 2786170 / Name: Sleepless-Sniper
+//Created On 2012-02-12, Total Warfare Mod 2 3.8
+//--- OBJECT WRITE BEGIN ---
+new SimSet(Container_2786170) {
+
+	new ScriptObject(TWM2Client_2786170) {
+
+		noMoreEXP81861ca26754e4af59e6895da0ec495765f9aabf = "0";
+		noMoreEXP93e86de7684617f887b49bb2c9e641690e605192 = "0";
+		AirstrikeCalls = "23";
+		noMoreEXP5589f316cbe4e261fc3cebada897394611f238ab = "0";
+		noMoreEXP070a144fcabd1d9f4390c1c62a4ba3e85b64b142 = "0";
+		phrase = "None Set";
+		xpGain232efdff56b108c368cbe587f5fd4eac010b95f4 = "16602";
+		CGCalls = "0";
+		noMoreEXP56a9c12e3f558265ae0a9944d1fa8d47e3ac106c = "0";
+		noMoreEXP48c4b4305f2f2c7e3e849602a5dc53ca2b6ddf9e = "0";
+		hasMedalHonorsA = "1";
+		hasMedalThundaStruk = "1";
+		HarrierCalls = "8";
+		xpGain43be0ebaf6ea45eb749520ed7c615c00172b92a7 = "10962";
+		xpGain5589f316cbe4e261fc3cebada897394611f238ab = "28428";
+		noMoreEXPa0655ad1e1b53b9428c8dd7910f46ec0dae117d8 = "0";
+		rank = "Colonel Grade I";
+		rankNumber = "41";
+		hasMedalTheSourceOfAllEvil = "1";
+		UAVCalls = "0";
+		HWCalls = "0";
+		SatNukeCalls = "6";
+		xpGain6c40a08c348816c726fb4502aefda7aaa3cbc5f8 = "67356";
+		ZBCalls = "0";
+		xpGaina0655ad1e1b53b9428c8dd7910f46ec0dae117d8 = "1030";
+		noMoreEXPcf2c9dddda893c59031ef5ce5e5a8fff24281047 = "0";
+		noMoreEXPf8a9be2d61a36698e4f2b268cdfe294efb364a05 = "0";
+		xpGaincf2c9dddda893c59031ef5ce5e5a8fff24281047 = "76";
+		bossDefeatCountGhostOfLightning = "1";
+		xpGain8bd4ed483d34b517b9dcd7b8e6f0c0f9d04386b0 = "1156";
+		money = "130778";
+		name = "Sleepless-Sniper";
+		GMCalls = "14";
+		millionxp = "0";
+		SlthAirstrikeCalls = "0";
+		NukeCalls = "0";
+		hasMedalHonorsB = "1";
+		noMoreEXP6a42a414eb8149e050b7ece15dc4294f409ebe03 = "0";
+		noMoreEXP43be0ebaf6ea45eb749520ed7c615c00172b92a7 = "0";
+		xpGain93e86de7684617f887b49bb2c9e641690e605192 = "3168";
+		xp = "130878";
+		noMoreEXP232efdff56b108c368cbe587f5fd4eac010b95f4 = "0";
+		noMoreEXP8bd4ed483d34b517b9dcd7b8e6f0c0f9d04386b0 = "0";
+		HeliCalls = "17";
+		officer = "0";
+		bossDefeatCountVardison3 = "1";
+		xpGain56a9c12e3f558265ae0a9944d1fa8d47e3ac106c = "972";
+		gameTime = "1089";
+		hasMedalInsigniaDefeated = "1";
+		ArtyCalls = "0";
+		xpGainf8a9be2d61a36698e4f2b268cdfe294efb364a05 = "1128";
+		GunHeliCalls = "0";
+		noMoreEXP6c40a08c348816c726fb4502aefda7aaa3cbc5f8 = "0";
+		bossDefeatCountInsignia = "1";
+	};
+	new ScriptObject(CCD_2786170) {
+
+		expireDate = "20140228";
+	};
+	new ScriptObject(ClientSettings2786170) {
+
+		savedstreak2 = "5";
+		savedperk1 = "AP Bullets";
+		savedstreak1 = "3";
+		savedperk3 = "Bandolier";
+		savedperk2 = "No-Infect Armor";
+		savedstreak3 = "6";
+	};
+	new ScriptObject(ClientStore2786170) {
+
+		purchasedFireworks = "0";
+		nextSlot = "0";
+		purchasedHologram = "0";
+		purchasedSpontaneousCombustion = "0";
+		purchasedFalseExplosion = "0";
+		purchasedGuardianFlare = "0";
+		nextLoto = "0";
+		purchasedThunderstorm = "0";
+	};
+	new ScriptObject(CCD_2786170) {
+
+		ZombieKillCount20140214_0_1 = "31";
+		killstreakCalls20140214_5 = "1";
+		totalZombieKillCount20140214 = "31";
+		ZombieKillCount20140214_PulsePhaserImage_1 = "31";
+		killstreakCalls20140214_3 = "1";
+		expireDate = "20140228";
+	};
+	new ScriptObject(CCD_2786170) {
+
+		ZombieKillCount20140215_R700SniperRifleImage_1 = "32";
+		totalZombieKillCount20140215 = "228";
+		killstreakCalls20140215_6 = "6";
+		killstreakCalls20140215_3 = "7";
+		ZombieKillCount20140215_0_2 = "45";
+		ZombieKillCount20140215_SA2400Image_2 = "5";
+		ZombieKillCount20140215_MiniChaingunImage_1 = "5";
+		ZombieKillCount20140215__2 = "9";
+		ZombieKillCount20140215_G41RifleImage_2 = "7";
+		killstreakCalls20140215_5 = "6";
+		ZombieKillCount20140215_R700SniperRifleImage_2 = "2";
+		ZombieKillCount20140215_SA2400Image_1 = "1";
+		ZombieKillCount20140215_M1SniperRifleImage_1 = "25";
+		ZombieKillCount20140215_0_1 = "184";
+		ZombieKillCount20140215_Grenade_1 = "3";
+		ZombieKillCount20140215_PulsePhaserImage_2 = "22";
+		ZombieKillCount20140215_PulsePhaserImage_1 = "99";
+		ZombieKillCount20140215__1 = "19";
+		expireDate = "20140228";
+	};
+};
+//--- OBJECT WRITE END ---

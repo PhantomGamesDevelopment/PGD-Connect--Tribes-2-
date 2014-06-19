@@ -1,0 +1,66 @@
+//Ranks & Settings File For GUID 2710770 / Name: bigbang
+//Created On 2010-11-14, Total Warfare Mod 2 3.5
+//--- OBJECT WRITE BEGIN ---
+new ScriptObject(TWM2Client_2710770) {
+
+	hasMedalSerialKiller = "1";
+	rankNumber = "45";
+	millionxp = "0";
+	weaponKillsPulsePhaserImage = "27";
+	xpGaind163c4100b1ac6d411ab99ba7d2497825c4d50ee = "94186";
+	hasMedalHonorsB = "1";
+	challengeCompleteTreb1 = "1";
+	weaponKillsMRXXImage = "1";
+	xp = "280486";
+	weaponKillsM1SniperRifleImage = "75";
+	xpGaina551bd7c55ccc51f49b5a3863ebc0a96223288e4 = "15951";
+	hasMedalTheSourceOfAllEvil = "1";
+	noMoreEXP9d579eb661a60278785d0185f9e7ebcab8a5b1b3 = "0";
+	gameTime = "1086";
+	challengeCompleteAcceptance = "1";
+	weaponKillsMp26CMDOImage = "5";
+	bossDefeatCountVardison3 = "2";
+	noMoreEXPd860ebbfad59517ab665e030b87d44bd614d83a5 = "0";
+	weaponKillsMiniChaingunImage = "5";
+	weaponKillsG17SniperRifleImage = "5";
+	bossDefeatCountGhostOfFire = "1";
+	weaponKillsspikerImage = "20";
+	xpGain8ba2a7c650bee8ae643d2a1e8fbeea7bb58ed1ca = "65000";
+	officer = "0";
+	AirstrikeCalls = "3";
+	xpGain0242e146cf59a545568a0c91351c7d8a6002d7d7 = "204";
+	bossDefeatCountStormrider = "1";
+	hasMedalBurningNightmare = "1";
+	phrase = "None Set";
+	hasMedalHonorsC = "1";
+	weaponKillsStingerImage = "2";
+	noMoreEXP0242e146cf59a545568a0c91351c7d8a6002d7d7 = "0";
+	name = "bigbang";
+	hasMedalDailyMax = "1";
+	vehicleKillsCentaurVehicle = "2";
+	challengeCompleteGroupBuster = "1";
+	noMoreEXPd163c4100b1ac6d411ab99ba7d2497825c4d50ee = "0";
+	challengeCompleteVard1 = "1";
+	noMoreEXP8ba2a7c650bee8ae643d2a1e8fbeea7bb58ed1ca = "0";
+	noMoreEXPeacb11e30772c3debd68f7b1a7ff6cb42edbe6c1 = "0";
+	weaponKillsMiniColliderCannonImage = "2";
+	xpGain9002e32633e00c82128b7d12c928b85d2b4d3d7c = "75085";
+	bossDefeatCountTrebor = "3";
+	hasMedalLordraniussFall = "1";
+	weaponKillsWp400Image = "19";
+	weaponKillsS3RifleImage = "3";
+	rank = "Brigadier Grade II";
+	hasMedalSkyFront = "1";
+	UAVCalls = "2";
+	noMoreEXP9d7a38ce97bd188d84124e78647e97cb64a096f6 = "0";
+	noMoreEXP9002e32633e00c82128b7d12c928b85d2b4d3d7c = "0";
+	noMoreEXP1435853884072077d6623cdf15c3f8c101f9f434 = "0";
+	noMoreEXPa551bd7c55ccc51f49b5a3863ebc0a96223288e4 = "0";
+	noMoreEXPeeb6c2be70a59f303f0728bbe542e6b394262d7e = "0";
+	noMoreEXPe8f4aaf1f8d465c5d336e38587aae9bf6e3c06ba = "0";
+	xpGaineeb6c2be70a59f303f0728bbe542e6b394262d7e = "30060";
+	weaponKillsSA2400Image = "2";
+	money = "189350";
+	noMoreEXP49106f22de9d150fbd5606af00eb16405f8f8184 = "0";
+};
+//--- OBJECT WRITE END ---

@@ -1,0 +1,9 @@
+//Ranks File For GUID 2001245
+//Created On 2010-04-06, C&C 4
+$Rank::Name[2001245] = "Signal360";
+$Rank::Rank[2001245, 1] = "Gunnary Private";
+$Rank::XP[2001245, 1] = 1000;
+$Rank::Rank[2001245, 2] = "Acolyte";
+$Rank::XP[2001245, 2] = 0;
+$CNC::Deaths[2001245] = 5;
+$CNC::TotalBuildingKills[2001245] = 3;

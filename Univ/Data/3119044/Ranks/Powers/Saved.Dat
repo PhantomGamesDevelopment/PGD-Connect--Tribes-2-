@@ -1,0 +1,130 @@
+//--- OBJECT WRITE BEGIN ---
+new SimSet(ClientData_3119044) {
+
+	new ScriptObject(classData10_3119044) {
+		class = "Undecided";
+
+		level = "1";
+		affinity = "0";
+		spendPoints = "1";
+		exp = "0";
+	};
+	new ScriptObject(classData1_3119044) {
+		class = "Prospector";
+
+		hasPowerHellstorm = "1";
+		hasPowerHPBoost3 = "1";
+		hasPowerSplitFire = "1";
+		hasPowerHPBoost6 = "1";
+		hasPowerEnergyBoost1 = "1";
+		hasPowerEnergyBoost4 = "1";
+		hasPowerEnergyVampire = "1";
+		hasPowerFireBall6 = "1";
+		hasPowerDarkHeal = "1";
+		hasPowerFireBall2 = "1";
+		hasPowerFireBall3 = "1";
+		level = "92";
+		hasPowerHPBoost5 = "1";
+		affinity = "2";
+		hasPowerHPBoost2 = "1";
+		hasPowerDeepFlameShot = "1";
+		hasPowerEnergyBoost5 = "1";
+		hasPowerEnergyBoost6 = "1";
+		hasPowerEnergyBoost3 = "1";
+		hasPowerHPBoost1 = "1";
+		hasPowerEnrage = "1";
+		hasPowerEnergyBoost2 = "1";
+		hasPowerHellsFury = "1";
+		hasPowerLightning = "1";
+		hasPowerHPBoost4 = "1";
+		spendPoints = "52";
+		exp = "20859";
+		hasPowerFireBolt = "1";
+		hasPowerParalyze = "1";
+		hasPowerSuperSplitFire = "1";
+	};
+	new ScriptObject(classData3_3119044) {
+		class = "Undecided";
+
+		level = "1";
+		affinity = "0";
+		spendPoints = "1";
+		exp = "0";
+	};
+	new ScriptObject(classData4_3119044) {
+		class = "Undecided";
+
+		level = "1";
+		affinity = "0";
+		spendPoints = "1";
+		exp = "0";
+	};
+	new ScriptObject(classData5_3119044) {
+		class = "Undecided";
+
+		level = "1";
+		affinity = "0";
+		spendPoints = "1";
+		exp = "0";
+	};
+	new ScriptObject(classData6_3119044) {
+		class = "Undecided";
+
+		level = "1";
+		affinity = "0";
+		spendPoints = "1";
+		exp = "0";
+	};
+	new ScriptObject(classData7_3119044) {
+		class = "Undecided";
+
+		level = "1";
+		affinity = "0";
+		spendPoints = "1";
+		exp = "0";
+	};
+	new ScriptObject(classData8_3119044) {
+		class = "Undecided";
+
+		level = "1";
+		affinity = "0";
+		spendPoints = "1";
+		exp = "0";
+	};
+	new ScriptObject(classData9_3119044) {
+		class = "Undecided";
+
+		level = "1";
+		affinity = "0";
+		spendPoints = "1";
+		exp = "0";
+	};
+	new ScriptObject(classData2_3119044) {
+		class = "Annihilator";
+
+		hasPowerHPBoost3 = "1";
+		hasPowerDesolation = "1";
+		hasPowerHPBoost6 = "1";
+		hasPowerBurnForce = "1";
+		hasPowerFissureBurst = "1";
+		hasPowerEnergyBoost1 = "1";
+		hasPowerEnergyBoost4 = "1";
+		level = "94";
+		hasPowerHPBoost5 = "1";
+		affinity = "2";
+		hasPowerHPBoost2 = "1";
+		hasPowerEnergyBoost5 = "1";
+		hasPowerEnergyBoost6 = "1";
+		hasPowerDragonsRevenge = "1";
+		hasPowerHPBoost1 = "1";
+		hasPowerEnergyBoost3 = "1";
+		hasPowerEnergyBoost2 = "1";
+		hasPowerSunRay = "1";
+		hasPowerHPBoost4 = "1";
+		spendPoints = "158";
+		exp = "36346";
+		hasPowerFireBolt = "1";
+		hasPowerEnergyBoost7 = "1";
+	};
+};
+//--- OBJECT WRITE END ---

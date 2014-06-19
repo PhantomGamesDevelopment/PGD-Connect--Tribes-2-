@@ -1,0 +1,15 @@
+//Ranks File For GUID 2627784
+//Created On 2010-04-02, C&C 4
+$Rank::Name[2627784] = "MightyZuex";
+$Rank::Rank[2627784, 1] = "Gunnary Private";
+$Rank::XP[2627784, 1] = 2060;
+$Rank::Rank[2627784, 2] = "Initiate";
+$Rank::XP[2627784, 2] = 1726;
+$CNC::Help[2627784, 1] = 0;
+$CNC::Deaths[2627784] = 13;
+$CNC::TotalKills[2627784] = 6;
+$CNC::UKills[2627784] = 3;
+$CNC::KilledByPl[2627784, 2485526] = 3;
+$CNC::Kills[2627784, 2485526] = 3;
+$CNC::TotalCrawlerKills[2627784] = 1;
+$CNC::TotalCrawlerDecoms[2627784] = 1;

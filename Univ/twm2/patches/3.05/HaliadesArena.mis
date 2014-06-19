@@ -1,0 +1,393 @@
+$Killstreak::GunshipSpawnLocation["HaliadesArena"] = "0 -1000 -4800";
+$WarTower::SpawnZone["HaliadesArena"] = "161.4 107.4 -4897";
+
+// DisplayName = Haliade's Arena
+// MissionTypes = Wartower
+
+//--- Mission Quote Begin ---
+// A large RSA Warehouse sits in the empty void, waiting for the pursuit of
+// battle, give it to them well
+//   -- Trevor Haliade
+//   Happy 4th Of July 2010! - Phantom139
+//--- Mission Quote End ---
+
+//--- Mission String Begin ---
+//FFA Concepts apply, kill anyone in your way
+//Invincibility in the spawn room, as well
+//as inventories
+//--- Mission String End ---
+
+//--- OBJECT WRITE BEGIN ---
+new SimGroup(MissionGroup) {
+	musicTrack = "lush";
+	cdTrack = "2";
+	powerCount = "0";
+
+	new MissionArea(MissionArea) {
+		area = "-825 -900 1200 1500";
+		flightCeiling = "5000";
+		flightCeilingRange = "20";
+
+		locked = "true";
+	};
+	new Sun(Sun) {
+		position = "-1024 -1024 0";
+		rotation = "1 0 0 0";
+		scale = "1 1 1";
+		direction = "0.622506 0.622506 -0.474313";
+		color = "0.800000 0.800000 0.800000 1.000000";
+		ambient = "0.400000 0.400000 0.400000 1.000000";
+		texture[0] = "special/sunFlare";
+		texture[1] = "special/sunFlare02";
+		texture[2] = "special/LensFlare/flare01";
+		texture[3] = "special/LensFlare/flare02";
+		texture[4] = "special/LensFlare/flare03";
+		lensFlareScale = "0.7";
+		lensFlareIntensity = "1";
+		frontFlareSize = "300";
+		backFlareSize = "450";
+		flareColor = "1.000000 1.000000 1.000000 1.000000";
+
+		locked = "true";
+	};
+	new NavigationGraph(NavGraph) {
+		conjoinAngleDev = "70";
+		cullDensity = "0.3";
+		customArea = "0 0 0 0";
+		conjoinBowlDev = "20";
+		locked = "true";
+		coverage = "0";
+		scale = "1 1 1";
+		GraphFile = "slapmydash.nav";
+        squareSize = "75";
+		XDimOverSize = "0";
+		position = "-1024 -1024 0 1";
+		YDimOverSize = "0";
+		rotation = "0 0 0 0";
+	};
+	new TerrainBlock(Terrain) {
+		rotation = "1 0 0 0";
+		scale = "1 1 1";
+		detailTexture = "details/desertdet1";
+		terrainFile = "Slapdash.ter";
+		squareSize = "75";
+
+		locked = "true";
+		hazeDistance = "250";
+		position = "-1024 -1024 0";
+		visibleDistance = "1200";
+	};
+
+	new Sky(Sky) {
+		position = "-1024 -1584 0";
+		rotation = "1 0 0 0";
+		scale = "1 1 1";
+		cloudHeightPer[0] = "0.349971";
+		cloudHeightPer[1] = "0.25";
+		cloudHeightPer[2] = "0.199973";
+		cloudSpeed1 = "0.0001";
+		cloudSpeed2 = "0.0002";
+		cloudSpeed3 = "0.0003";
+		visibleDistance = "600";
+		useSkyTextures = "1";
+		renderBottomTexture = "0";
+		SkySolidColor = "0.000000 0.000000 0.000000 0.000000";
+		fogDistance = "200";
+		fogColor = "0.0 0.0 0.00 1";
+		fogVolume1 = "0 0 0";
+		fogVolume2 = "0 0 0";
+		fogVolume3 = "0 0 0";
+		materialList = "sky_lava_starrynight.dml";
+		windVelocity = "0 0 0";
+		windEffectPrecipitation = "0";
+		fogVolumeColor1 = "128.000000 128.000000 128.000000 1";
+		fogVolumeColor2 = "128.000000 128.000000 128.000000 0.000000";
+		fogVolumeColor3 = "128.000000 128.000000 128.000000 0.000000";
+		cloudSpeed0 = "0.000000 0.000000";
+        locked = true;
+	};
+
+	new SimGroup(Teams) {
+		new SimGroup(Team1) {
+  
+		};
+		new SimGroup(team0) {
+  
+		};
+	};
+	new SimGroup(ObserverDropPoints) {
+		new Camera() {
+			position = "0 0 -4500";
+			rotation = "1 0 0 0";
+			scale = "1 1 1";
+			dataBlock = "Observer";
+            team = "0";
+			locked = "true";
+		};
+	};
+	new Trigger(TriggerOfDie) {
+	   position = "-1000 -1000 -5010";
+	   rotation = "1 0 0 0";
+	   scale = "5000 5000 5";
+	   dataBlock = "deathTrigger";
+	   lockCount = "0";
+	   homingCount = "0";
+	   polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 -0.0000000 -1.0000000 -0.0000000 -0.0000000 -0.0000000 1.0000000";
+	};
+	new Trigger(TriggerOfDie2) {
+	   position = "124.741 100.707 -4833.81";
+       rotation = "1 0 0 0";
+       scale = "79.5205 79.0184 0.48";
+	   dataBlock = "deathTrigger";
+	   lockCount = "0";
+	   homingCount = "0";
+	   polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 -0.0000000 -1.0000000 -0.0000000 -0.0000000 -0.0000000 1.0000000";
+	};
+	new Trigger(TriggerOfNoInvinc) {
+       position = "159.654 99.2672 -4854.33";
+       rotation = "90 0 0 1";
+       scale = "4.45538 3.9199 0.48";
+	   dataBlock = "invincDisableTrigger";
+	   lockCount = "0";
+	   homingCount = "0";
+	   polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 -0.0000000 -1.0000000 -0.0000000 -0.0000000 -0.0000000 1.0000000";
+	};
+	new Trigger(TriggerOfNoInvinc2) {
+       position = "164.09 99.6857 -4854.33";
+       rotation = "-90 0 0 1";
+       scale = "4.59545 3.8198 0.48";
+	   dataBlock = "invincDisableTrigger";
+	   lockCount = "0";
+	   homingCount = "0";
+	   polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 -0.0000000 -1.0000000 -0.0000000 -0.0000000 -0.0000000 1.0000000";
+	};
+	new Trigger(TriggerOfNoInvinc3) {
+       position = "159.176 99.2236 -4854.33";
+       rotation = "90 0 0 1";
+       scale = "4.60858 3.86961 0.48";
+	   dataBlock = "invincDisableTrigger";
+	   lockCount = "0";
+	   homingCount = "0";
+	   polyhedron = "0.0000000 0.0000000 0.0000000 1.0000000 0.0000000 0.0000000 -0.0000000 -1.0000000 -0.0000000 -0.0000000 -0.0000000 1.0000000";
+	};
+ 
+};
+
+//"197.699 -2.4623 -4899.5" <- Spawn Zone
+
+//building
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "131.757 21.2556 -4833.82";rotation = "0 0 1 84.7811";scale = "0.125 0.166666 1";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "124.503 100.675 -4833.57";rotation = "-0.0322082 0.706741 -0.706739 183.69";scale = "0.125 0.166666 159";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "131.757 21.2556 -4834.32";rotation = "0 0 1 84.7811";scale = "0.125 0.166666 1";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "131.734 21.5046 -4834.07";rotation = "0.559007 0.612393 0.559005 117.034";scale = "0.125 0.166666 159";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "124.48 100.924 -4833.82";rotation = "0 0 1 174.781";scale = "0.125 0.166666 1";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "124.503 100.675 -4834.57";rotation = "0.594097 -0.542309 0.594096 236.943";scale = "0.125 0.166666 159";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "210.678 28.4639 -4833.57";rotation = "-0.612393 0.559007 0.559005 117.034";scale = "0.125 0.166666 157.999";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "124.48 100.924 -4834.32";rotation = "0 0 1 174.781";scale = "0.125 0.166666 1";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "132.006 21.2783 -4834.07";rotation = "0.612393 -0.559007 0.559005 117.034";scale = "0.125 0.166666 157.999";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "162.724 59.644 -4834.32";rotation = "0 0 1 84.7811";scale = "0.125 0.166666 1";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "162.973 59.6667 -4834.07";rotation = "0.612393 -0.559007 0.559005 117.034";scale = "0.125 0.166666 9.3407";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "167.873 60.1143 -4834.32";rotation = "0 0 1 84.7811";scale = "0.125 0.166666 1";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "162.701 59.893 -4834.07";rotation = "0.559006 0.612393 0.559005 117.034";scale = "0.125 0.166666 88.1734";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "124.729 100.947 -4833.57";rotation = "0.706741 0.0322082 0.706739 176.311";scale = "0.125 0.166666 157.999";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "163.27 82.08 -4834.32";rotation = "0.000121893 4.95316e-05 -1 5.21819";scale = "1.16759 14.6956 1";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "167.85 60.3632 -4834.07";rotation = "0.559006 0.612393 0.559005 117.034";scale = "0.125 0.166666 88.1748";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "210.678 28.4639 -4834.57";rotation = "-0.0454804 0.997929 -0.0454802 90.1188";scale = "0.125 0.166666 157.999";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "162.724 59.644 -4834.82";rotation = "0 0 1 84.7811";scale = "0.125 0.166666 1";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "167.624 60.0916 -4834.57";rotation = "-0.612393 0.559007 0.559005 117.034";scale = "0.125 0.166666 9.34068";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "167.873 60.1143 -4834.82";rotation = "0 0 1 84.7811";scale = "0.125 0.166666 1";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "162.701 59.893 -4834.57";rotation = "0.559007 0.612393 0.559005 117.034";scale = "0.125 0.166666 88.1754";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "203.401 108.132 -4834.07";rotation = "-0.0454785 0.99793 -0.0454783 90.1189";scale = "0.125 0.166666 157.999";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "167.85 60.3633 -4834.57";rotation = "0.559007 0.612393 0.559005 117.034";scale = "0.125 0.166666 88.1748";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "210.927 28.4866 -4833.82";rotation = "0 0 1 84.7811";scale = "0.125 0.166666 1";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "124.729 100.947 -4834.57";rotation = "0.706741 0.0322082 0.706739 176.311";scale = "0.125 0.166666 157.999";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "210.904 28.7356 -4833.57";rotation = "0.559007 0.612393 0.559005 117.034";scale = "0.125 0.166666 159";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "210.927 28.4866 -4834.32";rotation = "0 0 1 84.7811";scale = "0.125 0.166666 1";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "203.673 107.906 -4834.07";rotation = "-0.0322082 0.706741 -0.706739 183.69";scale = "0.125 0.166666 159";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "203.65 108.155 -4833.82";rotation = "0 0 1 174.781";scale = "0.125 0.166666 1";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "210.904 28.7356 -4834.57";rotation = "0.559007 0.612393 0.559005 117.034";scale = "0.125 0.166666 159";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "203.65 108.155 -4834.32";rotation = "0 0 1 174.781";scale = "0.125 0.166666 1";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "162.724 59.644 -4838.32";rotation = "0 0 1 84.7811";scale = "0.125 0.166666 7";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "161.902 65.8892 -4836.57";rotation = "0.542306 0.594097 0.594098 236.943";scale = "3.022 1.16667 1";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "165.321 59.6302 -4836.57";rotation = "-0.0322082 0.706738 0.706741 176.311";scale = "1.16759 1.16667 1";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "161.578 72.1797 -4838.32";rotation = "0 0 -1 95.2187";scale = "0.125 0.166666 7";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "167.873 60.1143 -4838.32";rotation = "0 0 1 84.7811";scale = "0.125 0.166666 7";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "167.051 66.3592 -4836.57";rotation = "0.542306 0.594097 0.594098 236.943";scale = "3.02185 1.16667 1";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "160.105 85.5564 -4836.57";rotation = "0.542307 0.594098 0.594096 236.943";scale = "6.60255 1.16667 1";team = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (ForceFieldBare) () {datablock = "DeployedGravityField1";position = "167.403 60.3123 -4838.7";rotation = "-0.0322075 0.706738 0.706742 176.311";scale = "4.27 4.27 39.5984";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";velocityMod = "1";gravityMod = "0";appliedForce = "-90.956 995.855 0.00538704";powerFreq = "1";powerCount="1";};setTargetSensorGroup(%building.getTarget(),0);MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "166.727 72.6495 -4838.32";rotation = "0 0 -1 95.2187";scale = "0.125 0.166666 7";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "165.825 86.085 -4836.57";rotation = "-0.612389 0.559004 0.559012 117.034";scale = "6.60598 1.16667 1";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "162.701 59.893 -4838.57";rotation = "0.559007 0.612393 0.559005 117.034";scale = "0.125 0.166666 8.17572";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "162.283 64.4618 -4838.57";rotation = "0.559007 0.612393 0.559005 117.034";scale = "0.125 0.166666 16";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "162.973 59.6667 -4838.57";rotation = "0.706741 0.0322108 0.706739 176.311";scale = "0.125 0.166666 9.3407";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "162.555 64.2355 -4838.57";rotation = "0.706741 0.0322108 0.706739 176.311";scale = "0.125 0.166666 9.34072";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "164.516 68.4313 -4838.82";rotation = "0.000102803 4.99361e-05 -1 5.21819";scale = "1.16759 2.50002 1";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "167.85 60.3633 -4838.57";rotation = "0.559007 0.612393 0.559005 117.034";scale = "0.125 0.166666 8.17472";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "161.827 72.2024 -4838.57";rotation = "0.542306 0.594099 0.594096 236.943";scale = "0.125 0.166666 9.34072";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "167.432 64.9316 -4838.57";rotation = "0.559007 0.612393 0.559005 117.034";scale = "0.125 0.166666 16";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "161.555 72.4286 -4838.57";rotation = "0.559006 0.612393 0.559005 117.034";scale = "0.125 0.166666 52.8206";team = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "162.902 86.103 -4838.32";rotation = "-0.0455293 0.998963 -5.27214e-07 180";scale = "1.16759 8.99679 1";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "166.704 72.8984 -4838.57";rotation = "0.559006 0.612393 0.559005 117.034";scale = "0.125 0.166666 52.848";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "159.686 99.0291 -4838.96";rotation = "0.706741 0.0322082 0.706739 176.31";scale = "0.125 0.166666 8.87076";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "158.939 98.9609 -4849.92";rotation = "0 0 1 174.781";scale = "0.125 0.166666 30.2002";team = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "158.458 101.472 -4842.37";rotation = "0.542304 0.5941 0.594097 236.943";scale = "1.14727 5.03336 1";team = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "131.757 21.2556 -4854.32";rotation = "0 0 1 84.7811";scale = "0.125 0.166666 40";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "163.871 101.973 -4842.42";rotation = "0.542306 0.594097 0.594098 236.943";scale = "1.14386 5.06673 1";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "127.869 61.0671 -4844.57";rotation = "0.542306 0.594097 0.594098 236.943";scale = "19.875 6.49999 1";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "124.48 100.924 -4854.32";rotation = "0 0 1 174.781";scale = "0.125 0.166666 40";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "171.319 25.1202 -4844.57";rotation = "-0.99793 -0.0454798 -0.0454765 90.1183";scale = "19.7499 6.49999 1";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "161.872 99.4798 -4844.56";rotation = "-0.997929 -0.0454812 -0.0454778 90.1187";scale = "1.10884 3.57 1";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (ForceFieldBare) () {datablock = "DeployedGravityField1";position = "159.831 99.3739 -4854.33";rotation = "0 0 -1 5.21894";scale = "4.27 4.27 19.52";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";velocityMod = "1";gravityMod = "0";appliedForce = "0.00177658 -0.0171905 -1000";powerFreq = "1";powerCount="1";};setTargetSensorGroup(%building.getTarget(),0);MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "164.351 99.4685 -4854.32";rotation = "0 0 -1 5.21894";scale = "0.125 0.166666 39";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "164.088 104.29 -4844.57";rotation = "-0.0322075 0.706738 0.706742 176.311";scale = "19.7499 6.49999 1";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "210.927 28.4866 -4854.32";rotation = "0 0 1 84.7811";scale = "0.125 0.166666 40";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "162.724 59.644 -4854.32";rotation = "0 0 1 84.7811";scale = "0.125 0.166666 32";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "162.306 64.2128 -4854.32";rotation = "0 0 1 84.7811";scale = "0.125 0.166666 32";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "207.537 68.3435 -4844.57";rotation = "-0.612388 0.559006 0.559011 117.034";scale = "19.875 6.49999 1";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "167.873 60.1143 -4854.32";rotation = "0 0 1 84.7811";scale = "0.125 0.166666 32";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "167.455 64.6826 -4854.32";rotation = "0 0 1 84.7811";scale = "0.125 0.166666 32";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "162.266 61.9057 -4846.57";rotation = "0.542306 0.594097 0.594098 236.943";scale = "1.02197 5.16666 1";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "165.276 60.1281 -4846.57";rotation = "-0.99793 -0.0454798 -0.0454765 90.1183";scale = "1.16759 5.16666 1";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "164.858 64.6969 -4846.57";rotation = "-0.99793 -0.0454798 -0.0454765 90.1183";scale = "1.16759 5.16666 1";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "203.65 108.155 -4854.32";rotation = "0 0 1 174.781";scale = "0.125 0.166666 40";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "167.415 62.3758 -4846.57";rotation = "0.542306 0.594097 0.594098 236.943";scale = "1.02184 5.16666 1";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "159.686 99.0291 -4850.17";rotation = "-0.0454847 0.997929 -0.0454789 90.1182";scale = "0.125 0.166666 2";team = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "158.916 99.2098 -4850.17";rotation = "-0.0322054 0.706738 0.706742 176.309";scale = "0.125 0.166666 9.17836";team = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "159.414 99.2553 -4850.17";rotation = "-0.0322054 0.706738 0.706742 176.309";scale = "0.125 0.166666 9.17736";team = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "159.686 99.0291 -4850.17";rotation = "0.706741 0.0322082 0.706739 176.31";scale = "0.125 0.166666 8.87076";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "164.328 99.7175 -4850.27";rotation = "0.559006 0.612393 0.559005 117.034";scale = "0.125 0.166666 9.1509";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate8";position = "138.411 35.7739 -4854.32";rotation = "0 0 -1 5.6367";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate8";position = "140.765 27.6273 -4854.32";rotation = "0 0 -1 39.9196";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate8";position = "132.78 54.7817 -4854.32";rotation = "0 0 1 5.80019";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate8";position = "133.925 71.5582 -4854.32";rotation = "0 0 -1 6.77926";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate8";position = "141.157 60.6113 -4854.32";rotation = "0 0 -1 36.5742";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate8";position = "150.458 35.9273 -4854.32";rotation = "0 0 -1 39.4032";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate8";position = "147.932 47.3592 -4854.32";rotation = "0 0 -1 73.7465";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate8";position = "138.515 82.1188 -4854.32";rotation = "0 0 1 87.725";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate8";position = "159.553 29.3233 -4854.32";rotation = "0 0 -1 69.6705";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate8";position = "134.938 91.4797 -4854.32";rotation = "0 0 1 132.972";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate8";position = "148.467 75.1404 -4854.32";rotation = "0 0 1 47.0593";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate7";position = "140.918 54.8115 -4854.32";rotation = "0 0 1 161.871";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate8";position = "155.199 70.0537 -4854.32";rotation = "0 0 -1 3.90629";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate8";position = "144.21 94.3225 -4854.32";rotation = "0 0 1 169.612";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate7";position = "141.054 74.9464 -4854.32";rotation = "0 0 1 149.276";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "158.968 98.9635 -4850.42";rotation = "-0.0455306 0.998963 1.26628e-06 180";scale = "0.125 0.166666 7.7998";team = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate7";position = "150.93 57.6725 -4854.32";rotation = "0 0 1 183.614";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate7";position = "148.488 66.3206 -4854.32";rotation = "0 0 1 193.969";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "158.985 101.52 -4852.37";rotation = "0.542303 0.594103 -0.594095 123.058";scale = "1.14712 1.29997 1";team = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate8";position = "160.88 75.7777 -4854.32";rotation = "0 0 1 10.3979";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate8";position = "172.543 45.7145 -4854.32";rotation = "0 0 -1 107.474";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate8";position = "152.997 92.2758 -4854.32";rotation = "0 0 1 236.381";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate8";position = "176.122 33.675 -4854.32";rotation = "0 0 -1 88.0235";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate8";position = "165.493 72.0432 -4854.32";rotation = "0 0 -1 10.7893";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate8";position = "153.867 96.2509 -4854.32";rotation = "0 0 1 174.506";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate7";position = "165.33 32.5343 -4854.32";rotation = "0 0 -1 17.656";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate7";position = "163.01 45.3579 -4854.32";rotation = "0 0 -1 41.1392";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate8";position = "158.216 92.2121 -4854.32";rotation = "0 0 1 184.828";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate8";position = "162.205 85.5418 -4854.32";rotation = "0 0 1 142.432";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "163.871 101.973 -4852.42";rotation = "0.542306 0.594097 0.594098 236.943";scale = "1.14386 1.2666 1";team = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate7";position = "147.731 85.6108 -4854.32";rotation = "0 0 1 233.64";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate7";position = "161.315 56.4069 -4854.32";rotation = "0 0 1 126.403";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate8";position = "169.189 79.0471 -4854.32";rotation = "0 0 -1 45.138";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate7";position = "159.902 72.1124 -4854.32";rotation = "0 0 1 218.732";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate7";position = "156.23 81.381 -4854.32";rotation = "0 0 1 133.999";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate7";position = "154.656 85.7539 -4854.32";rotation = "0 0 1 215.908";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate8";position = "187.948 39.844 -4854.32";rotation = "0 0 -1 101.756";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "124.503 100.675 -4854.57";rotation = "0.0322059 -0.706738 0.706742 176.31";scale = "0.125 0.166666 160";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate8";position = "183.752 60.2346 -4854.32";rotation = "0 0 1 219.331";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate8";position = "170.828 92.037 -4854.32";rotation = "0 0 -1 10.2512";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate7";position = "177.812 44.8731 -4854.32";rotation = "0 0 -1 61.7385";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate8";position = "171.225 95.8333 -4854.32";rotation = "0 0 -1 45.1274";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate7";position = "171.46 71.3117 -4854.32";rotation = "0 0 1 154.44";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate8";position = "174.264 95.5597 -4854.32";rotation = "0 0 -1 36.569";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate8";position = "182.434 79.2262 -4854.32";rotation = "0 0 1 57.8475";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate7";position = "166.647 87.0113 -4854.32";rotation = "0 0 1 111.653";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate7";position = "186.439 34.4243 -4854.32";rotation = "0 0 1 128.127";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate8";position = "177.335 98.7318 -4854.32";rotation = "0 0 1 81.3909";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate8";position = "183.51 86.771 -4854.32";rotation = "0 0 1 170.54";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate7";position = "172.302 82.5241 -4854.32";rotation = "0 0 1 184.389";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate7";position = "186.062 49.9443 -4854.32";rotation = "0 0 1 122.969";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate7";position = "176.418 77.7122 -4854.32";rotation = "0 0 1 215.897";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "145.421 60.3669 -4854.82";rotation = "1.53466e-05 1.10796e-05 1 84.7811";scale = "1.27185 11.2767 1";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate8";position = "186.79 87.2442 -4854.32";rotation = "0 0 1 45.2573";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate7";position = "172.844 89.5477 -4854.32";rotation = "0 0 1 231.344";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate7";position = "184.086 65.7167 -4854.32";rotation = "0 0 -1 5.94433";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate8";position = "192.85 79.0524 -4854.32";rotation = "0 0 1 18.9011";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate7";position = "178.6 85.0701 -4854.32";rotation = "0 0 1 153.484";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate7";position = "195.418 38.1045 -4854.32";rotation = "0 0 -1 84.1177";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate8";position = "189.019 98.8686 -4854.32";rotation = "0 0 -1 54.3723";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate7";position = "193.776 60.5249 -4854.32";rotation = "0 0 1 224.884";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate7";position = "191.145 72.1971 -4854.32";rotation = "0 0 -1 98.861";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate7";position = "182.895 93.798 -4854.32";rotation = "0 0 1 123.145";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "132.006 21.2783 -4854.57";rotation = "0.612393 -0.559002 0.55901 117.034";scale = "0.125 0.166666 157.999";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate7";position = "199.399 53.139 -4854.32";rotation = "0 0 1 191.705";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "162.701 59.893 -4854.57";rotation = "0.559007 0.612393 0.559005 117.034";scale = "0.125 0.166666 8.17572";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate7";position = "188.743 84.5126 -4854.32";rotation = "0 0 1 222.203";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "169.731 42.5041 -4854.82";rotation = "-4.30791e-06 3.71538e-06 1 174.781";scale = "19.7499 11.6375 1";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "167.624 60.0916 -4854.57";rotation = "-0.0454804 0.997929 -0.0454802 90.1188";scale = "0.125 0.166666 9.34068";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate8";position = "199.396 93.7406 -4854.32";rotation = "0 0 -1 24.6048";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "167.206 64.6599 -4854.57";rotation = "-0.0454804 0.997929 -0.0454802 90.1188";scale = "0.125 0.166666 9.34072";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "167.85 60.3633 -4854.57";rotation = "0.559007 0.612393 0.559005 117.034";scale = "0.125 0.166666 8.17472";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate7";position = "198.108 85.8555 -4854.32";rotation = "0 0 1 210.212";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "165.884 84.6226 -4854.32";rotation = "0.998963 0.0455283 4.96043e-07 180.001";scale = "19.7499 13.1668 1";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedCrate7";position = "192.475 105.413 -4854.32";rotation = "0 0 1 203.889";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "203.899 108.178 -4854.57";rotation = "-0.54231 -0.594095 0.594097 236.942";scale = "0.125 0.166666 159.999";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "187.581 64.2177 -4854.82";rotation = "1.53466e-05 1.10796e-05 1 84.7811";scale = "1.27185 13.1663 1";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "203.673 107.906 -4854.57";rotation = "0.0322059 -0.706738 0.706742 176.31";scale = "0.125 0.166666 160";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (ForceFieldBare) () {datablock = "DeployedGravityField1";position = "167.052 64.4809 -4899.51";rotation = "0 0 1 174.781";scale = "4.27 4.27 60.8198";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";velocityMod = "1";gravityMod = "0";appliedForce = "-0.00838318 -0.00203097 1000";powerFreq = "1";powerCount="1";};setTargetSensorGroup(%building.getTarget(),0);MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "162.724 59.644 -4894.32";rotation = "0 0 1 84.7811";scale = "0.125 0.166666 80";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "162.306 64.2128 -4894.32";rotation = "0 0 1 84.7811";scale = "0.125 0.166666 80";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "167.873 60.1143 -4894.32";rotation = "0 0 1 84.7811";scale = "0.125 0.166666 80";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "167.455 64.6826 -4894.32";rotation = "0 0 1 84.7811";scale = "0.125 0.166666 80";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "162.764 61.9511 -4874.57";rotation = "-0.612388 0.559005 0.559012 117.034";scale = "1.02197 13.1667 1";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "165.276 60.1281 -4874.57";rotation = "-0.99793 -0.0454798 -0.0454765 90.1183";scale = "1.16759 13.1667 1";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "164.858 64.6969 -4874.57";rotation = "-0.99793 -0.0454798 -0.0454765 90.1183";scale = "1.16759 13.1667 1";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "167.415 62.3758 -4874.57";rotation = "0.542306 0.594097 0.594098 236.943";scale = "1.02184 13.1667 1";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "GeneratorLarge";position = "155.336 101.892 -4879.5";rotation = "0 0 1 79.0733";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";deployed = "1";powerFreq = "1";powerCount="1";};setTargetSensorGroup(%building.getTarget(),0);MissionCleanup.add(%building);checkPowerObject(%building);%building.setSelfPowered();setTargetName(%building.target,addTaggedString("[ON]  Frequency" SPC %obj.powerFreq));%building.playThread($AmbientThread,"ambient");
+%building = new (StaticShape) () {datablock = "GeneratorLarge";position = "154.006 115.674 -4879.5";rotation = "0 0 1 85.0556";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";deployed = "1";powerFreq = "1";powerCount="1";};setTargetSensorGroup(%building.getTarget(),0);MissionCleanup.add(%building);checkPowerObject(%building);%building.setSelfPowered();setTargetName(%building.target,addTaggedString("[ON]  Frequency" SPC %obj.powerFreq));%building.playThread($AmbientThread,"ambient");
+%building = new (StaticShape) () {datablock = "GeneratorLarge";position = "166.814 103.441 -4879.5";rotation = "0 0 -1 96.2025";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";deployed = "1";powerFreq = "1";powerCount="1";};setTargetSensorGroup(%building.getTarget(),0);MissionCleanup.add(%building);checkPowerObject(%building);%building.setSelfPowered();setTargetName(%building.target,addTaggedString("[ON]  Frequency" SPC %obj.powerFreq));%building.playThread($AmbientThread,"ambient");
+%building = new (StaticShape) () {datablock = "GeneratorLarge";position = "165.353 116.694 -4879.5";rotation = "0 0 -1 93.9118";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";deployed = "1";powerFreq = "1";powerCount="1";};setTargetSensorGroup(%building.getTarget(),0);MissionCleanup.add(%building);checkPowerObject(%building);%building.setSelfPowered();setTargetName(%building.target,addTaggedString("[ON]  Frequency" SPC %obj.powerFreq));%building.playThread($AmbientThread,"ambient");
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "151.431 99.0302 -4879.75";rotation = "0.559007 0.612393 0.559005 117.034";scale = "0.125 0.166666 38.9994";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "170.624 100.532 -4879.75";rotation = "-0.0454804 0.997929 -0.0454802 90.1188";scale = "0.125 0.166666 37.9996";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "160.254 109.626 -4879.5";rotation = "-0.0455284 0.998963 -1.35985e-06 180";scale = "4.74993 6.49996 1";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "168.804 120.449 -4879.75";rotation = "-0.0454804 0.997929 -0.0454802 90.1188";scale = "0.125 0.166666 37.9994";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "170.85 100.804 -4879.75";rotation = "0.559007 0.612393 0.559005 117.034";scale = "0.125 0.166666 38.9998";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "161.186 99.4189 -4887.16";rotation = "-0.0322082 0.706738 0.706741 176.311";scale = "4.74995 4.77466 1";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "151.454 98.7812 -4899.5";rotation = "0 0 1 84.7811";scale = "0.125 0.166666 40";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "149.634 118.698 -4899.5";rotation = "0 0 1 84.7811";scale = "0.125 0.166666 40";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "150.793 108.762 -4889.75";rotation = "-0.612388 0.559005 0.559012 117.034";scale = "4.87495 6.49999 1";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "170.873 100.555 -4899.5";rotation = "0 0 1 84.7811";scale = "0.125 0.166666 40";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "159.321 119.834 -4889.75";rotation = "-0.99793 -0.0454798 -0.0454765 90.1183";scale = "4.74993 6.49999 1";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "169.053 120.472 -4899.5";rotation = "0 0 1 84.7811";scale = "0.125 0.166666 40";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "169.714 110.491 -4889.75";rotation = "0.542306 0.594097 0.594098 236.943";scale = "4.87498 6.49999 1";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "167.624 60.0916 -4894.57";rotation = "-0.612389 0.55901 0.559006 117.034";scale = "0.125 0.166666 9.3407";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "167.208 64.6445 -4894.57";rotation = "-0.612389 0.55901 0.559006 117.034";scale = "0.125 0.166666 9.34068";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "159.108 99.2292 -4894.57";rotation = "-0.997929 -0.0454816 -0.0454784 90.1181";scale = "0.125 0.166666 80";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "163.271 82.0728 -4894.82";rotation = "4.88858e-06 3.55024e-06 1 174.781";scale = "1.16759 11.6427 1";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "164.257 99.6995 -4894.57";rotation = "-0.997929 -0.0454816 -0.0454784 90.1181";scale = "0.125 0.166666 80";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "151.703 98.8039 -4894.57";rotation = "0.706741 0.0322108 0.706739 176.311";scale = "0.125 0.166666 37.9994";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "162.724 59.644 -4894.82";rotation = "0.738566 -0.674181 -8.54585e-07 180";scale = "0.125 0.166666 9.36036";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "162.766 61.9252 -4897.16";rotation = "0.542305 0.594101 -0.594095 123.058";scale = "1.00891 1.56006 1";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "162.311 64.1609 -4894.82";rotation = "0.738566 -0.674181 -8.54585e-07 180";scale = "0.125 0.166666 9.36036";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "165.276 60.1282 -4897.16";rotation = "-0.032211 0.706741 -0.706738 183.69";scale = "1.16759 1.56006 1";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (ForceFieldBare) () {datablock = "DeployedForceField16";position = "167.195 64.8874 -4894.81";rotation = "-0.032211 0.706741 -0.706738 183.69";scale = "4.69036 4.70018 0.48";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";noSlow = "1";};setTargetSensorGroup(%building.getTarget(),0);MissionCleanup.add(%building);checkPowerObject(%building);%building.pzone.delete();%building.pzone = "";
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "167.873 60.1143 -4894.82";rotation = "0.738566 -0.674181 -8.54585e-07 180";scale = "0.125 0.166666 9.36036";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "167.914 62.4151 -4897.16";rotation = "0.542305 0.594101 -0.594095 123.058";scale = "1.01873 1.56006 1";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "167.456 64.6702 -4894.82";rotation = "0.738566 -0.674181 -8.54585e-07 180";scale = "0.125 0.166666 9.36036";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "160.947 81.8422 -4897.16";rotation = "0.542305 0.594101 -0.594095 123.058";scale = "8.74105 1.56006 1";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "155.259 99.3798 -4897.16";rotation = "-0.0322111 0.706741 -0.706738 183.69";scale = "1.7967 1.55867 1";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "166.094 82.332 -4897.16";rotation = "0.542305 0.594101 -0.594095 123.058";scale = "8.73125 1.56006 1";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "159.109 99.4804 -4894.82";rotation = "0.998963 0.045527 5.77096e-08 180";scale = "0.125 0.166666 9.352";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (ForceFieldBare) () {datablock = "DeployedForceField16";position = "163.98 100.166 -4894.81";rotation = "-0.0322111 0.706741 -0.706738 183.69";scale = "4.6733 4.70018 0.48";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";noSlow = "1";};setTargetSensorGroup(%building.getTarget(),0);MissionCleanup.add(%building);checkPowerObject(%building);%building.pzone.delete();%building.pzone = "";
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "164.241 99.9491 -4894.82";rotation = "0.998963 0.045527 5.77096e-08 180";scale = "0.125 0.166666 9.352";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "167.58 100.003 -4897.16";rotation = "-0.0322082 0.706738 0.706741 176.311";scale = "1.53988 1.55867 1";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "StationInventory";position = "153.468 115.004 -4899.5";rotation = "0 0 -1 2.53837";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";deployed = "1";powerFreq = "1";powerCount="1";};setTargetSensorGroup(%building.getTarget(),0);MissionCleanup.add(%building);checkPowerObject(%building);%building.deploy();adjustTrigger(%building);
+%building = new (StaticShape) () {datablock = "StationInventory";position = "159.32 115.307 -4899.5";rotation = "0 0 -1 5.96603";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";deployed = "1";powerFreq = "1";powerCount="1";};setTargetSensorGroup(%building.getTarget(),0);MissionCleanup.add(%building);checkPowerObject(%building);%building.deploy();adjustTrigger(%building);
+%building = new (StaticShape) () {datablock = "StationInventory";position = "165.522 116.486 -4899.5";rotation = "0 0 -1 4.25211";scale = "1 1 1";team = "0";invincible = "1";ownerGUID = "2000343";deployed = "1";powerFreq = "1";powerCount="1";};setTargetSensorGroup(%building.getTarget(),0);MissionCleanup.add(%building);checkPowerObject(%building);%building.deploy();adjustTrigger(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "167.654 60.0944 -4899.75";rotation = "-0.612393 0.559009 0.559003 117.034";scale = "0.125 0.166666 9.34074";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "165.12 62.1605 -4900";rotation = "3.26463e-06 4.84168e-06 -1 95.2187";scale = "1.019 1.55679 1";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "167.238 64.6514 -4899.75";rotation = "-0.612393 0.559009 0.559003 117.034";scale = "0.125 0.166666 9.34074";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "159.138 99.232 -4899.75";rotation = "0.0322083 -0.706737 0.706742 176.31";scale = "0.125 0.166666 80";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "163.3 82.0775 -4900";rotation = "3.26463e-06 4.84168e-06 -1 95.2187";scale = "8.731 1.55679 1";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "164.287 99.7023 -4899.75";rotation = "0.0322083 -0.706737 0.706742 176.31";scale = "0.125 0.166666 80";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);
+%building = new (StaticShape) () {datablock = "DeployedSpine";position = "170.212 110.536 -4899.75";rotation = "-0.612393 0.559007 0.559004 117.034";scale = "5.1249 0.166666 39.9998";team = "0";invincible = "1";ownerGUID = "2000343";needsfit = "1";powerFreq = "1";powerCount="1";};MissionCleanup.add(%building);checkPowerObject(%building);

@@ -1,0 +1,15 @@
+//Ranks File For GUID 2450675
+//Created On 2010-04-04, C&C 4
+$Rank::Name[2450675] = "rk4000";
+$Rank::Rank[2450675, 1] = "Gunnary Private";
+$Rank::XP[2450675, 1] = 1046;
+$Rank::Rank[2450675, 2] = "Acolyte";
+$Rank::XP[2450675, 2] = 70;
+$CNC::Deaths[2450675] = 17;
+$CNC::TotalKills[2450675] = 1;
+$CNC::Kills[2450675, 2000343] = 1;
+$CNC::KilledByPl[2450675, 2000343] = 2;
+$CNC::UKills[2450675] = 2;
+$CNC::KilledByPl[2450675, 2001729] = 11;
+$CNC::Kills[2450675, 2001729] = 3;
+$CNC::KilledByObj[2450675, DropPod] = 1;

@@ -1,0 +1,96 @@
+//Ranks & Settings File For GUID 2130825 / Name: DarknessOfLight
+//Created On 2010-11-06, Total Warfare Mod 2 3.4
+//--- OBJECT WRITE BEGIN ---
+new SimSet(Container_2130825) {
+
+	new ScriptObject(TWM2Client_2130825) {
+
+		noMoreEXPafd65474d446a6dde699343e249c8305bb5c112c = "0";
+		weaponKillsS3RifleImage = "1";
+		money = "200828";
+		ArtyCalls = "13";
+		GunHeliCalls = "0";
+		challengeCompleteVard1 = "1";
+		hasMedalGamerExcuisite = "1";
+		weaponKillsSuperChaingunImage = "19";
+		xpGain4cd972c0b24dfb1cd782ebf2cec5b8e02036a7e0 = "225708";
+		noMoreEXP9002e32633e00c82128b7d12c928b85d2b4d3d7c = "0";
+		xp = "652040";
+		AirstrikeCalls = "9";
+		noMoreEXP30bef08fa7bdeea74f775312fd4474ad898b26b5 = "0";
+		millionxp = "0";
+		noMoreEXPf84cf81cacd074fe1f02819cef3f78be4a0d36d7 = "0";
+		bossDefeatCountVengenor = "1";
+		xpGain20101116 = "37500";
+		weaponKillsMissileLauncherImage = "9";
+		CGCalls = "0";
+		xpGaind860ebbfad59517ab665e030b87d44bd614d83a5 = "39";
+		officer = "0";
+		weaponKillsS3SRifleImage = "210";
+		noMoreEXPfebce0d090179df639e250e081cdce7f2147fcd5 = "0";
+		weaponKillsflamerImage = "26";
+		ACCalls = "1";
+		hasMedalHonorsB = "1";
+		xpGaina551bd7c55ccc51f49b5a3863ebc0a96223288e4 = "40176";
+		hasMedalInsigniaDefeated = "1";
+		challengeCompleteVard2 = "1";
+		weaponKillsM1SniperRifleImage = "14";
+		hasMedalHonorsC = "1";
+		xpGain9002e32633e00c82128b7d12c928b85d2b4d3d7c = "78500";
+		HarrierCalls = "0";
+		weaponKillspistolImage = "1";
+		bossDefeatCountInsignia = "1";
+		xpGain20101106 = "68";
+		weaponKillsSA2400Image = "15";
+		xpGain20101108 = "73";
+		bossDefeatCountGhostOfFire = "2";
+		noMoreEXPa551bd7c55ccc51f49b5a3863ebc0a96223288e4 = "0";
+		UAVCalls = "0";
+		HWCalls = "0";
+		gameTime = "2483";
+		xpGainf84cf81cacd074fe1f02819cef3f78be4a0d36d7 = "421";
+		weaponKillsStingerImage = "19";
+		xpGainafd65474d446a6dde699343e249c8305bb5c112c = "67747";
+		xpGain20101120 = "123180";
+		ZBCalls = "3";
+		noMoreEXPd860ebbfad59517ab665e030b87d44bd614d83a5 = "0";
+		challengeCompleteCentaur1 = "1";
+		hasMedalBurningNightmare = "1";
+		noMoreEXP6a0c8abf721c54d1168639f7efe996c0de0104eb = "0";
+		bossDefeatCountStormrider = "1";
+		weaponKillsNuclearImage = "3";
+		noMoreEXPfdd9330966537889b883c917c248124703b206ee = "0";
+		rank = "3 Star General";
+		name = "DarknessOfLight";
+		noMoreEXPdd80bc24dac8672bcf767d755c529873255414ac = "0";
+		hasMedalTheNewGeneral = "1";
+		hasMedalTheUltimateHeadshot = "1";
+		SlthAirstrikeCalls = "0";
+		GMCalls = "0";
+		hasMedalTheSourceOfAllEvil = "1";
+		hasMedalSkyFront = "1";
+		NukeCalls = "0";
+		phrase = "None Set";
+		noMoreEXP6a7c7eb2feb760bf98217eeee06e9b652947e70e = "0";
+		rankNumber = "51";
+		xpGaindd80bc24dac8672bcf767d755c529873255414ac = "78504";
+		xpGain6a7c7eb2feb760bf98217eeee06e9b652947e70e = "124";
+		weaponKillsG17SniperRifleImage = "6";
+		noMoreEXP91add7cf7886d77002ae84ea77fa577c0db892c1 = "0";
+		weaponKillsPulsePhaserImage = "1";
+		bossDefeatCountVardison3 = "3";
+		noMoreEXP4cd972c0b24dfb1cd782ebf2cec5b8e02036a7e0 = "0";
+		weaponKillsMortarImage = "51";
+		HeliCalls = "1";
+	};
+	new ScriptObject(ClientStore2130825) {
+
+		nextSlot = "0";
+		nextLoto = "0";
+	};
+	new ScriptObject(CCD_2130825) {
+
+		expireDate = "20101231";
+	};
+};
+//--- OBJECT WRITE END ---

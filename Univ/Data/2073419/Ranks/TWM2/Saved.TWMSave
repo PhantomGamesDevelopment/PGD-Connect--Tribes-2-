@@ -1,0 +1,93 @@
+//Ranks & Settings File For GUID 2073419 / Name: Crappage
+//Created On 2010-12-05, Total Warfare Mod 2 3.6
+//--- OBJECT WRITE BEGIN ---
+new SimSet(Container_2073419) {
+
+	new ScriptObject(TWM2Client_2073419) {
+
+		noMoreEXPc7412b8fcc6af13f36096bacea1e97d0ab47c3d1 = "0";
+		money = "1.77138e+07";
+		challengeCompleteAcceptance = "1";
+		challengeCompleteGameEnder = "1";
+		officer = "7";
+		weaponKillsWp400Image = "81";
+		GMCalls = "4";
+		SlthAirstrikeCalls = "27";
+		millionxp = "2";
+		xpGaine8f4aaf1f8d465c5d336e38587aae9bf6e3c06ba = "60300";
+		noMoreEXPbdbabad4b8dedaeeec4d8d11739eb163b9b5e6e4 = "0";
+		NukeCalls = "4";
+		challengeComplete15For15 = "1";
+		noMoreEXPacc6411866b5c324fa7563f06684d17dd798ec07 = "0";
+		challengeCompleteHelicopter1 = "1";
+		xpGain89cdac08df21a5718f555304b1ff83706f567ff0 = "350190";
+		FissionCalls = "1";
+		challengeCompleteS3RifleImage_1 = "1";
+		challengeCompleteWp400Image_1 = "1";
+		noMoreEXPd0c6f581c60c16e2bdea3fdec0420e572976d8d9 = "0";
+		xp = "338280";
+		xpGaindd7dfcc969fa279e882307c86c4c61faece8aef0 = "516252";
+		noMoreEXP0acf1e7c29cf0d7a46aa6c098fef9f65ecee36ee = "0";
+		challengeCompleteMilestone25 = "1";
+		HeliCalls = "31";
+		challengeCompleteAngel = "1";
+		xpGainc7412b8fcc6af13f36096bacea1e97d0ab47c3d1 = "9210";
+		hasMedalHonorsC = "1";
+		gameTime = "10486";
+		weaponKillsS3RifleImage = "209";
+		challengeCompleteAirstrike1 = "1";
+		ArtyCalls = "0";
+		bossDefeatCountLordRog = "1";
+		xpGainae27473a04462f40846555ef3c15130473191fd1 = "522040";
+		xpGainb357f24507ce1e3484c97e0f69aba8cb58dbc5e0 = "189072";
+		noMoreEXPfc415304893efb384e432cd91acd761a21b60f5c = "0";
+		GunHeliCalls = "0";
+		bossDefeatCountGhostOfLightning = "2";
+		noMoreEXPae27473a04462f40846555ef3c15130473191fd1 = "0";
+		hasMedalHonorsB = "1";
+		hasMedalThundaStruk = "1";
+		hasMedalNuclearDawn = "1";
+		name = "Crappage";
+		AirstrikeCalls = "42";
+		challengeCompleteS3RifleImage_2 = "1";
+		rankNumber = "58";
+		noMoreEXP7157524394b5b23795f12ae582a4859a543a7db9 = "0";
+		phrase = "None Set";
+		noMoreEXPb357f24507ce1e3484c97e0f69aba8cb58dbc5e0 = "0";
+		challengeCompleteHarrier1 = "1";
+		noMoreEXPdd7dfcc969fa279e882307c86c4c61faece8aef0 = "0";
+		hasMedalTheUltimateHeadshot = "1";
+		hasMedalGamerExcuisite = "1";
+		CGCalls = "0";
+		xpGain0acf1e7c29cf0d7a46aa6c098fef9f65ecee36ee = "181680";
+		noMoreEXP89cdac08df21a5718f555304b1ff83706f567ff0 = "0";
+		bossDefeatCountShadeLord = "3";
+		hasMedalRevengeAvoidedAgain = "1";
+		weaponKillsSuperChaingunImage = "777";
+		HarrierCalls = "23";
+		rank = "Fleet Commander";
+		weaponKillspistolImage = "1";
+		hasMedalTheLight = "1";
+		hasMedalHonorsA = "1";
+		xpGain7157524394b5b23795f12ae582a4859a543a7db9 = "385124";
+		UAVCalls = "0";
+		HWCalls = "0";
+		noMoreEXPe8f4aaf1f8d465c5d336e38587aae9bf6e3c06ba = "0";
+		challengeCompleteFission1 = "1";
+		weaponKillsM1700Image = "10";
+		ZBCalls = "0";
+		bossDefeatCountInsignia = "1";
+		hasMedalInsigniaDefeated = "1";
+		challengeCompleteSBomber1 = "1";
+	};
+	new ScriptObject(CCD_2073419) {
+
+		expireDate = "20140131";
+	};
+	new ScriptObject(ClientStore2073419) {
+
+		nextLoto = "0";
+		nextSlot = "0";
+	};
+};
+//--- OBJECT WRITE END ---

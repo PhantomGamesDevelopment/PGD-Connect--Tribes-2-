@@ -1,0 +1,161 @@
+//Ranks & Settings File For GUID 2166941 / Name: firefox509
+//Created On 2011-11-26, Total Warfare Mod 2 3.7
+//--- OBJECT WRITE BEGIN ---
+new SimSet(Container_2166941) {
+
+	new ScriptObject(TWM2Client_2166941) {
+
+		xp = "302396";
+		weaponKillsM1700Image = "4";
+		CGCalls = "0";
+		millionxp = "0";
+		bossDefeatCountYvex = "2";
+		challengeCompleteMilestone25 = "1";
+		rank = "Brigadier General";
+		hasMedalHonorsB = "1";
+		HarrierCalls = "0";
+		name = "firefox509";
+		officer = "0";
+		hasMedalSrysly = "1";
+		UAVCalls = "0";
+		HWCalls = "0";
+		ZBCalls = "0";
+		gameTime = "669";
+		xpGain7157524394b5b23795f12ae582a4859a543a7db9 = "302396";
+		weaponKillsMp26Image = "4";
+		weaponKillsPulsePhaserImage = "3";
+		weaponKillsMiniChaingunImage = "2";
+		weaponKillsLD06SavagerImage = "53";
+		weaponKillsG17SniperRifleImage = "1";
+		weaponKillsR700SniperRifleImage = "81";
+		hasMedalHonorsC = "1";
+		challengeCompleteLD06SavagerImage_1 = "1";
+		GMCalls = "0";
+		SlthAirstrikeCalls = "0";
+		NukeCalls = "0";
+		phrase = "None Set";
+		weaponKillsRP432Image = "1";
+		HeliCalls = "9";
+		noMoreEXP7157524394b5b23795f12ae582a4859a543a7db9 = "0";
+		rankNumber = "46";
+		weaponKillsM4A1Image = "19";
+		weaponKillsMRXXImage = "2";
+		ArtyCalls = "0";
+		money = "302346";
+		weaponKillsM1SniperRifleImage = "28";
+		GunHeliCalls = "0";
+		weaponKillsSA2400Image = "1";
+		vehicleKillsScoutFlyer = "2";
+		AirstrikeCalls = "13";
+		weaponKillsS3RifleImage = "3";
+	};
+	new ScriptObject(CCD_2166941) {
+
+		ZombieKillCount20111126_MRXXImage_9 = "1";
+		ZombieKillCount20111126_MRXXImage_1 = "2";
+		ZombieKillCount20111126_0_9 = "5";
+		ZombieKillCount20111126_0_12 = "3";
+		ZombieKillCount20111126_Grenade_5 = "1";
+		ZombieKillCount20111126_0_4 = "3";
+		ZombieKillCount20111126_Grenade_4 = "2";
+		ZombieKillCount20111126_MG42Image_1 = "6";
+		ZombieKillCount20111126_RP432Image_1 = "1";
+		totalZombieKillCount20111126 = "299";
+		ZombieKillCount20111126_S3RifleImage_1 = "3";
+		ZombieKillCount20111126__12 = "3";
+		ZombieKillCount20111126__1 = "190";
+		ZombieKillCount20111126_Wp400Image_9 = "2";
+		ZombieKillCount20111126_SA2400Image_1 = "1";
+		expireDate = "20111130";
+		ZombieKillCount20111126_M1700Image_9 = "1";
+		ZombieKillCount20111126_Mp26Image_9 = "1";
+		ZombieKillCount20111126__2 = "1";
+		ZombieKillCount20111126_Grenade_1 = "2";
+		ZombieKillCount20111126_R700SniperRifleImage_1 = "34";
+		ZombieKillCount20111126_M1700Image_1 = "2";
+		ZombieKillCount20111126_MeleeImage_1 = "6";
+		ZombieKillCount20111126_Wp400Image_2 = "1";
+		PlayerKillCount20111126_Wp400Image = "1";
+		totalPlayerKillCount20111126 = "3";
+		ZombieKillCount20111126_0_2 = "3";
+		ZombieKillCount20111126_R700SniperRifleImage_11 = "1";
+		successiveStreak20111126_1 = "3";
+		ZombieKillCount20111126_Wp400Image_4 = "1";
+		ZombieKillCount20111126_R700SniperRifleImage_3 = "1";
+		killstreakCalls20111126_2 = "9";
+		ZombieKillCount20111126_0_11 = "2";
+		ZombieKillCount20111126_Mp26Image_11 = "1";
+		ZombieKillCount20111126_flamerImage_3 = "1";
+		ZombieKillCount20111126_Wp400Image_1 = "10";
+		ZombieKillCount20111126_0_1 = "281";
+		ZombieKillCount20111126_0_5 = "1";
+		ZombieKillCount20111126_R700SniperRifleImage_2 = "1";
+		killstreakCalls20111126_4 = "6";
+		ZombieKillCount20111126_Mp26Image_1 = "2";
+		ZombieKillCount20111126_0_3 = "2";
+		zombieHeadshots20111126 = "35";
+		ZombieKillCount20111126_M4A1Image_1 = "22";
+		PlayerKillCount20111126_M4A1Image = "2";
+	};
+	new ScriptObject(ClientSettings2166941) {
+
+		savedstreak1 = "1";
+		savedstreak2 = "2";
+		savedstreak3 = "4";
+	};
+	new ScriptObject(ClientStore2166941) {
+
+		nextLoto = "0";
+		purchasedSpontaneousCombustion = "0";
+		purchasedFireworks = "0";
+		nextSlot = "0";
+		purchasedGuardianFlare = "0";
+		purchasedFalseExplosion = "0";
+		purchasedThunderstorm = "0";
+		purchasedHologram = "0";
+	};
+	new ScriptObject(CCD_2166941) {
+
+		ZombieKillCount20111126__5 = "1";
+		ZombieKillCount20111126_flamerImage_5 = "3";
+		ZombieKillCount20111126_M1SniperRifleImage_3 = "3";
+		ZombieKillCount20111126_G17SniperRifleImage_1 = "1";
+		ZombieKillCount20111126_R700SniperRifleImage_4 = "7";
+		ZombieKillCount20111126_R700SniperRifleImage_5 = "3";
+		ZombieKillCount20111126_0_4 = "7";
+		totalZombieKillCount20111126 = "68";
+		ZombieKillCount20111126_M4A1Image_2 = "1";
+		expireDate = "20111130";
+		ZombieKillCount20111126_M1SniperRifleImage_2 = "1";
+		ZombieKillCount20111126__2 = "1";
+		ZombieKillCount20111126_R700SniperRifleImage_1 = "6";
+		ZombieKillCount20111126_0_2 = "5";
+		ZombieKillCount20111126_M1SniperRifleImage_1 = "24";
+		ZombieKillCount20111126_Grenade_2 = "1";
+		ZombieKillCount20111126_R700SniperRifleImage_3 = "13";
+		killstreakCalls20111126_2 = "1";
+		ZombieKillCount20111126_0_1 = "31";
+		ZombieKillCount20111126_R700SniperRifleImage_2 = "1";
+		ZombieKillCount20111126_0_5 = "10";
+		ZombieKillCount20111126_PulsePhaserImage_5 = "3";
+		killstreakCalls20111126_4 = "1";
+		ZombieKillCount20111126_0_3 = "16";
+		zombieHeadshots20111126 = "55";
+	};
+	new ScriptObject(CCD_2166941) {
+
+		totalZombieKillCount20111126 = "121";
+		ZombieKillCount20111126__1 = "62";
+		expireDate = "20111130";
+		ZombieKillCount20111126_M1700Image_1 = "2";
+		ZombieKillCount20111126_R700SniperRifleImage_1 = "17";
+		ZombieKillCount20111126_MeleeImage_1 = "1";
+		ZombieKillCount20111126_MiniChaingunImage_1 = "2";
+		killstreakCalls20111126_2 = "3";
+		ZombieKillCount20111126_Wp400Image_1 = "38";
+		ZombieKillCount20111126_0_1 = "122";
+		killstreakCalls20111126_4 = "2";
+		zombieHeadshots20111126 = "11";
+	};
+};
+//--- OBJECT WRITE END ---

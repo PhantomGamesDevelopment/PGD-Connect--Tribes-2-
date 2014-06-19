@@ -1,0 +1,27 @@
+//Ranks File For GUID 2485526
+//Created On 2010-04-02, C&C 4
+$Rank::Name[2485526] = "Dayuppy";
+$Rank::Rank[2485526, 1] = "Corporal";
+$Rank::XP[2485526, 1] = 3953;
+$Rank::Rank[2485526, 2] = "Initiate";
+$Rank::XP[2485526, 2] = 1586;
+$CNC::Help[2485526, 1] = 0;
+$CNC::Deaths[2485526] = 49;
+$CNC::KilledByObj[2485526, CrawlerTurretBase] = 2;
+$CNC::KilledByObj[2485526, FlameMortarTurretDeployedBase] = 3;
+$CNC::KilledByObj[2485526, ObeliskTurretDeployedBase] = 4;
+$CNC::TotalKills[2485526] = 15;
+$CNC::Kills[2485526, 2627784] = 3;
+$CNC::UKills[2485526] = 10;
+$CNC::KilledByPl[2485526, 2627784] = 3;
+$CNC::TotalCrawlerDecoms[2485526] = 4;
+$CNC::TotalCrawlerKills[2485526] = 1;
+$CNC::KilledByPl[2485526, 2355847] = 2;
+$CNC::KilledByPl[2485526, 2860955] = 1;
+$CNC::Kills[2485526, 2860955] = 1;
+$CNC::Kills[2485526, 2000343] = 1;
+$CNC::KilledByPl[2485526, 2000343] = 1;
+$CNC::KilledByObj[2485526, FocusBeamTurretDeployedBase] = 9;
+$CNC::TotalBuildingKills[2485526] = 8;
+$CNC::BuildingKills[2485526, "FocusBeam"] = 1;
+$CNC::KilledByPl[2485526, 2001729] = 2;
